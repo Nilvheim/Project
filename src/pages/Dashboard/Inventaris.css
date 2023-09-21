@@ -1,0 +1,478 @@
+.vector-icon-inventaris {
+  	position: relative;
+  	width: 29px;
+  	height: 28px;
+  	object-fit: cover;
+}
+.hi-admin1 {
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 87px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.hi-admin {
+  	position: absolute;
+  	top: 30px;
+  	left: 896px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 5px;
+  	cursor: pointer;
+}
+.vector-icon1-inventaris {
+  	position: relative;
+  	width: 10px;
+  	height: 16px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.inventaris-sekolah1 {
+  	color: #fb793d;
+}
+.lingtar-inventaris-container {
+  	position: relative;
+  	font-weight: 500;
+}
+.vector-inventaris-parent {
+  	position: absolute;
+  	top: 30px;
+  	left: 20px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 20px;
+  	text-align: left;
+  	font-size: 24px;
+}
+.video-sekolah {
+  	position: relative;
+}
+.visi-sekolah-child-inventaris {
+  	align-self: stretch;
+  	position: relative;
+  	border-top: 1px solid #000;
+  	box-sizing: border-box;
+  	height: 1px;
+}
+.visi-sekolah-inventaris {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-end;
+}
+.y2metacom-profil-tkit-al-au {
+	position: relative;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid #75bee0;
+	box-sizing: border-box;
+	width: 428px;
+	height: 197px;
+  }
+.layer-2-icon {
+  	position: relative;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+}
+.masuk-inventaris {
+  	border-radius: 15px;
+  	background-color: #fb793d;
+  	width: 264px;
+  	height: 45px;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 12px 52px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 8px;
+  	color: #f6f6f6;
+}
+.visi-sekolah-parent-inventaris {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 489px;
+  	height: 392px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 30px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 30px;
+}
+.informasi-sekolah-inventaris {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.group-child-inven {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #75bee0;
+  	box-sizing: border-box;
+  	width: 428px;
+  	height: 197px;
+}
+.tkit-al-auliya {
+  	margin: 0;
+}
+.tkit-al-auliya-container {
+  	position: absolute;
+  	top: 53px;
+  	left: 44px;
+}
+.rectangle-parent-inven {
+  	position: relative;
+  	width: 428px;
+  	height: 197px;
+  	font-size: 12px;
+  	color: #000;
+}
+.icons8-edit-1 {
+  	position: relative;
+  	width: 18px;
+  	height: 18px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.informasi-sekolah-inventaris-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 509px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 488px;
+  	height: 392px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 30px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 30px;
+}
+.ruang-kelas-full {
+  	position: absolute;
+  	top: 108px;
+  	left: calc(50% - 87.23px);
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 175.92px;
+}
+.dsc06040-fileminimizer-1-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	width: 247.16px;
+  	height: 96.05px;
+  	object-fit: cover;
+}
+.ruang-kelas-full-ac-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 260.25px);
+  	width: 247.16px;
+  	height: 126px;
+}
+.halaman-parkir-luas {
+  	position: absolute;
+  	top: 108px;
+  	left: calc(50% - 91.6px);
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 184.65px;
+}
+.halaman-parkir-luas-parent {
+  	position: absolute;
+  	top: 147px;
+  	left: calc(50% - 260.25px);
+  	width: 247.16px;
+  	height: 126px;
+}
+.perpustakaan {
+  	position: absolute;
+  	top: 108px;
+  	left: calc(50% - 62.52px);
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 126.49px;
+}
+.perpustakaan-parent {
+  	position: absolute;
+  	top: 294px;
+  	left: calc(50% - 260.25px);
+  	width: 247.16px;
+  	height: 126px;
+}
+.taman-bermain {
+  	position: absolute;
+  	top: 108px;
+  	left: calc(50% - 71.24px);
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 143.94px;
+}
+.dsc05712-fileminimizer-1-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	width: 247.16px;
+  	height: 96.33px;
+  	object-fit: cover;
+}
+.taman-bermain-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% + 13.08px);
+  	width: 247.16px;
+  	height: 126px;
+}
+.antar-jemput {
+  	position: absolute;
+  	top: 108px;
+  	left: calc(50% - 61.06px);
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 123.58px;
+}
+.antar-jemput-parent {
+  	position: absolute;
+  	top: 147px;
+  	left: calc(50% + 13.08px);
+  	width: 247.16px;
+  	height: 126px;
+}
+.makan-siang {
+  	position: absolute;
+  	top: 108px;
+  	left: calc(50% - 58.16px);
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 116.31px;
+}
+.makan-siang-parent {
+  	position: absolute;
+  	top: 294px;
+  	left: calc(50% + 13.08px);
+  	width: 247.16px;
+  	height: 126px;
+}
+.group-parent-inventaris {
+  	position: relative;
+  	width: 520.5px;
+  	height: 420px;
+  	font-size: 12px;
+  	color: #1a141f;
+}
+.visi-sekolah-group-inventaris {
+  	position: absolute;
+  	top: 422px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 997px;
+  	height: 600px;
+  	overflow-y: auto;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 30px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 30px;
+}
+.frame-parent-inventaris {
+  	position: absolute;
+  	top: 126px;
+  	left: 20px;
+  	width: 997px;
+  	height: 1022px;
+  	color: #214151;
+}
+.kotak-putih-inventaris {
+  	position: absolute;
+  	top: 0px;
+  	left: 223px;
+  	background-color: #f6f6f6;
+  	width: 1057px;
+  	height: 720px;
+  	overflow-y: auto;
+}
+.asset-1-3 {
+  	position: relative;
+  	width: 145px;
+  	height: 30px;
+  	object-fit: cover;
+}
+.logo-lingtar-inventaris {
+  	position: absolute;
+  	top: calc(50% - 259px);
+  	left: calc(50% - 72px);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.icon-buka-tutup-sidebar-inventaris {
+  	position: absolute;
+  	top: 30px;
+  	right: 20px;
+  	width: 28.15px;
+  	height: 24.63px;
+  	object-fit: cover;
+}
+.kotak-biru-inventaris-child {
+  	position: absolute;
+  	top: 194px;
+  	left: 19px;
+  	border-radius: 10px;
+  	background-color: rgba(70, 70, 70, 0.3);
+  	width: 185px;
+  	height: 45px;
+}
+.house-solid-2-icon-inventaris {
+  	position: relative;
+  	width: 25px;
+  	height: 25.78px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+
+/* .beranda {
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	width: 107px;
+  	height: 20px;
+  	flex-shrink: 0;
+} */
+.house-solid-2-inventaris-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	color: #fb793d;
+}
+.icon-users-inventaris {
+  	position: relative;
+  	width: 25px;
+  	height: 20.97px;
+  	object-fit: cover;
+}
+.icon-users-inventaris-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	cursor: pointer;
+}
+.icon-alternate-calendar {
+  	position: relative;
+  	width: 25px;
+  	height: 25.78px;
+  	object-fit: cover;
+}
+.penilaian {
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	width: 131px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.icon-edit-parent {
+  	border-radius: 20px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	cursor: pointer;
+}
+.icon-bullhorn-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 10px;
+  	cursor: pointer;
+}
+.frame-group {
+  	position: absolute;
+  	top: 204px;
+  	left: calc(50% - 82.5px);
+  	width: 166px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 30px;
+}
+.kotak-biru-inventaris {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 223px;
+  	height: 720px;
+  	overflow: hidden;
+  	background-image: url('/public/kotak-biru@3x.png');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: left;
+  	color: #fff;
+}
+.inventaris-sekolah-inventaris {
+  	position: relative;
+  	background-color: #fff;
+  	width: 100%;
+  	height: 720px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 18px;
+  	color: #000;
+  	font-family: Poppins;
+}
+
+.frame-container-inventaris {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .pendataan-inventaris {
+    height: 1px;
+    overflow: hidden;
+  }

@@ -1,0 +1,348 @@
+.tk-al-auliya {
+    color: #fb793d;
+  }
+  .selamat-datang-admin-container {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .img-20230410-113752-1-icon {
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 650px;
+    height: 240px;
+    object-fit: cover;
+  }
+  .tk-al-auliya1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163px;
+    height: 41px;
+    flex-shrink: 0;
+  }
+  .div,
+  .jl-balikpapan-baru {
+    position: relative;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  .div {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163px;
+  }
+  .jl-balikpapan-baru {
+    font-size: 10px;
+    display: inline-block;
+    width: 165px;
+  }
+  .frame-wrapper-home,
+  .tk-al-auliya-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .frame-wrapper-home {
+    position: absolute;
+    top: 85px;
+    left: 428.03px;
+    width: 178.8px;
+    justify-content: center;
+  }
+  .img-20230410-113752-1-parent {
+    position: absolute;
+    top: 126px;
+    left: 20px;
+    width: 635px;
+    height: 239px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  .girl-1-icon {
+    position: relative;
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+  }
+  .b,
+  .murid {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 29px;
+    flex-shrink: 0;
+  }
+  .b {
+    line-height: 140%;
+    width: 49px;
+  }
+  .murid {
+    font-size: 18px;
+    width: 74px;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .girl-1-parent {
+    border-radius: 20px;
+    background-color: #4e7e95;
+    display: flex;
+    flex-direction: row;
+    padding: 29px 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent-data{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  }
+
+  .frame-parentHome{
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    gap: 10px;
+  }
+
+  .rekap-data-sekolah {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .rekap-data-sekolah {
+    position: absolute;
+    top: 126px;
+    left: 685px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: right;
+    color: #f6f6f6;
+  }
+  .vector-icon3 {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin,
+  .hi-admin1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1 {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .img-20230410-113752-1-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 997px;
+    height: 244px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .inventaris-sekolah {
+    position: absolute;
+    top: 100.76px;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 348.11px;
+    height: 41.83px;
+  }
+  .img-20230410-113752-1-group {
+    position: absolute;
+    top: 395px;
+    left: 20px;
+    width: 997px;
+    height: 244px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #fff;
+  }
+  .kotak-putih3{
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-2 {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-child {
+    position: absolute;
+    top: 194px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .house-solid-2-icon-home {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .house-solid-2-parent-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fb793d;
+  }
+  .icon-users-home {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-users-parent-home,
+  .pendataan-home {
+    display: flex;
+    align-items: center;
+  }
+  .pendataan-home {
+    position: relative;
+    width: 107px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-users-parent-home {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-alternate-calendar,
+  .penilaian {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+  }
+  .penilaian {
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent,
+  .icon-edit-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-edit-parent {
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .icon-bullhorn-parent {
+    justify-content: flex-start;
+  }
+  .frame-container {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .kotak-biru {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url(/public/kotak-biru@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+  }
+  .margin-atas-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 30px;
+    display: none;
+  }
+  .beranda-home {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

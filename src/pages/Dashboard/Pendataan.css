@@ -1,0 +1,798 @@
+.menampilkan-10-data {
+    position: absolute;
+    top: 663px;
+    left: 20px;
+  }
+  .icon-arrow-ios-forward {
+    position: relative;
+    width: 22.56px;
+    height: 28.67px;
+  }
+  .div {
+    position: relative;
+  }
+  .ganti-halaman,
+  .wrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper {
+    background-color: #75bee0;
+    height: 26px;
+    flex-direction: column;
+    padding: 0 6px;
+  }
+  .ganti-halaman {
+    position: absolute;
+    top: 661.33px;
+    left: 920px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 97px;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 16px;
+  }
+  .icons8-search-1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-child,
+  .icons8-search-1-parent {
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  .icons8-search-1-parent {
+    width: 207px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 161px;
+  }
+  .kelas {
+    position: absolute;
+    top: 3px;
+    left: 42px;
+  }
+  .icon-arrow-ios-forward2 {
+    position: absolute;
+    height: 56.4%;
+    width: 17.48%;
+    top: 27.5%;
+    right: 8.13%;
+    bottom: 16.1%;
+    left: 74.39%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .rectangle-parent {
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 161px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: #000;
+  }
+  .icon-plus {
+    position: relative;
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+  }
+  .tambah {
+    position: relative;
+    line-height: 132%;
+  }
+  .icon-plus-parent,
+  .tiga-tombol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-plus-parent {
+    border-radius: 10px;
+    background-color: #fb793d;
+    height: 40px;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    gap: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tiga-tombol {
+    position: absolute;
+    top: 96px;
+    left: 449px;
+    gap: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .vector-icon {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin,
+  .hi-admin1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1 {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 167px;
+    height: 41px;
+  }
+  .icons8-edit {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icons8-edit-parent {
+    border-radius: 5px;
+    background-color: #09af10;
+    padding: 2px 3px;
+    justify-content: flex-start;
+    gap: 2px;
+    cursor: pointer;
+  }
+  .frame-parent,
+  .icons8-edit-parent,
+  .icons8-trash-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icons8-trash-parent {
+    border-radius: 5px;
+    background-color: #ff3e3e;
+    padding: 2px 3px;
+    justify-content: flex-start;
+    gap: 2px;
+    cursor: pointer;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    justify-content: center;
+    gap: 5px;
+  }
+  .group-item,
+  .rectangle-group {
+    position: absolute;
+    top: 0;
+    height: 41px;
+  }
+  .rectangle-group {
+    left: 830px;
+    width: 167px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .group-item {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 162px;
+  }
+  .kepala-sekolah {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  .group-inner,
+  .rectangle-container-data {
+    position: absolute;
+    top: 0;
+    left: 668px;
+    width: 162px;
+    height: 41px;
+  }
+  .group-inner {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 231px;
+  }
+  .div1 {
+    position: absolute;
+    top: 12px;
+    left: 17px;
+  }
+  .group-div,
+  .rectangle-div {
+    position: absolute;
+    top: 0;
+    left: 334px;
+    width: 231px;
+    height: 41px;
+  }
+  .rectangle-div {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 277px;
+  }
+  .group-child1,
+  .rectangle-parent1 {
+    position: absolute;
+    top: 0;
+    left: 57px;
+    width: 277px;
+    height: 41px;
+  }
+  .group-child1 {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 57px;
+  }
+  .text {
+    position: absolute;
+    top: 9.94px;
+    left: calc(50% - 15.96px);
+    display: inline-block;
+    width: 31.92px;
+    height: 19.88px;
+  }
+  .rectangle-parent2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 57px;
+    height: 41px;
+    color: #000;
+  }
+  .group-child2,
+  .rectangle-parent3 {
+    position: absolute;
+    top: 0;
+    width: 103px;
+    height: 41px;
+  }
+  .group-child2 {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  .rectangle-parent3 {
+    left: 565px;
+    text-align: center;
+    color: #000;
+  }
+  .group-parent {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    width: 997px;
+    height: 41px;
+  }
+  .icons8-edit-group {
+    border-radius: 5px;
+    background-color: #09af10;
+    flex-direction: row;
+    padding: 2px 3px;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .a,
+  .icons8-edit-group,
+  .icons8-trash-group {
+    display: flex;
+    align-items: center;
+  }
+  .icons8-trash-group {
+    border-radius: 5px;
+    background-color: #ff3e3e;
+    flex-direction: row;
+    padding: 2px 3px;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .a {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 5.5px);
+    justify-content: center;
+    width: 11px;
+    height: 11px;
+  }
+  .group-container,
+  .group-parent1,
+  .group-parent2,
+  .group-parent3 {
+    position: absolute;
+    top: 82px;
+    left: 0;
+    width: 997px;
+    height: 41px;
+  }
+  .group-parent1,
+  .group-parent2,
+  .group-parent3 {
+    top: 123px;
+  }
+  .group-parent2,
+  .group-parent3 {
+    top: 164px;
+  }
+  .group-parent3 {
+    top: 205px;
+  }
+  .group-parent4,
+  .group-parent5,
+  .group-parent6,
+  .group-parent7 {
+    position: absolute;
+    top: 246px;
+    left: 0;
+    width: 997px;
+    height: 41px;
+  }
+  .group-parent5,
+  .group-parent6,
+  .group-parent7 {
+    top: 287px;
+  }
+  .group-parent6,
+  .group-parent7 {
+    top: 328px;
+  }
+  .group-parent7 {
+    top: 369px;
+  }
+  .text9 {
+    position: absolute;
+    top: 9.94px;
+    left: calc(50% - 11.96px);
+    display: inline-block;
+    width: 31.92px;
+    height: 19.88px;
+  }
+  .group-child57,
+  .group-parent8 {
+    position: absolute;
+    top: 410px;
+    left: 0;
+    width: 997px;
+    height: 41px;
+  }
+  .group-child57 {
+    top: 0;
+    background-color: #75bee0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 167px;
+  }
+  .aksi {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 79px;
+    height: 21px;
+  }
+  .group-child58,
+  .rectangle-parent58 {
+    position: absolute;
+    top: 0;
+    left: 830px;
+    width: 167px;
+    height: 41px;
+  }
+  .group-child58 {
+    left: 0;
+    background-color: #75bee0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 162px;
+  }
+  .jabatan {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 110px;
+    height: 19px;
+  }
+  .group-child59 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #75bee0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 103px;
+    height: 41px;
+  }
+  .kelas1 {
+    position: absolute;
+    top: 9px;
+    left: calc(50% - 22.5px);
+    font-weight: 600;
+    display: inline-block;
+    width: 45px;
+    height: 19px;
+  }
+  .rectangle-parent60 {
+    position: absolute;
+    top: 0;
+    left: 565px;
+    width: 103px;
+    height: 41px;
+    text-align: center;
+  }
+  .group-child60 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #75bee0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 231px;
+    height: 41px;
+  }
+  .nip-nis {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 130px;
+    height: 22px;
+  }
+  .group-child61 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #75bee0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 277px;
+    height: 41px;
+  }
+  .nama {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 131px;
+    height: 20px;
+  }
+  .group-child62 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #75bee0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 57px;
+    height: 41px;
+  }
+  .no {
+    position: absolute;
+    top: 9.94px;
+    left: calc(50% - 15.96px);
+    font-weight: 600;
+    display: inline-block;
+    width: 31.92px;
+    height: 19.88px;
+  }
+  .group-parent9,
+  .rectangle-parent63,
+  .tabel-data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 57px;
+    height: 41px;
+  }
+  .group-parent9,
+  .tabel-data {
+    width: 997px;
+    font-size: 16px;
+    color: #000;
+  }
+  .tabel-data {
+    top: 181px;
+    left: 20px;
+    height: 451px;
+    text-align: left;
+    font-size: 14px;
+    color: #1a141f;
+  }
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 87px;
+    height: 40px;
+  }
+  .div12 {
+    position: absolute;
+    top: 5px;
+    left: 21px;
+  }
+  .rectangle-parent64 {
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 87px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .tombol-tampilkan {
+    position: absolute;
+    top: 96px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+  }
+  .pendataan1 {
+    color: #fb793d;
+  }
+  .lingtar-pendataan-container {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .kotak-putih-pendataan {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-2 {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-data-child {
+    position: absolute;
+    top: 194px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .beranda,
+  .house-solid-2-icon-data {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-data {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-users {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-users-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fb793d;
+  }
+  .icon-alternate-calendar,
+  .penilaian {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+  }
+  .penilaian {
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent,
+  .icon-edit-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-edit-parent {
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .icon-bullhorn-parent {
+    justify-content: flex-start;
+  }
+  .frame-parent7 {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .kotak-biru-data,
+  .pendataan {
+    height: 720px;
+    overflow: hidden;
+  }
+  .kotak-biru-data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url(/public/kotak-biru-pendataan@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+  }
+  .pendataan-data {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-family: Poppins;
+  }
+  /* body {
+    margin: 0;
+    background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    font-family: sans-serif;
+    font-weight: 100;
+  } */
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 600px;
+    overflow-y: scroll;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  table {
+    width: 800px;
+    border: 1px solid #ff00;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  th {
+    text-align: left;
+  }
+  thead th {
+    background-color: #55608f;
+  }
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  tbody td {
+    position: relative;
+  }
+  tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
+  

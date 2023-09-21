@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+
+.undraw-forgot-password-re-hxwm-icon {
+    position: relative;
+    width: 400px;
+    height: 288px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lingtar-lupapw {
+    margin: 0;
+  }
+  .klik-di-sini {
+    margin: 0;
+    color: #fff;
+  }
+
+  .sandi-border-lupapw{
+    right: 30px;
+    width: 460px;
+    font-size: 20px;
+    font: Poppins;
+  }
+
+  .lingtar-klik-di-container-lupapw {
+    position: relative;
+  }
+  .kotak-oren-lupapw,
+  .undraw-forgot-password-re-hxwm-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .undraw-forgot-password-re-hxwm-parent {
+    gap: 10px;
+    cursor: pointer;
+  }
+  .kotak-oren-lupapw {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #4e7e95;
+    width: 594px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .lupa-kata-sandi2 {
+    position: relative;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .masukkan-alamat-email-lupapw {
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 555px;
+    height: 107px;
+    flex-shrink: 0;
+  }
+  .alamat-email-lupapw-child {
+    position: absolute;
+    height: calc(100% - 47px);
+    width: 100%;
+    top: 47.5px;
+    right: 0;
+    bottom: -0.5px;
+    left: 0;
+    border-radius: 70px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .icon-envelope {
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .alamat-email1-lupapw {
+    font-family: 'Poppins' ,sans-serif;
+    position: relative;
+    display: inline-block;
+    width: 147px;
+    flex-shrink: 0;
+  }
+  .icon-envelope-parent {
+    position: absolute;
+    top: 0;
+    left: 20.96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  .alamat-email-lupapw {
+    position: relative;
+    width: 555px;
+    height: 48px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 22px;
+  }
+  .icon-button1 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .selanjutnya1 {
+    position: relative;
+    line-height: 140%;
+  }
+  .selanjutnya {
+    border-radius: 15px;
+    background-color: #fb793d;
+    width: 264px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 52px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #fff;
+  }
+  .kotak-putih2,
+  .lupa-pw-1 {
+    background-color: #fff;
+    height: 567px;
+    overflow: hidden;
+  }
+  .kotak-putih2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 686px;
+    display: flex;
+    flex-direction: column;
+    padding: 227px 145px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 24px;
+    color: #000;
+  }
+  .lupa-pw-1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #fb793d;
+    font-family: Poppins;
+  }
+  

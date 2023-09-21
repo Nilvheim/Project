@@ -1,0 +1,72 @@
+<div className="group-parent">
+              <div className="rectangle-group">
+                <div className="group-child" />
+                <div className="frame-parent">
+                  <div
+                    className="icons8-edit-parent"
+                    onClick={onFrameContainer4Click}
+                  >
+                    <img className="icons8-edit" alt="" src="/icons8edit.svg" />
+                    <div className="div">Ubah</div>
+                  </div>
+                  <div
+                    className="icons8-trash-parent"
+                    onClick={openPOPUPTOMBOLHAPUSDATA}
+                  >
+                    <img
+                      className="icons8-edit"
+                      alt=""
+                      src="/icons8trash.svg"
+                    />
+                    <div className="div">Hapus</div>
+                  </div>
+                </div>
+              </div>
+              <div className="rectangle-container">
+                <div className="group-item" />
+                <div className="kepala-sekolah">Kepala Sekolah</div>
+              </div>
+              <div className="group-div">
+                <div className="group-inner" />
+                <div className="div1">788538473893827395</div>
+              </div>
+              <div className="rectangle-parent1">
+                <div className="rectangle-div" />
+                <div className="kepala-sekolah">Nurwanti M.Pd.</div>
+              </div>
+              <div className="rectangle-parent2">
+                <div className="group-child1" />
+                <div className="text" />
+              </div>
+              <div className="rectangle-parent3">
+                <div className="group-child2" />
+                <div className="a">-</div>
+              </div>
+            </div>
+
+<div className="group-parent9">
+              <div className="rectangle-parent58">
+                <div className="group-child57" />
+                <div className="aksi">Aksi</div>
+              </div>
+              <div className="rectangle-container-data">
+                <div className="group-child58" />
+                <div className="jabatan">Jabatan</div>
+              </div>
+              <div className="rectangle-parent60">
+                <div className="group-child59" />
+                <div className="kelas1">Kelas</div>
+              </div>
+              <div className="group-div">
+                <div className="group-child60" />
+                <div className="nip-nis">NIP / NIS</div>
+              </div>
+              <div className="rectangle-parent1">
+                <div className="group-child61" />
+                <div className="nama">Nama</div>
+              </div>
+              <div className="rectangle-parent63">
+                <div className="group-child62" />
+                <div className="no">No.</div>
+              </div>
+            </div>

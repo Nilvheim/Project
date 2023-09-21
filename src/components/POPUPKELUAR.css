@@ -1,0 +1,86 @@
+.pop-up-keluar-child {
+  position: relative;
+  width: 170px;
+  height: 170px;
+}
+.perhatian {
+  position: relative;
+  font-weight: 600;
+}
+.apakah-anda-yakin {
+  position: relative;
+  font-size: 20px;
+  line-height: 140%;
+}
+.perhatian-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.icon-button {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.masuk {
+  position: relative;
+  line-height: 140%;
+}
+.ya {
+  border-radius: 15px;
+  background-color: #ff3e3e;
+  width: 264px;
+  height: 60px;
+  padding: 12px 52px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 8px;
+}
+.pop-up-keluar,
+.tidak,
+.ya,
+.ya-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tidak {
+  border-radius: 15px;
+  background-color: #aba7af;
+  width: 264px;
+  height: 60px;
+  padding: 12px 52px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 8px;
+}
+.pop-up-keluar,
+.ya-parent {
+  align-items: flex-start;
+  gap: 30px;
+  font-size: 24px;
+  color: #fff;
+}
+.pop-up-keluar {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  height: 405px;
+  flex-direction: column;
+  padding: 55px 13px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+  font-family: Poppins;
+}
