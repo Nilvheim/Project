@@ -1,10 +1,10 @@
 import { useState, useCallback } from 'react';
 import { useNavigate } from "react-router-dom";
-import UnggahInformasi from '../../components/UbahInformasi';
-import UnggahFoto from '../../components/UnggahFoto';
-import UnggahVideo from '../../components/UnggahVideo';
-import POPUPHIADMIN from "../../components/POPUPHIADMIN";
-import PortalPopup from "../../components/PortalPopup";
+import UnggahInformasi from '../../../components/UbahInformasi';
+import UnggahFoto from '../../../components/UnggahFoto';
+import UnggahVideo from '../../../components/UnggahVideo';
+import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
+import PortalPopup from "../../../components/PortalPopup";
 import './Inventaris.css';
 const Inventaris = () => {
 
@@ -16,7 +16,7 @@ const navigate = useNavigate();
 
   const onBackClick = useCallback(() => {
     navigate('/Dashboard/Home')
-  }, [navigate])
+  }, [navigate]);
 
   const openUnggahInformasi = useCallback(() => {
     setUnggahInformasiOpen(true);
@@ -48,39 +48,35 @@ const openUnggahFoto = useCallback(() => {
     
     const closePOPUPHIADMIN = useCallback(() => {
       setPOPUPHIADMINOpen(false);
-  }, []);
+    }, []);
     
-    const onVectorIcon1Click = useCallback(() => {
-    // Add your code here
-  }, []);
-    
-    const onFrameContainer5Click = useCallback(() => {
-    // Add your code here
-  }, []);
-    
-    const onFrameContainer6Click = useCallback(() => {
-// Add your code here
-}, []);
-    
-    const onFrameContainer7Click = useCallback(() => {
-// Add your code here
-}, []);
-    
-    const onFrameContainer8Click = useCallback(() => {
-// Add your code here
-}, []);
-    
+  const onPendataanClick = useCallback(() => {
+    navigate('/Dashboard/Pendataan')
+  }, [navigate]);
+
+  const onAbsensiClick = useCallback(() => {
+    navigate('/Dashboard/Absensi')
+  }, [navigate]);
+
+  const onPenilaianClick = useCallback(() => {
+    navigate('/Dashboard/Penilaian')
+  }, [navigate]);
+
+  const onPengumumanClick = useCallback(() => {
+    navigate('/Dashboard/Pengumuman')
+  }, [navigate]);
+
     return (
         <>
 <div className="inventaris-sekolah-inventaris">
     <div className="kotak-putih-inventaris">
         <div className="hi-admin" onClick={openPOPUPHIADMIN}>
-            <img className="vector-icon-inventaris" alt="" src="Vector.png" />
-            <div className="hi-admin1">Hi, Admin</div>
+            <img className="vector-icon-inventaris" alt="" src="/vector.svg" />
+            <div className="hi-admin1-inventaris">Hi, Admin</div>
         </div>
-        <div className="vector-inventaris-parent">
-            <img className="vector-icon1-inventaris" alt="" src="undefined28.png" onClick={onBackClick} />
-            <div className="lingtar-inventaris-container">
+        <div className="vector-parent-inventaris"  onClick={onBackClick}>
+            <img className="vector-icon1-inventaris" alt="" src="/undefined28.png"/>
+            <div className="lingtar-container-inventaris">
                 <span>{`Lingtar - `}</span>
                 <span className="inventaris-sekolah1">Inventaris Sekolah</span>
             </div>
@@ -91,20 +87,20 @@ const openUnggahFoto = useCallback(() => {
                     <b className="video-sekolah">Video Sekolah</b>
                     <div className="visi-sekolah-child-inventaris" />
                 </div>
-                <div className="y2metacom-profil-tkit-al-au" />
+                <div className="y2metacom-profil-tkit-al-au-inventaris" />
                 <div className="masuk-inventaris" onClick={openUnggahVideo}>
                     {/* <img className="layer-2-icon" alt="" src="public/undefined34.png" /> */}
-                    <div className="video-sekolah">Unggah Video</div>
+                    <div className="video-sekolah-inventaris">Unggah Video</div>
                 </div>
             </div>
-    <div className="informasi-sekolah-inventaris-parent">
+    <div className="informasi-sekolah-parent-inventaris">
         <div className="informasi-sekolah-inventaris">
-            <b className="video-sekolah">Informasi Sekolah</b>
+            <b className="video-sekolah-inventaris">Informasi Sekolah</b>
             <div className="visi-sekolah-child-inventaris" />
         </div>
-    <div className="rectangle-parent-inven">
-        <div className="group-child-inven" />
-            <div className="tkit-al-auliya-container">
+    <div className="rectangle-parent-inventaris">
+        <div className="group-child-inventaris" />
+            <div className="tkit-al-auliya-container-inventaris">
                 <p className="tkit-al-auliya">{`TKIT Al Auliya 1 Balikpapan merupakan sekolah tk islam `}</p>
                 <p className="tkit-al-auliya">{`terpadu dibawah naungan yayasan Pendidikan An Nahl `}</p>
                 <p className="tkit-al-auliya">{`Balikpapan. TKIT Al Auliya di tunjang dengan berbagai `}</p>
@@ -114,44 +110,44 @@ const openUnggahFoto = useCallback(() => {
     </div>
     <div className="masuk-inventaris" onClick={openUnggahInformasi}>
         {/* <img className="icons8-edit-1" alt="" src="icons8-edit 1.png" /> */}
-        <div className="video-sekolah">Ubah Informasi</div>
+        <div className="video-sekolah-inventaris">Ubah Informasi</div>
     </div>
     </div>
 
     <div className="visi-sekolah-group-inventaris">
-        <div className="visi-sekolah">
-            <b className="video-sekolah">Fasilitas Sekolah</b>
+        <div className="visi-sekolah-inventaris">
+            <b className="video-sekolah-inventaris">Fasilitas Sekolah</b>
             <div className="visi-sekolah-child-inventaris" />
         </div>
     <div className="group-parent-inventaris">
-        <div className="ruang-kelas-full-ac-parent">
-            <div className="ruang-kelas-full">Ruang Kelas Full AC</div>
-            <img className="dsc06040-fileminimizer-1-icon" alt="" src="DSC06040-FILEminimizer 1.png" />
+        <div className="ruang-kelas-full-ac-parent-inventaris">
+            <div className="ruang-kelas-full-inventaris">Ruang Kelas Full AC</div>
+            <img className="dsc06040-fileminimizer-1-icon-inventaris" alt="" src="DSC06040-FILEminimizer 1.png" />
         </div>
-        <div className="halaman-parkir-luas-parent">
-            <div className="halaman-parkir-luas">Halaman Parkir Luas</div>
-            <img className="dsc06040-fileminimizer-1-icon" alt="" src="DSC06040-FILEminimizer 1.png" />
+        <div className="halaman-parkir-luas-parent-inventaris">
+            <div className="halaman-parkir-luas-inventaris">Halaman Parkir Luas</div>
+            <img className="dsc06040-fileminimizer-1-icon-inventaris" alt="" src="DSC06040-FILEminimizer 1.png" />
         </div>
-        <div className="perpustakaan-parent">
-            <div className="perpustakaan">Perpustakaan</div>
-            <img className="dsc06040-fileminimizer-1-icon" alt="" src="DSC06040-FILEminimizer 1.png" />
+        <div className="perpustakaan-parent-inventaris">
+            <div className="perpustakaan-inventaris">Perpustakaan</div>
+            <img className="dsc06040-fileminimizer-1-icon-inventaris" alt="" src="DSC06040-FILEminimizer 1.png" />
         </div>
-        <div className="taman-bermain-parent">
-            <div className="taman-bermain">Taman Bermain</div>
-            <img className="dsc05712-fileminimizer-1-icon" alt="" src="DSC05712-FILEminimizer 1.png" />
+        <div className="taman-bermain-parent-inventaris">
+            <div className="taman-bermain-inventaris">Taman Bermain</div>
+            <img className="dsc05712-fileminimizer-1-icon-inventaris" alt="" src="DSC05712-FILEminimizer 1.png" />
         </div>
-        <div className="antar-jemput-parent">
-            <div className="antar-jemput">Antar Jemput</div>
-            <img className="dsc05712-fileminimizer-1-icon" alt="" src="DSC05712-FILEminimizer 1.png" />
+        <div className="antar-jemput-parent-inventaris">
+            <div className="antar-jemput-inventaris">Antar Jemput</div>
+            <img className="dsc05712-fileminimizer-1-icon-inventaris" alt="" src="DSC05712-FILEminimizer 1.png" />
         </div>
-        <div className="makan-siang-parent">
-            <div className="makan-siang">Makan Siang</div>
-            <img className="dsc05712-fileminimizer-1-icon" alt="" src="DSC05712-FILEminimizer 1.png" />
+        <div className="makan-siang-parent-inventaris">
+            <div className="makan-siang-inventaris">Makan Siang</div>
+            <img className="dsc05712-fileminimizer-1-icon-inventaris" alt="" src="DSC05712-FILEminimizer 1.png" />
         </div>
     </div>
     <div className="masuk-inventaris" onClick={openUnggahFoto}>
         {/* <img className="layer-2-icon" alt="" src="Layer 2.png" /> */}
-            <div className="video-sekolah">Unggah Gambar</div>
+            <div className="video-sekolah-inventaris">Unggah Gambar</div>
             
                 </div>
             </div>
@@ -160,59 +156,53 @@ const openUnggahFoto = useCallback(() => {
         
     <div className="kotak-biru-inventaris">
           <div className="logo-lingtar-inventaris">
-            <img className="asset-1-2" alt="" src="/asset-1-2@2x.png" />
+            <img className="asset-1-2-inventaris" alt="" src="/asset-1-2@2x.png" />
           </div>
           <img
             className="icon-buka-tutup-sidebar-inventaris"
             alt=""
             src="/icon-buka-tutup-sidebar.svg"
           />
-          <div className="kotak-biru-inventaris-child" />
-          <div className="frame-container">
-            <div className="house-solid-2-inventaris-parent">
+          <div className="kotak-biru-child-inventaris" />
+          <div className="frame-container-inventaris">
+            <div className="house-solid-2-parent-inventaris">
               <img
                 className="house-solid-2-icon-inventaris"
                 alt=""
-                src="/housesolid-2.svg"
+                src="/housesolid-oren.svg"
               />
-              <div className="pendataan-inventaris">Beranda</div>
+              <div className="pendataan-inventaris" onClick={onBackClick}>Beranda</div>
             </div>
-            <div
-              className="icon-users-inventaris-parent"
-              onClick={""}
-            >
+            <div className="icon-users-parent-inventaris" onClick={onPendataanClick}>
               <img className="icon-users-inventaris" alt="" src="/-icon-users.svg" />
               <div className="pendataan-inventaris">Pendataan</div>
             </div>
-            <div
-              className="icon-users-inventaris-parent"
-              onClick={"onFrameContainer14Click"}
-            >
+            <div className="icon-users-parent-inventaris" onClick={onAbsensiClick}>
               <img
-                className="icon-alternate-calendar"
+                className="icon-alternate-calendar-inventaris"
                 alt=""
-                src="/-icon-alternate-calendar.svg"
+                  src="/-icon-alternate-calendar.svg"
               />
               <div className="pendataan-inventaris">Absensi</div>
             </div>
-            <div className="icon-edit-parent" onClick={"onFrameContainer15Click"}>
+            <div className="icon-edit-parent-inventaris" onClick={onPenilaianClick}>
               <img
-                className="icon-alternate-calendar"
+                className="icon-alternate-calendar-inventaris"
                 alt=""
                 src="/-icon-edit.svg"
               />
-              <div className="penilaian">Penilaian</div>
+              <div className="penilaian-inventaris" >Penilaian</div>
             </div>
             <div
-              className="icon-bullhorn-parent"
-              onClick={"onFrameContainer16Click"}
+              className="icon-bullhorn-parent-inventaris"
+              onClick={onPengumumanClick}
             >
               <img
-                className="icon-alternate-calendar"
+                className="icon-alternate-calendar-inventaris"
                 alt=""
                 src="/-icon-bullhorn.svg"
               />
-              <div className="penilaian">Pengumuman</div>
+              <div className="penilaian-inventaris">Pengumuman</div>
             </div>
           </div>
         </div>

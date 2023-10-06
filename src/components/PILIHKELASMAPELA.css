@@ -1,0 +1,84 @@
+.pilih-kelas-pilihkelas {
+  color: #000;
+}
+.mapel-a-container1-pilihkelas {
+  line-break: anywhere;
+  width: 100%;
+}
+.mapel-a-container-pilihkelas {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 179px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.image-1-icon-pilihkelas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 295px;
+  height: 171px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.frame-wrapper-pilihkelas,
+.kelas-a-pilihkelas,
+.kelas-a-wrapper-pilihkelas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kelas-a-pilihkelas {
+  position: relative;
+  width: 163px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.frame-wrapper-pilihkelas,
+.kelas-a-wrapper-pilihkelas {
+  flex-direction: column;
+}
+.frame-wrapper-pilihkelas {
+  position: absolute;
+  top: 69px;
+  left: calc(50% - 65.5px);
+  width: 132px;
+  height: 29px;
+}
+.image-1-parent-pilihkelas {
+  cursor: pointer;
+}
+.image-1-group-pilihkelas,
+.image-1-parent-pilihkelas {
+  position: relative;
+  width: 295px;
+  height: 167px;
+}
+.group-parent-pilihkelas,
+.pilih-kelas-mapel-a-pilihkelas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 32px;
+  color: #fff;
+}
+.pilih-kelas-mapel-a-pilihkelas {
+  position: relative;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: 16px;
+  color: #fb793d;
+  font-family: Poppins;
+}

@@ -4,7 +4,7 @@
   	height: 28px;
   	object-fit: cover;
 }
-.hi-admin1 {
+.hi-admin1-inventaris {
   	position: relative;
   	display: flex;
   	align-items: center;
@@ -13,7 +13,7 @@
   	height: 20px;
   	flex-shrink: 0;
 }
-.hi-admin {
+.hi-admin-inventaris {
   	position: absolute;
   	top: 30px;
   	left: 896px;
@@ -34,11 +34,11 @@
 .inventaris-sekolah1 {
   	color: #fb793d;
 }
-.lingtar-inventaris-container {
+.lingtar-container-inventaris {
   	position: relative;
   	font-weight: 500;
 }
-.vector-inventaris-parent {
+.vector-parent-inventaris {
   	position: absolute;
   	top: 30px;
   	left: 20px;
@@ -50,7 +50,7 @@
   	text-align: left;
   	font-size: 24px;
 }
-.video-sekolah {
+.video-sekolah-inventaris {
   	position: relative;
 }
 .visi-sekolah-child-inventaris {
@@ -66,7 +66,7 @@
   	align-items: center;
   	justify-content: flex-end;
 }
-.y2metacom-profil-tkit-al-au {
+.y2metacom-profil-tkit-al-au-inventaris {
 	position: relative;
 	border-radius: 10px;
 	background-color: #fff;
@@ -75,7 +75,7 @@
 	width: 428px;
 	height: 197px;
   }
-.layer-2-icon {
+.layer-2-icon-inventaris {
   	position: relative;
   	width: 18px;
   	height: 18px;
@@ -119,7 +119,7 @@
   	align-items: flex-start;
   	justify-content: center;
 }
-.group-child-inven {
+.group-child-inventaris {
   	position: absolute;
   	top: 0px;
   	left: 0px;
@@ -133,19 +133,19 @@
 .tkit-al-auliya {
   	margin: 0;
 }
-.tkit-al-auliya-container {
+.tkit-al-auliya-container-inventaris {
   	position: absolute;
   	top: 53px;
   	left: 44px;
 }
-.rectangle-parent-inven {
+.rectangle-parent-inventaris {
   	position: relative;
   	width: 428px;
   	height: 197px;
   	font-size: 12px;
   	color: #000;
 }
-.icons8-edit-1 {
+.icons8-edit-1-inventaris {
   	position: relative;
   	width: 18px;
   	height: 18px;
@@ -153,7 +153,7 @@
   	flex-shrink: 0;
   	object-fit: cover;
 }
-.informasi-sekolah-inventaris-parent {
+.informasi-sekolah-parent-inventaris {
   	position: absolute;
   	top: 0px;
   	left: 509px;
@@ -171,7 +171,7 @@
   	justify-content: flex-start;
   	gap: 30px;
 }
-.ruang-kelas-full {
+.ruang-kelas-full-inventaris {
   	position: absolute;
   	top: 108px;
   	left: calc(50% - 87.23px);
@@ -179,7 +179,7 @@
   	display: inline-block;
   	width: 175.92px;
 }
-.dsc06040-fileminimizer-1-icon {
+.dsc06040-fileminimizer-1-icon-inventaris {
   	position: absolute;
   	top: 0px;
   	left: 0px;
@@ -188,14 +188,14 @@
   	height: 96.05px;
   	object-fit: cover;
 }
-.ruang-kelas-full-ac-parent {
+.ruang-kelas-full-ac-parent-inventaris {
   	position: absolute;
   	top: 0px;
   	left: calc(50% - 260.25px);
   	width: 247.16px;
   	height: 126px;
 }
-.halaman-parkir-luas {
+.halaman-parkir-luas-inventaris {
   	position: absolute;
   	top: 108px;
   	left: calc(50% - 91.6px);
@@ -203,14 +203,14 @@
   	display: inline-block;
   	width: 184.65px;
 }
-.halaman-parkir-luas-parent {
+.halaman-parkir-luas-parent-inventaris {
   	position: absolute;
   	top: 147px;
   	left: calc(50% - 260.25px);
   	width: 247.16px;
   	height: 126px;
 }
-.perpustakaan {
+.perpustakaan-inventaris {
   	position: absolute;
   	top: 108px;
   	left: calc(50% - 62.52px);
@@ -218,14 +218,14 @@
   	display: inline-block;
   	width: 126.49px;
 }
-.perpustakaan-parent {
+.perpustakaan-parent-inventaris {
   	position: absolute;
   	top: 294px;
   	left: calc(50% - 260.25px);
   	width: 247.16px;
   	height: 126px;
 }
-.taman-bermain {
+.taman-bermain-inventaris {
   	position: absolute;
   	top: 108px;
   	left: calc(50% - 71.24px);
@@ -233,7 +233,7 @@
   	display: inline-block;
   	width: 143.94px;
 }
-.dsc05712-fileminimizer-1-icon {
+.dsc05712-fileminimizer-1-icon-inventaris {
   	position: absolute;
   	top: 0px;
   	left: 0px;
@@ -242,14 +242,14 @@
   	height: 96.33px;
   	object-fit: cover;
 }
-.taman-bermain-parent {
+.taman-bermain-parent-inventaris {
   	position: absolute;
   	top: 0px;
   	left: calc(50% + 13.08px);
   	width: 247.16px;
   	height: 126px;
 }
-.antar-jemput {
+.antar-jemput-inventaris {
   	position: absolute;
   	top: 108px;
   	left: calc(50% - 61.06px);
@@ -257,14 +257,14 @@
   	display: inline-block;
   	width: 123.58px;
 }
-.antar-jemput-parent {
+.antar-jemput-parent-inventaris {
   	position: absolute;
   	top: 147px;
   	left: calc(50% + 13.08px);
   	width: 247.16px;
   	height: 126px;
 }
-.makan-siang {
+.makan-siang-inventaris {
   	position: absolute;
   	top: 108px;
   	left: calc(50% - 58.16px);
@@ -272,7 +272,7 @@
   	display: inline-block;
   	width: 116.31px;
 }
-.makan-siang-parent {
+.makan-siang-parent-inventaris {
   	position: absolute;
   	top: 294px;
   	left: calc(50% + 13.08px);
@@ -321,7 +321,7 @@
   	height: 720px;
   	overflow-y: auto;
 }
-.asset-1-3 {
+.asset-1-2-inventaris {
   	position: relative;
   	width: 145px;
   	height: 30px;
@@ -344,7 +344,7 @@
   	height: 24.63px;
   	object-fit: cover;
 }
-.kotak-biru-inventaris-child {
+.kotak-biru-child-inventaris {
   	position: absolute;
   	top: 194px;
   	left: 19px;
@@ -370,7 +370,7 @@
   	height: 20px;
   	flex-shrink: 0;
 } */
-.house-solid-2-inventaris-parent {
+.house-solid-2-parent-inventaris {
   	display: flex;
   	flex-direction: row;
   	align-items: center;
@@ -384,7 +384,7 @@
   	height: 20.97px;
   	object-fit: cover;
 }
-.icon-users-inventaris-parent {
+.icon-users-parent-inventaris {
   	display: flex;
   	flex-direction: row;
   	align-items: center;
@@ -392,13 +392,13 @@
   	gap: 10px;
   	cursor: pointer;
 }
-.icon-alternate-calendar {
+.icon-alternate-calendar-inventaris {
   	position: relative;
   	width: 25px;
   	height: 25.78px;
   	object-fit: cover;
 }
-.penilaian {
+.penilaian-inventaris {
   	position: relative;
   	display: flex;
   	align-items: center;
@@ -406,7 +406,7 @@
   	height: 20px;
   	flex-shrink: 0;
 }
-.icon-edit-parent {
+.icon-edit-parent-inventaris {
   	border-radius: 20px;
   	display: flex;
   	flex-direction: row;
@@ -415,7 +415,7 @@
   	gap: 10px;
   	cursor: pointer;
 }
-.icon-bullhorn-parent {
+.icon-bullhorn-parent-inventaris {
   	display: flex;
   	flex-direction: row;
   	align-items: center;
@@ -423,7 +423,7 @@
   	gap: 10px;
   	cursor: pointer;
 }
-.frame-group {
+.frame-group-inventaris {
   	position: absolute;
   	top: 204px;
   	left: calc(50% - 82.5px);

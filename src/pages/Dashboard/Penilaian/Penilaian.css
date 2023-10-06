@@ -1,0 +1,320 @@
+.kotak-putih-nilai-child {
+    position: absolute;
+    top: 116px;
+    left: -28px;
+    width: 39px;
+    height: 38.5px;
+  }
+  .penilaian1 {
+    color: #fb793d;
+  }
+  .lingtar-penilaian-container-nilai {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .icon-edit-nilai {
+    position: relative;
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+  }
+  .rapor-akhir-nilai {
+    position: relative;
+    line-height: 132%;
+  }
+  .icon-edit-parent-nilai {
+    border-radius: 10px;
+    background-color: #fb793d;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+  }
+  .frame-nilai-parent {
+    position: absolute;
+    top: 96px;
+    right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    color: #fff;
+  }
+  .vector-icon-nilai {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-nilai,
+  .hi-admin1-nilai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-nilai {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-nilai {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .kreativitas-1-icon {
+    position: relative;
+    width: 133px;
+    height: 124px;
+    object-fit: cover;
+  }
+  .kreativitas-1-parent,
+  .mapel-a-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .kreativitas-1-parent {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .mapel-a-inner {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 184px;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .icons8-edit {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icons8-edit,
+  .ubah {
+    position: relative;
+  }
+  .icons8-edit-parent,
+  .icons8-trash-parent {
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 2px 3px;
+    justify-content: flex-start;
+    gap: 2px;
+    cursor: pointer;
+  }
+  .icons8-edit-parent {
+    background-color: #09af10;
+    display: flex;
+    align-items: center;
+  }
+  .icons8-trash-parent {
+    background-color: #ff3e3e;
+  }
+  .frame-group-nilai,
+  .icons8-trash-parent,
+  .mapel-a {
+    display: flex;
+    align-items: center;
+  }
+  .frame-group-nilai {
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+  }
+  .mapel-a {
+    width: 184px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .mapel-b {
+    position: relative;
+    display: inline-block;
+    width: 127px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .icons8-trash-group {
+    border-radius: 5px;
+    background-color: #ff3e3e;
+    flex-direction: row;
+    padding: 2px 3px;
+    gap: 2px;
+  }
+  .icons8-trash-group,
+  .mapel-a-parent,
+  .mapel-a2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mapel-a2 {
+    width: 184px;
+    height: 231px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mapel-a-parent {
+    position: absolute;
+    top: 186px;
+    left: 20px;
+    width: 997px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .kotak-putih-nilai {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-2 {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-nilai-child {
+    position: absolute;
+    top: 357px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .beranda-nilai,
+  .house-solid-2-icon {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-nilai {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-nilai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-alternate-calendar,
+  .icon-users {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-alternate-calendar {
+    height: 25.78px;
+  }
+  .icon-edit-group,
+  .pengumuman {
+    display: flex;
+    align-items: center;
+  }
+  .icon-edit-group {
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    color: #fb793d;
+  }
+  .pengumuman {
+    position: relative;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .frame-parent4 {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .kotak-biru-nilai,
+  .penilaian {
+    height: 720px;
+    overflow: hidden;
+  }
+  .kotak-biru-nilai {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    background-image: url(/public/kotak-biru-nilai@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    color: #fff;
+  }
+  .penilaian-nilai {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

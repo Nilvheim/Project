@@ -1,0 +1,348 @@
+.vector-icon-tambahmapel {
+    position: relative;
+    width: 10px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .tambah-mapel1-tambahmapel {
+    color: #fb793d;
+  }
+  .lingtar-tambah-container-tambahmapel {
+    position: relative;
+    font-weight: 500;
+  }
+  .nama-mapel-tambahmapel,
+  .vector-parent-tambahmapel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .vector-parent-tambahmapel {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+  }
+  .nama-mapel-tambahmapel {
+    position: relative;
+    width: 94px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .frame-child-tambahmapel {
+    align-self: stretch;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #75bee0;
+    box-sizing: border-box;
+    height: 38px;
+  }
+  .nama-mapel-parent-tambahmapel {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+  }
+  .frame-item-tambahmapel,
+  .kelas-tambahmapel {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .kelas-tambahmapel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 21px;
+  }
+  .frame-item-tambahmapel {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 38px;
+  }
+  .informasi-utama-tambahmapel {
+    width: 489px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .gambar-mapel-tambahmapel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .group-child-tambahmapel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #75bee0;
+    box-sizing: border-box;
+    width: 488px;
+    height: 261px;
+  }
+  .free-icon-1-1-tambahmapel,
+  .maks-5-mb-tambahmapel {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .free-icon-1-1-tambahmapel {
+    width: 143.3px;
+    height: 133.92px;
+    overflow: hidden;
+  }
+  .maks-5-mb-tambahmapel {
+    font-weight: 500;
+    display: inline-block;
+    width: 86px;
+    height: 18px;
+  }
+  .frame-inner-tambahmapel {
+    position: relative;
+    width: 71.65px;
+    height: 64.23px;
+  }
+  .free-icon-1-1-parent-tambahmapel {
+    position: absolute;
+    top: 17px;
+    left: calc(50% - 62.5px);
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .rectangle-parent-tambahmapel {
+    position: relative;
+    width: 488px;
+    height: 261px;
+    font-size: 12px;
+    color: #d4d2d5;
+  }
+  .informasi-tambahan-tambahmapel {
+    width: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+  }
+  .icon-plus-tambahmapel {
+    position: relative;
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+  .simpan {
+    position: relative;
+    line-height: 132%;
+  }
+  .icon-plus-parent-tambahmapel,
+  .informasi-utama-parent-tambahmapel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-plus-parent-tambahmapel {
+    border-radius: 10px;
+    background-color: #fb793d;
+    width: 203px;
+    height: 40px;
+    flex-direction: row;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #fff;
+  }
+  .informasi-utama-parent-tambahmapel {
+    position: absolute;
+    top: 126px;
+    left: 20px;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 14px;
+  }
+  .vector-icon1-tambahmapel {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-tambahmapel,
+  .hi-admin1-tambahmapel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-tambahmapel {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-tambahmapel{
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .undraw-terms-re-6ak4-1-icon-tambahmapel {
+    position: absolute;
+    top: 419px;
+    left: 711px;
+    width: 370px;
+    height: 310px;
+    overflow: hidden;
+  }
+  .kotak-putih-tambahmapel {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-3-tambahmapel {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar-tambahmapel {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar-tambahmapel {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-child-tambahmapel {
+    position: absolute;
+    top: 357px;
+    left: 19px;
+    border-radius: 10px;
+    width: 185px;
+    height: 45px;
+  }
+  .beranda-tambahmapel,
+  .house-solid-2-icon-tambahmapel {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-tambahmapel {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-tambahmapel {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-tambahmapel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-users-tambahmapel {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-alternate-calendar-tambahmapel,
+  .penilaian-tambahmapel {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+  }
+  .penilaian-tambahmapel {
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent-tambahmapel,
+  .icon-edit-parent-tambahmapel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon-edit-parent-tambahmapel {
+    border-radius: 20px;
+    justify-content: center;
+    color: #fb793d;
+  }
+  .icon-bullhorn-parent-tambahmapel {
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .frame-parent-tambahmapel {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .kotak-biru-tambahmapel,
+  .tambah-mapel-tambahmapel {
+    height: 720px;
+    overflow: hidden;
+  }
+  .kotak-biru-tambahmapel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    background-image: url(/public/kotak-biru-nilai@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tambah-mapel {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

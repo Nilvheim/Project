@@ -161,7 +161,7 @@
   }
   .belum-memiliki-akun,
   .daftar,
-  .kotak-putih {
+  .kotak-putih-login {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,7 @@
     font-size: var(--body-txt-body-m-regular-size);
   }
   .daftar,
-  .kotak-putih {
+  .kotak-putih-login {
     box-sizing: border-box;
   }
   .daftar {
@@ -187,7 +187,7 @@
     font-size: var(--body1-size);
     color: var(--grayscale8);
   }
-  .kotak-putih {
+  .kotak-putih-login {
     position: absolute;
     top: 0;
     right: 0;
@@ -216,7 +216,7 @@
   .lingtar-klik-di-container {
     position: relative;
   }
-  .kotak-oren,
+  .kotak-oren-login,
   .undraw-mobile-login-re-9ntv-2-parent {
     display: flex;
     flex-direction: column;
@@ -227,7 +227,7 @@
     gap: 10px;
     cursor: pointer;
   }
-  .kotak-oren {
+  .kotak-oren-login {
     position: absolute;
     height: 100%;
     top: 0;

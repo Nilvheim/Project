@@ -8,7 +8,7 @@
     width: 22.56px;
     height: 28.67px;
   }
-  .div {
+  .div-data {
     position: relative;
   }
   .ganti-halaman,
@@ -42,7 +42,7 @@
     overflow: hidden;
     flex-shrink: 0;
   }
-  .frame-child,
+  .frame-child-data,
   .icons8-search-1-parent {
     border-radius: 10px;
     background-color: #fff;
@@ -61,18 +61,18 @@
     justify-content: center;
     gap: 20px;
   }
-  .frame-child {
+  .frame-child-data {
     position: absolute;
     top: 0;
     left: 0;
     width: 161px;
   }
-  .kelas {
+  .kelas-data {
     position: absolute;
     top: 3px;
     left: 42px;
   }
-  .icon-arrow-ios-forward2 {
+  .icon-arrow-ios-forward2-data {
     position: absolute;
     height: 56.4%;
     width: 17.48%;
@@ -84,7 +84,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .rectangle-parent {
+  .rectangle-parent-data {
     position: relative;
     border-radius: 10px;
     background-color: #fff;
@@ -95,7 +95,7 @@
     cursor: pointer;
     color: #000;
   }
-  .icon-plus {
+  .icon-plus-data {
     position: relative;
     border-radius: 20px;
     width: 24px;
@@ -105,14 +105,14 @@
     position: relative;
     line-height: 132%;
   }
-  .icon-plus-parent,
+  .icon-plus-parent-data,
   .tiga-tombol {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  .icon-plus-parent {
+  .icon-plus-parent-data {
     border-radius: 10px;
     background-color: #fb793d;
     height: 40px;
@@ -182,13 +182,13 @@
     cursor: pointer;
   }
   .frame-parent,
-  .icons8-edit-parent,
-  .icons8-trash-parent {
+  .icons8-edit-data-parent,
+  .icons8-trash-data-parent {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  .icons8-trash-parent {
+  .icons8-trash-data-parent {
     border-radius: 5px;
     background-color: #ff3e3e;
     padding: 2px 3px;
@@ -638,7 +638,6 @@
     top: 194px;
     left: 19px;
     border-radius: 10px;
-    background-color: rgba(70, 70, 70, 0.3);
     width: 185px;
     height: 45px;
   }
@@ -666,12 +665,11 @@
     gap: 10px;
     cursor: pointer;
   }
-  .icon-users {
+  .icon-users-data {
     position: relative;
     width: 25px;
-    height: 20.97px;
   }
-  .icon-users-parent {
+  .icon-users-data-parent {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -680,12 +678,12 @@
     color: #fb793d;
   }
   .icon-alternate-calendar,
-  .penilaian {
+  .penilaian-data {
     position: relative;
     width: 25px;
     height: 25.78px;
   }
-  .penilaian {
+  .penilaian-data {
     display: flex;
     align-items: center;
     width: 131px;
@@ -746,6 +744,18 @@
     color: #000;
     font-family: Poppins;
   }
+  .frame-group-data {
+    display: flex;
+    align-items: center;
+  }
+  .frame-group-data {
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+  }
   /* body {
     margin: 0;
     background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
@@ -763,7 +773,7 @@
     transform: translate(-50%, -50%);
   }
   table {
-    width: 800px;
+    width: 1000px;
     border: 1px solid #ff00;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -794,5 +804,19 @@
     bottom: -9999px;
     background-color: rgba(255, 255, 255, 0.2);
     z-index: -1;
+  }
+  .icons8-edit-data-parent,
+  .icons8-trash-data-parent {
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 2px 3px;
+    justify-content: flex-start;
+    gap: 2px;
+    cursor: pointer;
+  }
+  .icons8-edit-data-parent {
+    background-color: #09af10;
+    display: flex;
+    align-items: center;
   }
   

@@ -1,0 +1,352 @@
+.vector-icon-tambahmurid {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-tambahmurid,
+  .hi-admin1-tambahmurid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-tambahmurid {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-tambahmurid {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .vector-icon1-tambahmurid {
+    position: relative;
+    width: 10px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .tambah-staff-sekolah1-tambahmurid {
+    color: #fb793d;
+  }
+  .lingtar-tambah-container-tambahmurid {
+    position: relative;
+    font-weight: 500;
+  }
+  .vector-parent-tambahmurid {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    font-size: 24px;
+  }
+  .informasi-utama2-tambahmurid {
+    position: relative;
+    font-weight: 600;
+  }
+  .informasi-utama-child-tambahmurid {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid #fb793d;
+    box-sizing: border-box;
+    height: 1px;
+  }
+  .informasi-utama1-tambahmurid,
+  .nama-tambahmurid {
+    display: flex;
+    justify-content: center;
+  }
+  .informasi-utama1-tambahmurid {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    color: #fb793d;
+  }
+  .nama-tambahmurid {
+    position: relative;
+    align-items: center;
+    width: 47px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .frame-child-tambahmurid {
+    align-self: stretch;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #75bee0;
+    box-sizing: border-box;
+    height: 38px;
+  }
+  .kelas-tambahmurid,
+  .nama-parent-tambahmurid,
+  .nip-nis-tambahmurid {
+    display: flex;
+    justify-content: center;
+  }
+  .nama-parent-tambahmurid {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .kelas-tambahmurid,
+  .nip-nis-tambahmurid {
+    align-items: center;
+    height: 21px;
+  }
+  .nip-nis-tambahmurid {
+    position: relative;
+    width: 59px;
+    flex-shrink: 0;
+  }
+  .kelas-tambahmurid {
+    width: 43px;
+  }
+  .frame-inner-tambahmurid,
+  .jabatan-tambahmurid,
+  .kelas-tambahmurid {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .frame-inner-tambahmurid {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 38px;
+  }
+  .jabatan-tambahmurid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 61px;
+    height: 21px;
+  }
+  .informasi-utama-tambahmurid {
+    width: 489px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .email-lingtar-tambahmurid,
+  .password-lingtar-tambahmurid {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .password-lingtar-tambahmurid {
+    width: 121px;
+  }
+  .informasi-tambahan-tambahmurid {
+    width: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .informasi-utama-parent-tambahmurid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+  .icon-plus-tambahmurid {
+    position: relative;
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+  .simpan-tambahmurid {
+    position: relative;
+    line-height: 132%;
+  }
+  .icon-plus-parent-tambahmurid {
+    border-radius: 10px;
+    background-color: #fb793d;
+    width: 203px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    gap: 3px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .frame-parent-tambahmurid {
+    position: absolute;
+    top: 126px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    font-size: 14px;
+  }
+  .kotak-putih-tambahmurid {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-3-tambahmurid {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar-tambahmurid {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar-tambahmurid {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-child-tambahmurid {
+    position: absolute;
+    top: 248px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .beranda-tambahmurid,
+  .house-solid-2-icon-tambahmurid {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-tambahmurid {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-tambahmurid {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-tambahmurid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-users-tambahmurid {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-users-parent-tambahmurid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fb793d;
+  }
+  .icon-alternate-calendar-tambahmurid,
+  .penilaian-tambahmurid {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+  }
+  .penilaian-tambahmurid {
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent-tambahmurid,
+  .icon-edit-parent-tambahmurid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-edit-parent-tambahmurid {
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .icon-bullhorn-parent-tambahmurid {
+    justify-content: flex-start;
+  }
+  .frame-group-tambahmurid {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .kotak-biru-tambahmurid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url(/public/kotak-biru-pendataan@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    color: #fff;
+  }
+  .tambah-staff-sekolah-tambahmurid {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-family: Poppins;
+  }
+  
+  .text-tambahmurid {
+    width: 490px;
+    font-size: 18px;
+    font: Poppins;
+}

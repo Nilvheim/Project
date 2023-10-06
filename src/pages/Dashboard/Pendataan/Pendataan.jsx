@@ -1,14 +1,17 @@
-import {useState,useMemo,useCallback} from "react";
-import fakeData from "./Mock.json";
+import { useState, useMemo, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
+import fakeData from "../Mock.json";
+import React from 'react';
+import TambahKelas from "./TambahKelas";
+import { Button, Dropdown, Space } from 'antd';
 import { useTable } from "react-table";
-import Frame from "../../components/Frame";
-import PortalPopup from "../../components/PortalPopup";
-import PENDATAANTAMBAH from "../../components/PENDATAANTAMBAH";
-import POPUPHIADMIN from "../../components/POPUPHIADMIN";
-import POPUPTOMBOLHAPUSDATA from "../../components/POPUPTOMBOLHAPUSDATA";
-import Tombol10 from "../../components/Tombol10";
+import Frame from "../../../components/Frame";
+import PortalPopup from "../../../components/PortalPopup";
+import PENDATAANTAMBAH from "../../../components/PENDATAANTAMBAH";
+import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
+import POPUPTOMBOLHAPUSDATA from "../../../components/POPUPTOMBOLHAPUSDATA";
+import Tombol10 from "../../../components/Tombol10";
 import "./Pendataan.css";
-
 
 const PENDATAAN = () => {
 
@@ -37,10 +40,26 @@ const PENDATAAN = () => {
       },
       {
         Header: "Aksi",
-        Cell: ({value}) => (<button onClick={this.editRow({value})}>Edit</button>)
+        Cell: ({ row }) => {
+          console.log(row)
+          return (
+            <div className="frame-group-data">
+              <b className="icons8-edit-data-parent" onClick={ubahStaffInformasi}>
+              <img className="icons8-edit-data" alt="" src="/icons8edit.svg" />
+                  <div className="ubah-data">Ubah</div>
+                </b>
+              <b className="icons8-trash-data-parent" onClick={openPOPUPTOMBOLHAPUSDATA}>
+              <img className="icons8-edit-data" alt="" src="/icons8trash.svg" />
+                  <div className="ubah-data">Hapus</div>
+                </b>
+            </div>
+          )
+          
+        }
       }
-    ],[]);
-
+    ], []);
+  
+  const navigate = useNavigate();
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isPENDATAANTAMBAHOpen, setPENDATAANTAMBAHOpen] = useState(false);
   const [isPOPUPHIADMINOpen, setPOPUPHIADMINOpen] = useState(false);
@@ -75,6 +94,10 @@ const PENDATAAN = () => {
     setPOPUPTOMBOLHAPUSDATAOpen(false);
   }, []);
 
+  const openPOPUPTOMBOLHAPUSDATA = useCallback(() => {
+    setPOPUPTOMBOLHAPUSDATAOpen(true);
+  }, []);
+
   const openTombol10 = useCallback(() => {
     setTombol10Open(true);
   }, []);
@@ -83,21 +106,25 @@ const PENDATAAN = () => {
     setTombol10Open(false);
   }, []);
 
+  const ubahStaffInformasi = useCallback(() => {
+    navigate('/Dashboard/UbahStaff')
+  }, [navigate]);
+
   const onFrameContainer35Click = useCallback(() => {
-    // Please sync "BERANDA" to the project
-  }, []);
+    navigate('/Dashboard/Home')
+  }, [navigate]);
 
   const onFrameContainer37Click = useCallback(() => {
-    // Please sync "ABSENSI" to the project
+    navigate('/Dashboard/Absensi')
   }, []);
 
   const onFrameContainer38Click = useCallback(() => {
-    // Please sync "PENILAIAN" to the project
-  }, []);
+    navigate('/Dashboard/Penilaian')
+  }, [navigate]);
 
   const onFrameContainer39Click = useCallback(() => {
-    // Please sync "PENGUMUMAN" to the project
-  }, []);
+    navigate('/Dashboard/Pengumuman')
+  }, [navigate]);
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
@@ -113,20 +140,20 @@ const PENDATAAN = () => {
                 alt=""
                 src="/icons8search-1.svg"
               />
-              <div className="div">Pencarian</div>
+              <div className="div-data">Pencarian</div>
             </div>
-            <div className="rectangle-parent" onClick={openFrame}>
-              <div className="frame-child" />
-              <div className="kelas">Kelas</div>
+            <div className="rectangle-parent-data" onClick={openFrame}>
+              <div className="frame-child-data" />
+              <b className="kelas-data">Kelas</b>
               <img
-                className="icon-arrow-ios-forward2"
+                className="icon-arrow-ios-forward2-data"
                 alt=""
                 src="/-icon-arrow-ios-forward2.svg"
               />
             </div>
-            <div className="icon-plus-parent" onClick={openPENDATAANTAMBAH}>
-              <img className="icon-plus" alt="" src="/-icon-plus.svg" />
-              <div className="tambah">Tambah</div>
+            <div className="icon-plus-parent-data" onClick={openPENDATAANTAMBAH}>
+              <img className="icon-plus-data" alt="" src="/-icon-plus.svg" />
+              <div className="tambah-data">Tambah</div>
             </div>
           </div>
           <div className="hi-admin" onClick={openPOPUPHIADMIN}>
@@ -196,12 +223,12 @@ const PENDATAAN = () => {
               <img
                 className="house-solid-2-icon-data"
                 alt=""
-                src="/housesolid-2.svg"
+                src="/housesolid-putih.svg"
               />
               <div className="beranda">Beranda</div>
             </div>
-            <div className="icon-users-parent">
-              <img className="icon-users" alt="" src="/-icon-users.svg" />
+            <div className="icon-users-data-parent">
+              <img className="icon-users-data" alt="" src="/-icon-users-oren.svg" />
               <div className="beranda">Pendataan</div>
             </div>
             <div
@@ -221,7 +248,7 @@ const PENDATAAN = () => {
                 alt=""
                 src="/-icon-edit.svg"
               />
-              <div className="penilaian">Penilaian</div>
+              <div className="penilaian-data">Penilaian</div>
             </div>
             <div
               className="icon-bullhorn-parent"
@@ -232,7 +259,7 @@ const PENDATAAN = () => {
                 alt=""
                 src="/-icon-bullhorn.svg"
               />
-              <div className="penilaian">Pengumuman</div>
+              <div className="penilaian-data">Pengumuman</div>
             </div>
           </div>
         </div>
@@ -286,4 +313,5 @@ const PENDATAAN = () => {
   );
 };
 
+console.log(PENDATAAN.row);
 export default PENDATAAN;

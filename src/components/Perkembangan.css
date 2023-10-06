@@ -1,0 +1,101 @@
+.nt-3-child-perkembangan,
+.nt-3-wrapper-perkembangan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 464px;
+  height: 396px;
+}
+.nt-3-child-perkembangan {
+  border-radius: 15px;
+  background-color: #fff;
+}
+.nt-3-wrapper-perkembangan {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+}
+.vector-icon-perkembangan {
+  position: absolute;
+  top: 291.6px;
+  left: 37.48px;
+  width: 23.26px;
+  height: 57.6px;
+}
+.baru-berkembang-perkembangan,
+.penilaian-anak-perkembangan {
+  position: absolute;
+  left: 40px;
+  display: inline-block;
+}
+.baru-berkembang-perkembangan {
+  top: 55px;
+  font-weight: 600;
+  color: #000;
+  width: 143.47px;
+  height: 23.84px;
+}
+.penilaian-anak-perkembangan {
+  top: 31px;
+  font-weight: 500;
+  width: 107px;
+  height: 24px;
+}
+.anak-sudah-mulai-perkembangan {
+  margin: 0;
+}
+.anak-sudah-mulai-container-perkembangan {
+  position: absolute;
+  top: 129px;
+  left: 40px;
+  color: #1a141f;
+  display: inline-block;
+  width: 384px;
+  height: 48px;
+}
+.catatan-perkembangan,
+.foto-kegiatan-perkembangan,
+.senin-14-juni-perkembangan {
+  position: absolute;
+  top: 99px;
+  left: 40px;
+  font-weight: 500;
+  display: inline-block;
+  width: 69.79px;
+  height: 23.84px;
+}
+.foto-kegiatan-perkembangan,
+.senin-14-juni-perkembangan {
+  top: 185px;
+  width: 112.45px;
+}
+.senin-14-juni-perkembangan {
+  top: 331px;
+  font-size: 10px;
+  color: #aba7af;
+  width: 168.02px;
+  height: 19.87px;
+}
+.sekolah-swasta-islam-di-jogja-icon-perkembangan {
+  position: absolute;
+  top: 220px;
+  left: 40px;
+  border-radius: 7px;
+  width: 105px;
+  height: 100px;
+  object-fit: cover;
+}
+.group-container-perkembangan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 464px;
+  height: 396px;
+}
+.group-parent-perkembangan {
+  position: relative;
+  width: 100%;
+  height: 396px;
+  text-align: left;
+  font-size: 12px;
+  color: #fb793d;
+  font-family: Poppins;
+}

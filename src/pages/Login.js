@@ -76,7 +76,7 @@ const Login = () => {
     
     <div className="login-1">
       <form onSubmit={handleSubmit}>
-      <div className="kotak-putih">
+      <div className="kotak-putih-login">
         <div className="masuk">Masuk</div>
           <div className="alamat-email">
             <img className="alamat-email-child" alt="" src="vector-10.svg"></img>
@@ -131,7 +131,7 @@ const Login = () => {
       </div>
       </form>
       
-      <div className="kotak-oren">
+      <div className="kotak-oren-login">
         <div className="undraw-mobile-login-re-9ntv-2-parent" onClick={onFrameContainer3Click}>
           <img className="undraw-mobile-login-re-9ntv-2-icon" alt="" src="undraw-mobile-login-re-9ntv-2.svg"></img>
           <b className="lingtar-klik-di-container">

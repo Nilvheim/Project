@@ -1,0 +1,596 @@
+.kotak-putih-child-absen {
+    position: absolute;
+    top: 116px;
+    left: -28px;
+    width: 39px;
+    height: 38.5px;
+  }
+  .absensi1-absen {
+    color: #fb793d;
+  }
+  .lingtar-absensi-container-absen {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .icons8-search-1-absen {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icons8-search-1-absen,
+  .pencarian-absen {
+    position: relative;
+  }
+  .frame-child-absen,
+  .icons8-search-1-parent-absen {
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  .icons8-search-1-parent-absen {
+    width: 207px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 20px;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .frame-child-absen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 161px;
+  }
+  .kelas-absen {
+    position: absolute;
+    top: 4px;
+    left: 42px;
+  }
+  .icon-arrow-ios-forward-absen {
+    position: absolute;
+    height: 56.4%;
+    width: 17.48%;
+    top: 27.5%;
+    right: 8.13%;
+    bottom: 16.1%;
+    left: 74.39%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .rectangle-parent-absen {
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 161px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: #000;
+  }
+  .icon-alternate-calendar-absen {
+    position: relative;
+    width: 20px;
+    height: 22.86px;
+  }
+  .tanggal-absen {
+    position: relative;
+    line-height: 132%;
+  }
+  .icon-alternate-calendar-parent-absen {
+    border-radius: 10px;
+    background-color: #1a141f;
+    height: 40px;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    gap: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .icon-alternate-calendar-parent-absen,
+  .icon-cog-parent-absen,
+  .tiga-tombol-absen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-cog-parent-absen {
+    border-radius: 10px;
+    background-color: #1a141f;
+    width: 95px;
+    height: 40px;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    gap: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .tiga-tombol-absen {
+    position: absolute;
+    top: 96px;
+    left: 358px;
+    gap: 20px;
+    color: #fff;
+  }
+  .icon-arrow-ios-forward1-absen {
+    position: relative;
+    width: 22.56px;
+    height: 28.67px;
+  }
+  .ganti-halaman-absen,
+  .wrapper-absen {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-absen {
+    background-color: #75bee0;
+    height: 26px;
+    flex-direction: column;
+    padding: 0 6px;
+  }
+  .ganti-halaman-absen {
+    position: absolute;
+    top: 661.33px;
+    left: 920px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 97px;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 16px;
+  }
+  .vector-icon-absen {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-absen,
+  .hi-admin1-absen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-absen {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-absen {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .group-child-absen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 167px;
+    height: 41px;
+  }
+  .icons8-edit-absen {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icons8-edit-parent-absen {
+    border-radius: 5px;
+    background-color: #09af10;
+    justify-content: flex-start;
+    padding: 2px 3px;
+    gap: 2px;
+    cursor: pointer;
+  }
+  .frame-parent-absen,
+  .icons8-edit-parent-absen,
+  .icons8-trash-parent-absen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icons8-trash-parent-absen {
+    border-radius: 5px;
+    background-color: #ff3e3e;
+    justify-content: flex-start;
+    padding: 2px 3px;
+    gap: 2px;
+    cursor: pointer;
+  }
+  .frame-parent-absen {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    justify-content: center;
+    gap: 5px;
+  }
+  .group-item-absen,
+  .rectangle-group-absen {
+    position: absolute;
+    top: 0;
+    height: 41px;
+  }
+  .rectangle-group-absen {
+    left: 830px;
+    width: 167px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .group-item-absen {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 162px;
+  }
+  .tepat-waktu-absen {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: inline-block;
+    width: 108px;
+  }
+  .group-inner-absen,
+  .rectangle-container-absen {
+    position: absolute;
+    top: 0;
+    left: 668px;
+    width: 162px;
+    height: 41px;
+  }
+  .group-inner-absen {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 231px;
+  }
+  .div1-absen {
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    display: inline-block;
+    width: 153px;
+  }
+  .group-div-absen,
+  .rectangle-div-absen {
+    position: absolute;
+    top: 0;
+    left: 334px;
+    width: 231px;
+    height: 41px;
+  }
+  .rectangle-div-absen {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 277px;
+  }
+  .akbar-sanjaya-absen {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: inline-block;
+    width: 102px;
+  }
+  .group-child1-absen,
+  .rectangle-parent1-absen {
+    position: absolute;
+    top: 0;
+    left: 57px;
+    width: 277px;
+    height: 41px;
+  }
+  .group-child1-absen {
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 57px;
+  }
+  .text-absen {
+    position: absolute;
+    top: 9.94px;
+    left: calc(50% - 15.96px);
+    display: inline-block;
+    width: 31.92px;
+    height: 19.88px;
+  }
+  .group-child2-absen,
+  .rectangle-parent2-absen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 41px;
+  }
+  .rectangle-parent2-absen {
+    width: 57px;
+    color: #000;
+  }
+  .group-child2-absen {
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 103px;
+  }
+  .a-absen {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 5.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11px;
+    height: 11px;
+  }
+  .rectangle-parent3-absen {
+    position: absolute;
+    top: 0;
+    left: 565px;
+    width: 103px;
+    height: 41px;
+    text-align: center;
+    color: #000;
+  }
+  .group-parent-absen {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    width: 997px;
+    height: 41px;
+  }
+  .icons8-edit-group-absen,
+  .icons8-trash-group-absen {
+    border-radius: 5px;
+    background-color: #09af10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px 3px;
+    gap: 2px;
+  }
+  .icons8-trash-group-absen {
+    background-color: #ff3e3e;
+  }
+  .group-container-absen {
+    position: absolute;
+    top: 82px;
+    left: 0;
+    width: 997px;
+    height: 41px;
+  }
+  
+  .group-parent9,
+  .rectangle-parent63,
+  .tabel-absen-semua-sidebar-absen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 57px;
+    height: 41px;
+  }
+  .group-parent9,
+  .tabel-absen-semua-sidebar-absen {
+    width: 997px;
+    font-size: 16px;
+    color: #000;
+  }
+  .tabel-absen-semua-sidebar-absen {
+    top: 181px;
+    left: 20px;
+    height: 451px;
+    text-align: left;
+    font-size: 14px;
+    color: #1a141f;
+  }
+  .frame-item-absen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 87px;
+    height: 40px;
+  }
+  .div11-absen {
+    position: absolute;
+    top: 5px;
+    left: 21px;
+  }
+  .rectangle-parent64-absen {
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 87px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .tombol-tampilkan-absen {
+    position: absolute;
+    top: 96px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .menampilkan-10-data-absen {
+    position: absolute;
+    top: 663px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .kotak-putih-absen {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-2-absen {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar-absen {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar-absen {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-child-absen {
+    position: absolute;
+    top: 301px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .beranda-absen,
+  .house-solid-2-icon-absen {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-absen {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-absen {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-absen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-users-absen {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-alternate-calendar-group-absen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fb793d;
+  }
+  .icon-edit-absen,
+  .penilaian-absen {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+  }
+  .penilaian-absen {
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent-absen,
+  .icon-edit-parent-absen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-edit-parent-absen {
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .icon-bullhorn-parent-absen {
+    justify-content: flex-start;
+  }
+  .frame-parent7-absen {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .absensi-absen,
+  .kotak-biru-absen {
+    height: 720px;
+    overflow: hidden;
+  }
+  .kotak-biru-absen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    background-image: url(/public/Kotak-biru-absensi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+  }
+  .absensi-absen {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

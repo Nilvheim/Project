@@ -1,15 +1,10 @@
-import { useState } from "react";
-import "./POPUPTOMBOLHAPUSDATA.css";
+import "./POPUPTOMBOLHAPUSMAPEL.css";
 
-const POPUPTOMBOLHAPUSDATA = () => {
-
-  const onBatalkan = useState(() => {
-    
-  })
+const POPUPTOMBOLHAPUSMAPEL = () => {
   return (
-    <div className="pop-up-tombol-hapus-data">
+    <div className="pop-up-tombol-hapus-mapel">
       <img
-        className="pop-up-tombol-hapus-data-child"
+        className="pop-up-tombol-hapus-mapel-child"
         alt=""
         src="/group-95.svg"
       />
@@ -17,7 +12,7 @@ const POPUPTOMBOLHAPUSDATA = () => {
       <div className="apakah-anda-yakin">
         Apakah anda yakin ingin menghapus?
       </div>
-      <div className="frame-parent8">
+      <div className="frame-parent5">
         <div className="batalkan-wrapper">
           <div className="batalkan">Batalkan</div>
         </div>
@@ -29,4 +24,4 @@ const POPUPTOMBOLHAPUSDATA = () => {
   );
 };
 
-export default POPUPTOMBOLHAPUSDATA;
+export default POPUPTOMBOLHAPUSMAPEL;

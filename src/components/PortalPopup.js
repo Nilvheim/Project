@@ -53,6 +53,8 @@ const PortalPopup = ({
           style.alignItems = "flex-end";
           style.justifyContent = "flex-end";
           break;
+        default :
+          
       }
     }
     style.opacity = 1;

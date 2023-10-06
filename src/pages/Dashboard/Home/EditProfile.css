@@ -1,4 +1,4 @@
-.kotak-putih-profile-child {
+.kotak-putih-child-profile {
     position: absolute;
     top: 116px;
     left: -28px;
@@ -9,14 +9,14 @@
   .gambar-sekolah-profile {
     position: relative;
   }
-  .visi-sekolah-child {
+  .visi-sekolah-child-profile {
     align-self: stretch;
     position: relative;
     border-top: 1px solid #000;
     box-sizing: border-box;
     height: 1px;
   }
-  .visi-sekolah {
+  .visi-sekolah-profile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@
     height: 251px;
     object-fit: cover;
   }
-  .tkit-al-auliyajpg {
+  .tkit-al-auliya-profile {
     position: relative;
     font-size: 12px;
     color: #000;
@@ -52,7 +52,7 @@
     display: none;
   }
   .masuk-profile,
-  .visi-sekolah-parent {
+  .visi-sekolah-parent-profile {
     border-radius: 15px;
     background-color: #fb793d;
     width: 264px;
@@ -66,7 +66,7 @@
     gap: 8px;
     color: #f6f6f6;
   }
-  .visi-sekolah-parent {
+  .visi-sekolah-parent-profile {
     position: absolute;
     top: 126px;
     left: 20px;
@@ -82,12 +82,12 @@
     gap: 15px;
     color: #214151;
   }
-  .informasi-sekolah,
-  .nama-sekolah {
+  .informasi-sekolah-profile,
+  .nama-sekolah-profile {
     display: flex;
     justify-content: center;
   }
-  .informasi-sekolah {
+  .informasi-sekolah-profile {
     position: absolute;
     top: 20px;
     left: 160px;
@@ -96,7 +96,7 @@
     font-size: 18px;
     color: #214151;
   }
-  .nama-sekolah {
+  .nama-sekolah-profile {
     position: relative;
     align-items: center;
     width: 104px;
@@ -113,13 +113,13 @@
     height: 38px;
   }
 
-  .profile-border{
+  .profile-border-profile{
     width: 400px;
     font-size: 18px;
     font: Poppins;
   }
 
-  .nama-sekolah-parent {
+  .nama-sekolah-parent-profile {
     position: absolute;
     top: 71px;
     left: 30px;
@@ -130,7 +130,7 @@
     justify-content: center;
     gap: 5px;
   }
-  .kode-sekolah {
+  .kode-sekolah-profile {
     position: relative;
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@
     height: 21px;
     flex-shrink: 0;
   }
-  .kode-sekolah-parent {
+  .kode-sekolah-parent-profile {
     position: absolute;
     top: 159px;
     left: 30px;
@@ -150,7 +150,7 @@
     justify-content: center;
     gap: 5px;
   }
-  .alamat-sekolah {
+  .alamat-sekolah-profile {
     position: relative;
     display: flex;
     align-items: center;
@@ -159,7 +159,7 @@
     height: 21px;
     flex-shrink: 0;
   }
-  .alamat-sekolah-parent,
+  .alamat-sekolah-parent-profile,
   .masuk2-profile {
     position: absolute;
     top: 247px;
@@ -186,7 +186,7 @@
     font-size: 18px;
     color: #f6f6f6;
   }
-  .informasi-sekolah-parent {
+  .informasi-sekolah-parent-profile {
     position: absolute;
     top: 126px;
     left: 529px;
@@ -198,25 +198,25 @@
     overflow: hidden;
     font-size: 14px;
   }
-  .vector-icon {
+  .vector-icon-profile {
     position: relative;
     width: 29px;
     height: 28px;
     object-fit: cover;
   }
-  .hi-admin,
-  .hi-admin1 {
+  .hi-admin-profile,
+  .hi-admin1-profile {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hi-admin1 {
+  .hi-admin1-profile {
     position: relative;
     width: 87px;
     height: 20px;
     flex-shrink: 0;
   }
-  .hi-admin {
+  .hi-admin-profile {
     position: absolute;
     top: 30px;
     left: 896px;
@@ -224,17 +224,17 @@
     gap: 5px;
     cursor: pointer;
   }
-  .vector-icon1 {
+  .vector-icon1-profile {
     position: relative;
     width: 10px;
     height: 16px;
     object-fit: cover;
     cursor: pointer;
   }
-  .profil-sekolah {
+  .profil-sekolah-profile {
     color: #fb793d;
   }
-  .lingtar-profil-container {
+  .lingtar-profil-container-profile {
     position: relative;
     font-size: 24px;
     font-weight: 500;
@@ -242,7 +242,7 @@
     text-align: left;
     color: #000; 
   }
-  .vector-parent {
+  .vector-parent-profile {
     position: absolute;
     top: 30px;
     left: 20px;
@@ -270,7 +270,7 @@
     height: 24.63px;
     object-fit: cover;
   }
-  .kotak-biru-profile-child {
+  .kotak-biru-child-profile {
     position: absolute;
     top: 194px;
     left: 19px;
@@ -310,7 +310,7 @@
     height: 20.97px;
     object-fit: cover;
   }
-  .icon-users-profile-parent {
+  .icon-users-parent-profile {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -324,7 +324,7 @@
     height: 25.78px;
     object-fit: cover;
   }
-  .penilaian {
+  .penilaian-profile {
     position: relative;
     display: flex;
     align-items: center;
@@ -332,19 +332,19 @@
     height: 20px;
     flex-shrink: 0;
   }
-  .icon-bullhorn-parent,
-  .icon-edit-parent {
+  .icon-bullhorn-parent-profile,
+  .icon-edit-parent-profile {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     cursor: pointer;
   }
-  .icon-edit-parent {
+  .icon-edit-parent-profile {
     border-radius: 20px;
     justify-content: center;
   }
-  .icon-bullhorn-parent {
+  .icon-bullhorn-parent-profile {
     justify-content: flex-start;
   }
   .frame-parent-profile {
@@ -358,13 +358,13 @@
     justify-content: center;
     gap: 30px;
   }
-  .asset-1-3 {
+  .asset-1-3-profile {
     position: relative;
     width: 145px;
     height: 30px;
     object-fit: cover;
   }
-  .logo-lingtar {
+  .logo-lingtar-profile {
     position: absolute;
     top: calc(50% - 259px);
     left: calc(50% - 72px);
@@ -387,7 +387,7 @@
     text-align: left;
     color: #fff;
   }
-  .edit-profil-sekolah {
+  .edit-sekolah-profile {
     position: relative;
     background-color: #fff;
     width: 100%;

@@ -1,15 +1,28 @@
-import { Routes, Route, useNavigationType, useLocation, } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  useNavigationType,
+  useLocation,
+} from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
 import { useEffect } from "react";
 import LupaPw from "./pages/LupaPw";
 import ResetPw from "./pages/ResetPw";
-import Home from "./pages/Dashboard/Home";
-import EditProfile from "./pages/Dashboard/EditProfile";
-import Inventaris from "./pages/Dashboard/Inventaris"
 import Daftar from "./pages/Daftar";
-import Sidebar from "./components/Sidebar";
-import Pendataan from "./pages/Dashboard/Pendataan";
+import Home from "./pages/Dashboard/Home/Home";
+import EditProfile from "./pages/Dashboard/Home/EditProfile";
+import Inventaris from "./pages/Dashboard/Home/Inventaris";
+import Pendataan from "./pages/Dashboard/Pendataan/Pendataan";
+import TambahKelas from "./pages/Dashboard/Pendataan/TambahKelas";
+import TambahStaff from "./pages/Dashboard/Pendataan/TambahStaff";
+import TambahMurid from "./pages/Dashboard/Pendataan/TambahMurid";
+import UbahStaff from "./pages/Dashboard/Pendataan/UbahStaff";
+import Absensi from "./pages/Dashboard/Absensi/Absensi";
+import NilaiMapel from "./pages/Dashboard/Penilaian/NilaiMapel";
+import Penilaian from "./pages/Dashboard/Penilaian/Penilaian";
+import TambahMapel from "./pages/Dashboard/Penilaian/TambahMapel";
+
 
 function App() {
   const action = useNavigationType();
@@ -50,7 +63,6 @@ function App() {
   }, [pathname]);
 
   return (
-
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="login" element={<Login />} />
@@ -59,10 +71,17 @@ function App() {
       <Route path="Dashboard/Home" element={<Home />} />
       <Route path="Dashboard/EditProfile" element={<EditProfile />} />
       <Route path="Dashboard/Inventaris" element={<Inventaris />} />
-      <Route path="Dashboard/Pendataan" element={<Pendataan /> } />
+      <Route path="Dashboard/Pendataan" element={<Pendataan />} />
+      <Route path="Dashboard/TambahKelas" element={<TambahKelas />} />
+      <Route path="Dashboard/TambahStaff" element={<TambahStaff />} />
+      <Route path="Dashboard/TambahMurid" element={<TambahMurid />} />
+      <Route path="Dashboard/UbahStaff" element={<UbahStaff />} />
+      <Route path="Dashboard/Absensi" element={<Absensi />} />
+      <Route path="Dashboard/Penilaian" element={<Penilaian />} />
+      <Route path="Dashboard/NilaiMapel" element={<NilaiMapel />} />
+      <Route path="Dashboard/TambahMapel" element={<TambahMapel />} />
       <Route path="Daftar" element={<Daftar />} />
-  
-    </Routes> 
+    </Routes>
   );
 }
 export default App;
