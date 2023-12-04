@@ -350,3 +350,10 @@
     font-size: 18px;
     font: Poppins;
 }
+
+.dropdown-wrapper{
+  width: 490px;
+  top: 2px;
+  text-align: left;
+  font: Poppins;
+}

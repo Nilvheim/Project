@@ -1,0 +1,325 @@
+.nama-admin,
+.ubah-profil-admin {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.ubah-profil-admin {
+  font-size: 15px;
+  width: 91px;
+  height: 24px;
+}
+.nama-admin {
+  width: 46px;
+  height: 21px;
+}
+.frame-child-admin {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #75bee0;
+  box-sizing: border-box;
+  width: 428px;
+  height: 38px;
+}
+.bio-admin,
+.kontak-admin,
+.nama-parent-admin {
+  display: flex;
+  justify-content: center;
+}
+.nama-parent-admin {
+  width: 428px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.bio-admin,
+.kontak-admin {
+  position: relative;
+  align-items: center;
+  width: 51px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.bio-admin {
+  width: 26px;
+}
+.frame-inner-admin {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #75bee0;
+  box-sizing: border-box;
+  width: 428px;
+  height: 111px;
+}
+.icon-plus-admin {
+  position: relative;
+  border-radius: 20px;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.simpan-admin {
+  position: relative;
+  line-height: 132%;
+}
+.icon-plus-parent-admin,
+.ubah-profil-parent-admin {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon-plus-parent-admin {
+  background-color: #fb793d;
+  width: 126px;
+  height: 40px;
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  gap: 3px;
+  font-size: 18px;
+  color: #fff;
+}
+.ubah-profil-parent-admin {
+  position: absolute;
+  top: 124px;
+  left: 529px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+  gap: 30px;
+}
+.profil-admin1-admin {
+  color: #fb793d;
+}
+.lingtar-profil-container-admin {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  width: 256px;
+  height: 34px;
+}
+.vector-icon-admin {
+  position: relative;
+  width: 29px;
+  height: 28px;
+}
+.hi-admin-admin,
+.hi-admin1-admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hi-admin1-admin {
+  position: relative;
+  width: 87px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.hi-admin-admin {
+  position: absolute;
+  top: 30px;
+  left: 896px;
+  flex-direction: row;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.group-icon-admin {
+  position: relative;
+  width: 103.8px;
+  height: 98px;
+}
+.risty-nur-faadhilah-admin {
+  font-weight: 600;
+}
+.risty-nur-faadhilah-container-admin {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vector-icon1-admin {
+  position: relative;
+  width: 22px;
+  height: 17.29px;
+}
+.rhisty14gmailcom-admin {
+  position: relative;
+  display: inline-block;
+  width: 132px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.vector-parent-admin {
+  position: absolute;
+  top: 39px;
+  left: 64.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: justify;
+  font-size: 12px;
+}
+.risty-nur-faadhilah-admin-se-parent-admin {
+  position: relative;
+  width: 293px;
+  height: 56.29px;
+}
+.group-parent-admin,
+.risty-nur-faadhilah1-admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.risty-nur-faadhilah1-admin {
+  position: relative;
+  width: 418px;
+  height: 95px;
+  flex-shrink: 0;
+}
+.group-parent-admin {
+  position: absolute;
+  top: 124px;
+  left: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 479px;
+  height: 509px;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+  gap: 30px;
+  font-size: 16px;
+}
+.kotak-putih-admin {
+  position: absolute;
+  top: 0;
+  left: 223px;
+  background-color: #f6f6f6;
+  width: 1057px;
+  height: 720px;
+}
+.beranda-admin,
+.house-solid-2-icon-admin {
+  position: relative;
+  flex-shrink: 0;
+}
+.house-solid-2-icon-admin {
+  width: 25px;
+  height: 25.78px;
+  overflow: hidden;
+}
+.beranda-admin {
+  display: flex;
+  align-items: center;
+  width: 107px;
+  height: 20px;
+}
+.house-solid-2-parent-admin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.icon-users-admin {
+  position: relative;
+  width: 25px;
+  height: 20.97px;
+}
+.icon-alternate-calendar-admin,
+.penilaian-admin {
+  position: relative;
+  width: 25px;
+  height: 25.78px;
+}
+.penilaian-admin {
+  display: flex;
+  align-items: center;
+  width: 131px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.icon-bullhorn-parent-admin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+.frame-parent-admin {
+  position: absolute;
+  top: 204px;
+  left: calc(50% - 82.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.asset-1-3-admin {
+  position: relative;
+  width: 145px;
+  height: 30px;
+  object-fit: cover;
+}
+.logo-lingtar-admin {
+  position: absolute;
+  top: calc(50% - 259px);
+  left: calc(50% - 72px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon-buka-tutup-sidebar-admin {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 28.15px;
+  height: 24.63px;
+}
+.kotak-biru-admin,
+.profil-admin-admin {
+  height: 720px;
+  overflow: hidden;
+}
+.kotak-biru-admin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 223px;
+  background-image: url(/public/kotak-biru-admin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+}
+.profil-admin {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-family: Poppins;
+}

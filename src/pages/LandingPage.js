@@ -1,16 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCallback } from "react";
 import "./LandingPage.css";
 import { useNavigate } from "react-router-dom";
+import { Input} from "antd";
+import Swal from "sweetalert2";
 
 const LandingPage = () => {
 
+  const { TextArea } = Input;
+  const [nama, setNama] = useState('');
+  const [email, setEmail] = useState('');
+  const [isi, setIsi] = useState('');
+
+  const handleNama = (e) => {
+    setNama(e.target.value);
+  };
+
+  const handleEmail = (e) => {
+    setEmail(e.target.value);
+  }
+
+  const handleIsi = (e) => {
+    setIsi(e.target.value);
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+
+    if (nama === '' ||
+        email === '' ||
+        isi === '') {
+          Swal.fire({
+            icon: 'error',
+            title: 'Gagal!',
+            text: 'Mohon untuk mengisi semua kolom'
+        });
+    } else if (!regex.test(email)) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Gagal!',
+        text: 'Email tidak valid!'
+    });
+    } else {
+      Swal.fire({
+        icon: 'success',
+        title: 'Berhasil!',
+        text: 'Terima kasih atas feedback nya 😁'
+    });
+    }
+  }
 
   const navigate = useNavigate();
-
   const onMulaiClick = useCallback(() => {
     navigate('Login');
   }, [navigate]);
+
 
   const onHalamanUtamaTextClick = useCallback(() => {
     const anchor = document.querySelector(
@@ -61,9 +106,9 @@ const LandingPage = () => {
             className="pawcw1-324-1-icon"
             alt=""
             src="/353560pawcw1324-1.jpg"/>
-          <div className="mulai">
+          <div className="mulai" onClick={onMulaiClick}>
             <img className="icon-button" alt="" src="/icon-button.svg" />
-              <b className="button" onClick={onMulaiClick}>Mulai</b>
+              <b className="button">Mulai</b>
             <img className="icon-button" alt="" src="/icon-button.svg" />
           </div>
           <div className="aplikasi-yang-dapat">
@@ -388,20 +433,44 @@ const LandingPage = () => {
               <div className="rectangle-parent14">
                 <div className="group-child54" />
                 <div className="masukkan-nama">
-                  <input type="text" className="text-nama" placeholder="Masukan Nama"/>
+                  <Input
+                    className="text-nama"
+                    id="nama"
+                    value={nama}
+                    bordered={false}
+                    placeholder="Masukan Nama"
+                    onChange={handleNama}/>
                 </div>
               </div>
               <div className="rectangle-parent14">
                 <div className="group-child54" />
                 <div className="masukkan-email">
-                <input type="text" className="text-nama" placeholder="Masukan Email"/>
+                <Input
+                    className="text-nama"
+                    id="email"
+                    value={email}
+                    bordered={false}
+                    placeholder="Masukan Email"
+                    onChange={handleEmail}/>
                 </div>
               </div>
               <div className="rectangle-parent16">
                 <div className="group-child56" />
-                <div className="pesan">Pesan:</div>
+                  <TextArea
+                  className="text-buatPengumuman-landing"
+                  showCount
+                  maxLength={200}
+                  style={{
+                    height: 155,
+                    width: 550,
+                    resize: 'none'
+                  }}
+                  placeholder="Isi Pesan"
+                  bordered={false}
+                  onChange={handleIsi}
+                />
               </div>
-              <div className="kirim">
+              <div className="kirim" onClick={handleSubmit}>
                 <img className="icon-button" alt="" src="/icon-button.svg" />
                 <b className="button">Kirim</b>
                 <img className="icon-button" alt="" src="/icon-button.svg" />

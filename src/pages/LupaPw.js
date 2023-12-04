@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import "./LupaPw.css";
 import { useNavigate } from "react-router-dom";
-import { Input } from "antd";
+import { Input, Alert, Space } from "antd";
 import Swal from "sweetalert2";
 
 
@@ -22,28 +22,18 @@ const LupaPw = () => {
       navigate("/Login");
     }, [navigate]);
     
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    const user = mockUserData.find((user) => user.email === email);
-
-    if (user) {
-      navigate('/ResetPw');
-    } else if (email === '') {
+  const emailValidation = (e) => {
+    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+    if (!regex.test(email)) {
       Swal.fire({
         icon: 'error',
         title: 'Gagal!',
-        text: 'Email tidak boleh Kosong!!!'
+        text: 'Masukan email yang valid!'
       });
     } else {
-      Swal.fire({
-        icon: 'error',
-        title: 'Gagal!',
-        text: 'Email tidak terdaftar pada Sistem'
-      });
+      navigate('/ResetPw')
     }
-  }  
-  
+  }
     return (
         <div className="lupa-pw-1">
           <div className="kotak-oren-lupapw">
@@ -62,7 +52,7 @@ const LupaPw = () => {
               </b>
             </div>
         </div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={emailValidation}>
         <div className="kotak-putih2">
             <div className="lupa-kata-sandi2">Lupa Kata Sandi?</div>
             <div className="masukkan-alamat-email-lupapw">
@@ -87,7 +77,7 @@ const LupaPw = () => {
             </div>
             <div className="selanjutnya">
               <img className="icon-button" alt="" src="icon-button.svg" />
-              <b className="selanjutnya1" onClick={handleSubmit}>Selanjutnya</b>
+              <b className="selanjutnya1" onClick={emailValidation}>Selanjutnya</b>
               <img className="icon-button" alt="" src="icon-button.svg" />
             </div>
           </div>

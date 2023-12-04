@@ -1,9 +1,11 @@
 import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import "./RAPORAKHIR.css";
 
 const RAPORAKHIR = () => {
+  const navigate = useNavigate('');
   const onGroupContainerClick = useCallback(() => {
-    // Please sync "RAPOR AKHIR KELAS A" to the project
+    navigate('/Dashboard/RaporAkhir')
   }, []);
 
   return (

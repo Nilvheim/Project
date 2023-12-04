@@ -207,6 +207,9 @@
     font-size: 24px;
     color: #1a141f;
   }
+  .daftar1:hover {
+    background-color: #dc1dcd;
+  }
   .kotak-putih-daftar {
     position: absolute;
     height: 100%;

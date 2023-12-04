@@ -1,0 +1,308 @@
+.vector-icon-edit-absensi {
+    position: relative;
+    width: 10px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .ubah-absensi-edit-absensi {
+    color: #fb793d;
+  }
+  .lingtar-ubah-container-edit-absensi {
+    position: relative;
+    font-weight: 500;
+  }
+  .nama-edit-absensi,
+  .vector-parent-edit-absensi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .vector-parent-edit-absensi {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+  }
+  .nama-edit-absensi {
+    position: relative;
+    width: 47px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .frame-child-edit-absensi {
+    align-self: stretch;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #75bee0;
+    box-sizing: border-box;
+    height: 38px;
+  }
+  .nama-parent-edit-absensi,
+  .nis-edit-absensi {
+    display: flex;
+    justify-content: center;
+  }
+  .nama-parent-edit-absensi {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .nis-edit-absensi {
+    align-items: center;
+    width: 26px;
+    height: 21px;
+  }
+  .frame-inner-edit-absensi,
+  .kelas-edit-absensi,
+  .nis-edit-absensi {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .kelas-edit-absensi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 21px;
+  }
+  .frame-inner-edit-absensi {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 38px;
+  }
+  .keterangan-absen-edit-absensi {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 132px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .informasi-utama-edit-absensi {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .icon-plus-edit-absensi {
+    position: relative;
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+  .simpan-edit-absensi {
+    position: relative;
+    line-height: 132%;
+  }
+  .icon-plus-parent-edit-absensi,
+  .informasi-utama-parent-edit-absensi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-plus-parent-edit-absensi {
+    border-radius: 10px;
+    background-color: #fb793d;
+    width: 203px;
+    height: 40px;
+    flex-direction: row;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    gap: 3px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .informasi-utama-parent-edit-absensi {
+    position: absolute;
+    top: 126px;
+    left: 20px;
+    width: 489px;
+    flex-direction: column;
+    gap: 45px;
+    font-size: 14px;
+  }
+  .vector-icon1-edit-absensi {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-edit-absensi,
+  .hi-admin1-edit-absensi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-edit-absensi {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-edit-absensi {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .undraw-select-re-3kbd-1-icon-edit-absensi {
+    position: absolute;
+    top: 413px;
+    left: calc(50% + 125.5px);
+    width: 403px;
+    height: 310px;
+    overflow: hidden;
+  }
+  .kotak-putih-edit-absensi {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+  }
+  .asset-1-3-edit-absensi {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar-edit-absensi {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-buka-tutup-sidebar-edit-absensi {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-child-edit-absensi {
+    position: absolute;
+    top: 301px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .beranda-edit-absensi,
+  .house-solid-2-icon-edit-absensi {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-edit-absensi {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-edit-absensi {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-edit-absensi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-alternate-calendar-edit-absensi,
+  .icon-users-edit-absensi {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-alternate-calendar-edit-absensi {
+    height: 25.78px;
+  }
+  .icon-alternate-calendar-parent-edit-absensi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fb793d;
+  }
+  .penilaian-edit-absensi {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent-edit-absensi,
+  .icon-edit-parent-edit-absensi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-edit-parent-edit-absensi {
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .icon-bullhorn-parent-edit-absensi {
+    justify-content: flex-start;
+  }
+  .frame-parent-edit-absensi {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .edit-absensi-edit-absensi,
+  .kotak-biru-edit-absensi {
+    height: 720px;
+    overflow: hidden;
+  }
+  .kotak-biru-edit-absensi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    background-image: url(/public/Kotak-biru-absensi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+  }
+  .edit-absensi-edit-absensi {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

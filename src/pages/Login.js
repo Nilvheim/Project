@@ -9,7 +9,8 @@ const Login = () => {
 
   const mockUserData =[
     { id: 1, email: 'nilvheim@gmail.com', password: '12345' },
-    { id: 2, email: 'bianca69@gmail.com', password: '67890'}
+    { id: 2, email: 'bianca69@gmail.com', password: '67890' },
+    {id: 3, email: 'bianca799@gmail.com', password: 'adminp'}
   ];
   
 
@@ -45,31 +46,46 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
+    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
     const user = mockUserData.find((user) => user.email === email && user.password === password);
     
-    if (user) {
-      Swal.fire({
-        icon: 'success',
-        title: 'Berhasil!',
-        text: 'Selamat anda berhasil masuk pada aplikasi Lingtar',
-        confirmButtonText: 'Lanjut',
-        customClass: {
-          confirmButton: 'custom-confirm-button-class'
-        },
-
-      }).then(() => {
-        navigate('/Dashboard/Home');
-      });
-
-    } else {
-      Swal.fire({
-        icon: 'error',
-        title: 'Gagal!',
-        text: 'Email dan Password tidak sesuai!'
-      });
+      if (user && regex.test(user.email)) {
+        Swal.fire({
+          icon: 'success',
+          title: 'Berhasil!',
+          text: 'Selamat anda berhasil masuk pada aplikasi Lingtar',
+          confirmButtonText: 'Lanjut',
+          customClass: {
+            confirmButton: 'custom-confirm-button-class'
+          },
+  
+        }).then(() => {
+          navigate('/Dashboard/Home');
+        });
+      } else if (user.email === 'bianca799@gmail.com') {
+        Swal.fire({
+          icon: 'success',
+          title: 'Berhasil!',
+          text: 'Selamat datang Admin Pusat',
+          confirmButtonText: 'Lanjut',
+          customClass: {
+            confirmButton: 'custom-confirm-button-class'
+          },
+  
+        }).then(() => {
+          navigate('/Dashboard/HomePusat');
+        });
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Gagal!',
+          text: 'Email dan Password tidak sesuai!'
+        });
+  
+      }
     }
-  }
+    
+   
 
 
   return (
@@ -113,9 +129,9 @@ const Login = () => {
           </div>
           <b className="lupa-kata-sandi" onClick={onLupaKataSandiClick}>Lupa Kata Sandi? </b>
         </div>
-        <div className="masuk1">
+        <div className="masuk1" onClick={handleSubmit}>
           <img className="icon-button" alt="" src="icon-button.svg"></img>
-          <b className="masuk2" type="submit" onClick={handleSubmit}>Masuk</b>
+          <b className="masuk2" type="submit">Masuk</b>
           <img className="icon-button" alt="" src="icon-button.svg"></img> 
         </div>
         <div className="belum-memiliki-akun">

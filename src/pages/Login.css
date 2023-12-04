@@ -125,6 +125,7 @@
   .masuk3 {
     position: relative;
     line-height: 140%;
+    cursor: pointer;
   }
 
   .masuk2 {
@@ -134,6 +135,7 @@
   .masuk1 {
     border-radius: var(--br-mini);
     background-color: var(--secondary4);
+    cursor: pointer;
     width: 264px;
     height: 60px;
     display: flex;
@@ -146,6 +148,10 @@
     text-align: center;
     font-size: var(--body1-size);
     color: var(--grayscale8);
+  }
+
+  .masuk1:hover {
+    background-color: #dc1dcd;
   }
   .belum-memiliki-akun-child {
     position: relative;
@@ -186,6 +192,10 @@
     text-align: center;
     font-size: var(--body1-size);
     color: var(--grayscale8);
+  }
+
+  .daftar:hover {
+    background-color: #dc1dcd;
   }
   .kotak-putih-login {
     position: absolute;

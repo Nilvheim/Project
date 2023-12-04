@@ -1,0 +1,271 @@
+.frame-child-adminlog {
+    position: relative;
+    border-radius: 20px;
+    background-color: #75bee0;
+    width: 77px;
+    height: 27px;
+  }
+  .mei-2023-adminlog,
+  .rectangle-parent-adminlog {
+    display: flex;
+    align-items: center;
+  }
+  .mei-2023-adminlog {
+    position: relative;
+    width: 89px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .rectangle-parent-adminlog {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #000;
+  }
+  .frame-item-adminlog {
+    position: relative;
+    border-radius: 50%;
+    background-color: #75bee0;
+    width: 62px;
+    height: 57px;
+  }
+  .wita-adminlog {
+    position: relative;
+    display: inline-block;
+    width: 114px;
+    height: 15px;
+    flex-shrink: 0;
+  }
+  .profil-admin-adminlog {
+    color: #fb793d;
+  }
+  .mengubah-tampilan-halaman-container1-adminlog {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .mengubah-tampilan-halaman-container-adminlog {
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 303px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #000;
+  }
+  .frame-wrapper-adminlog,
+  .wita-parent-adminlog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .wita-parent-adminlog {
+    width: 303px;
+    gap: 10px;
+  }
+  .frame-wrapper-adminlog {
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    padding: 11px 6px;
+  }
+  .ellipse-parent-adminlog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+  }
+  .membuat-pop-up-container-adminlog {
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 392px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #000;
+  }
+  .wita-container-adminlog {
+    width: 392px;
+    gap: 10px;
+  }
+  .frame-parent-adminlog,
+  .wita-container-adminlog,
+  .wita-parent1-adminlog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .wita-parent1-adminlog {
+    width: 371px;
+    gap: 10px;
+  }
+  .frame-parent-adminlog {
+    position: absolute;
+    top: 126px;
+    left: 20px;
+    gap: 26px;
+    color: #fb793d;
+  }
+  .undraw-file-searching-re-3evy-icon-adminlog {
+    position: absolute;
+    top: 386.34px;
+    left: calc(50% + 201.61px);
+    width: 326.89px;
+    height: 333.66px;
+    overflow: hidden;
+  }
+  .lingtar-aktifitas-container-adminlog {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .vector-icon-adminlog {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-adminlog,
+  .hi-admin1-adminlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-adminlog {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-adminlog {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+  }
+  .kotak-putih-adminlog {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+  }
+  .icon-buka-tutup-sidebar-adminlog {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .beranda-adminlog,
+  .house-solid-2-icon-adminlog {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-adminlog {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-adminlog {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .house-solid-2-parent-adminlog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .icon-users-adminlog {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .icon-alternate-calendar-adminlog,
+  .penilaian-adminlog {
+    position: relative;
+    width: 25px;
+    height: 25.78px;
+  }
+  .penilaian-adminlog {
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .icon-bullhorn-parent-adminlog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .frame-group-adminlog {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .asset-1-3-adminlog {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar-adminlog {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kotak-biru-adminlog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url(/public/kotak-biru-admin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 18px;
+    color: #fff;
+  }
+  .aktivitas-besar-adminlog {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

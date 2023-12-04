@@ -2,6 +2,7 @@ import { useState, useCallback } from "react";
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import { useNavigate } from "react-router-dom";
 import PortalPopup from "../../../components/PortalPopup";
+import { UploadOutlined } from '@ant-design/icons';
 import { Input, Button, message, Upload } from 'antd';
 import Swal from "sweetalert2";
 import "./TambahKelas.css";
@@ -47,41 +48,17 @@ const TambahKelas = () => {
         }
   }
   
-    const handleUpload = () => {
-    const formData = new FormData();
-    fileList.forEach((file) => {
-      formData.append('files[]', file);
-    });
-    setUploading(true);
-    // You can use any AJAX library you like
-    fetch('https://www.mocky.io/v2/5cc8019d300000980a055e76', {
-      method: 'POST',
-      body: formData,
-    })
-      .then((res) => res.json())
-      .then(() => {
-        setFileList([]);
-        message.success('Berhasil Tersimpan.');
-      })
-      .catch(() => {
-        message.error('Gagal Menyimpan.');
-      })
-      .finally(() => {
-        setUploading(false);
-      });
-  };
   const props = {
-    onRemove: (file) => {
-      const index = fileList.indexOf(file);
-      const newFileList = fileList.slice();
-      newFileList.splice(index, 1);
-      setFileList(newFileList);
-    },
     beforeUpload: (file) => {
-      setFileList([...fileList, file]);
-      return false;
+      const isPNG = file.type === 'image/png';
+      if (!isPNG) {
+        message.error(`${file.name} is not a png file`);
+      }
+      return isPNG || Upload.LIST_IGNORE;
     },
-    fileList,
+    onChange: (info) => {
+      console.log(info.fileList);
+    },
   };
   const [isPOPUPHIADMINOpen, setPOPUPHIADMINOpen] = useState(false);
 
@@ -98,20 +75,20 @@ const TambahKelas = () => {
   }, []);
 
   const onFrameContainer6Click = useCallback(() => {
-    // Please sync "BERANDA" to the project
-  }, []);
+    navigate('/Dashboard/Home')
+  }, [navigate]);
 
   const onFrameContainer8Click = useCallback(() => {
-    // Please sync "ABSENSI" to the project
-  }, []);
+    navigate('/Dashboard/Absensi')
+  }, [navigate]);
 
   const onFrameContainer9Click = useCallback(() => {
-    // Please sync "PENILAIAN" to the project
-  }, []);
+    navigate('/Dashboard/Penilaian')
+  }, [navigate]);
 
   const onFrameContainer10Click = useCallback(() => {
-    // Please sync "PENGUMUMAN" to the project
-  }, []);
+    navigate('/Dashboard/Pengumuman')
+  }, [navigate]);
 
   return (
     <>
@@ -168,7 +145,7 @@ const TambahKelas = () => {
             </div>
           </div>
           <div className="hi-admin-data-tambahkelas" onClick={openPOPUPHIADMIN}>
-            <img className="vector-icon1-data-tambahkelas" alt="" src="/vector1.svg" />
+            <img className="vector-icon1-data-tambahkelas" alt="" src="/undefined26.png" />
             <div className="hi-admin1-data-tambahkelas">Hi, Admin</div>
           </div>
           <div className="informasi-tambahan2-data-tambahkelas">

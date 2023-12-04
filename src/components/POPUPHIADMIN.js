@@ -1,21 +1,24 @@
 import { useState, useCallback } from "react";
 import POPUPKELUAR from "./POPUPKELUAR";
 import PortalPopup from "./PortalPopup";
+import { useNavigate } from "react-router-dom";
 import "./POPUPHIADMIN.css";
 const POPUPHIADMIN = ({ onClose }) => {
+
+  const navigate = useNavigate('');
   const [isPOPUPKELUAROpen, setPOPUPKELUAROpen] = useState(false);
 
   const onFrameContainerClick = useCallback(() => {
-    // Please sync "PROFIL ADMIN" to the project
-  }, []);
+    navigate('/Dashboard/AdminPage')
+  }, [navigate]);
 
   const onFrameContainer1Click = useCallback(() => {
-    // Please sync "AKTIVITAS BESAR" to the project
-  }, []);
+   navigate('/Dashboard/AdminLog')
+  }, [navigate]);
 
   const onFrameContainer2Click = useCallback(() => {
-    // Please sync "PENGATURAN BESAR" to the project
-  }, []);
+    navigate('/Dashboard/AdminSet')
+  }, [navigate]);
 
   const openPOPUPKELUAR = useCallback(() => {
     setPOPUPKELUAROpen(true);

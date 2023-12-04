@@ -1,16 +1,40 @@
 import { useState, useCallback, useMemo } from "react";
 import {useNavigate} from "react-router-dom";
 import Frame from "../../../components/Frame";
+import Swal from "sweetalert2"
 import PortalPopup from "../../../components/PortalPopup";
-import Calendar from "../../../components/Calendar";
+import { DatePicker } from 'antd';
+import { Space, Select, Input } from 'antd';
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import Tombol10 from "../../../components/Tombol10";
 import { useTable } from "react-table";
 import fakeData from "../Absensi.json";
-import Grafik from "./Grafik";
+import Grafik from "../../../components/Grafik";
 import "./Absensi.css";
 
+
+
 const ABSENSI = () => {
+  const pilihKelas = [
+    { value: "A", label: "Kelas A" },
+    { value: "B", label: "Kelas B" },
+    { value: "C", label: "Kelas C" },
+    { value: "D", label: "Kelas D" }
+  ]
+
+  const tampilData = [
+    { value: "5", label: 5 },
+    { value: "10", label: 10 },
+    { value: "Semua", label: "Semua"}
+  ]
+
+
+  const Calendar = () => {
+  }
+  const [pencarian, setPencarian] = useState()
+  const handlePencarian = (e) => {
+    setPencarian(e.target.value)
+  }
   const data = useMemo(() => fakeData, []);
   const columns = useMemo(
     () => [
@@ -40,11 +64,11 @@ const ABSENSI = () => {
           console.log(row)
           return (
             <div className="frame-group-data">
-              <b className="icons8-edit-data-parent" onClick={""}>
+              <b className="icons8-edit-data-parent" onClick={onUbahButton}>
               <img className="icons8-edit-data" alt="" src="/icons8edit.svg" />
                   <div className="ubah-data">Ubah</div>
                 </b>
-              <b className="icons8-trash-data-parent" onClick={""}>
+              <b className="icons8-trash-data-parent" onClick={openPOPUPTOMBOLHAPUSDATA}>
               <img className="icons8-edit-data" alt="" src="/icons8trash.svg" />
                   <div className="ubah-data">Hapus</div>
                 </b>
@@ -66,24 +90,59 @@ const ABSENSI = () => {
   const [isPOPUPTOMBOLHAPUSABSENSIOpen, setPOPUPTOMBOLHAPUSABSENSIOpen] = useState(false);
   const [isTombol10Open, setTombol10Open] = useState(false);
 
-  const openFrame = useCallback(() => {
-    setFrameOpen(true);
+  const openPOPUPTOMBOLHAPUSDATA = useCallback(() => {
+    tombolDelete.fire({
+      className: 'swalButton',
+      title: 'Apakah anda yakin ingin menghapus data?',
+      text: "Data yang terhapus,tidak dapat dikembalikan!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#E21818',
+      confirmButtonText: 'Hapus',
+      cancelButtonColor: '#3EC70B',
+      cancelButtonText: 'Batalkan',
+      reverseButtons: true
+    }).then((result) => {
+      if (result.isConfirmed) {
+        tombolDelete.fire(
+          'Deleted!',
+          'Data berhasil di hapus.',
+          'success'
+        )
+      } else if (
+        /* Read more about handling dismissals below */
+        result.dismiss === Swal.DismissReason.cancel
+      ) {
+        tombolDelete.fire(
+          'Cancelled',
+          'Data masih aman :>',
+          'error'
+        )
+      }
+    })
   }, []);
+    
+  const tombolDelete = Swal.mixin({
+    customClass: {
+      confirmButton: 'btn btn-danger',
+      cancelButton: 'btn btn-success'
+    },
+  })
+
+  const toGrafik = useCallback(() => {
+    navigate('/Dashboard/GrafikAbsensi')
+  }, [navigate]);
+
+  const onUbahButton = useCallback(() => {
+    navigate('/Dashboard/UbahAbsensi')
+  }, [navigate]);
 
   const closeFrame = useCallback(() => {
     setFrameOpen(false);
   }, []);
 
-  const openCalendar = useCallback(() => {
-    setCalendarOpen(true);
-  }, []);
-
   const closeCalendar = useCallback(() => {
     setCalendarOpen(false);
-  }, []);
-
-  const openGrafik = useCallback(() => {
-    setGrafikOpen(true);
   }, []);
 
   const closeGrafik = useCallback(() => {
@@ -98,20 +157,8 @@ const ABSENSI = () => {
     setPOPUPHIADMINOpen(false);
   }, []);
 
-  const onFrameContainer5Click = useCallback(() => {
-    // Please sync "EDIT ABSENSI" to the project
-  }, []);
-
-  const openPOPUPTOMBOLHAPUSABSENSI = useCallback(() => {
-    setPOPUPTOMBOLHAPUSABSENSIOpen(true);
-  }, []);
-
   const closePOPUPTOMBOLHAPUSABSENSI = useCallback(() => {
     setPOPUPTOMBOLHAPUSABSENSIOpen(false);
-  }, []);
-
-  const openTombol10 = useCallback(() => {
-    setTombol10Open(true);
   }, []);
 
   const closeTombol10 = useCallback(() => {
@@ -144,59 +191,37 @@ const ABSENSI = () => {
           </div>
           <div className="tiga-tombol-absen">
             <div className="icons8-search-1-parent-absen">
-              <img
-                className="icons8-search-1-absen"
-                alt=""
-                src="/icons8search-1.svg"
-              />
-              <div className="pencarian-absen">Pencarian</div>
+            <Input
+                className="icons8-search-1-parent"
+                placeholder="Cari Staff"
+                  value={pencarian}
+                  onChange={handlePencarian}>
+                </Input>
             </div>
-            <div className="rectangle-parent-absen" onClick={openFrame}>
-              <div className="frame-child-absen" />
-              <div className="kelas-absen">Kelas</div>
-              <img
-                className="icon-arrow-ios-forward-absen"
-                alt=""
-                src="/-icon-arrow-ios-forward.svg"
-              />
+            <div className="rectangle-parent-absen">
+              <Space wrap>
+              <Select
+              className="pilihKelas-wrapper"
+              options={pilihKelas}
+              placeholder="Pilih kelas"
+              onChange={(values) => console.log(values)}>
+              </Select>
+             </Space>
             </div>
-            <div
-              className="icon-alternate-calendar-parent-absen"
-              onClick={openCalendar}
-            >
-              <img
-                className="icon-alternate-calendar-absen"
-                alt=""
-                src="/-icon-alternate-calendar.svg"
-              />
-              <div className="tanggal-absen">Tanggal</div>
+            <div className="Calendar">
+              <DatePicker placement={Calendar} />
             </div>
-            <div
-              className="icon-cog-parent-absen"
-              onClick={openGrafik}
-            >
+
+            <div className="icon-cog-parent-absen" onClick={toGrafik}>
               <img
                 className="icon-alternate-calendar-absen"
                 alt=""
                 src="/-icon-cog.svg"
               />
-              <div className="tanggal-absen">Grafik</div>
+              <div className="tanggal-absen">
+              </div>
             </div>
-          </div>
-          <div className="ganti-halaman-absen">
-            <img
-              className="icon-arrow-ios-forward1-absen"
-              alt=""
-              src="/-icon-arrow-ios-forward1.svg"
-            />
-            <div className="wrapper-absen">
-              <div className="pencarian-absen">1</div>
-            </div>
-            <img
-              className="icon-arrow-ios-forward1-absen"
-              alt=""
-              src="/-icon-arrow-ios-forward2.svg"
-            />
+            
           </div>
           <div className="hi-admin-absen" onClick={openPOPUPHIADMIN}>
             <img className="vector-icon-absen" alt="" src="/vector.svg" />
@@ -231,18 +256,15 @@ const ABSENSI = () => {
           </div>
           <div className="tombol-tampilkan-absen">
             <div className="pencarian-absen">{`Tampilkan `}</div>
-            <div className="rectangle-parent64-absen" onClick={openTombol10}>
-              <div className="frame-item-absen" />
-              <div className="div11-absen">10</div>
-              <img
-                className="icon-arrow-ios-forward-absen"
-                alt=""
-                src="/-icon-arrow-ios-forward3.svg"
-              />
-            </div>
+              <Space wrap>
+              <Select
+                className=""
+                options={tampilData}
+                placeholder="Semua"
+                onChange={(values) => console.log(values)} />
+              </Space>
             <div className="pencarian-absen">Data</div>
           </div>
-          <div className="menampilkan-10-data-absen">Menampilkan 10 Data</div>
         </div>
         <div className="kotak-biru-absen">
           <div className="logo-lingtar-absen">

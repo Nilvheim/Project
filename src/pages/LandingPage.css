@@ -17,6 +17,7 @@
 .button {
   position: relative;
   line-height: 140%;
+  cursor: pointer;
 }
 .aplikasi-yang-dapat,
 .mulai {
@@ -37,6 +38,10 @@
   padding: var(--padding-xs) var(--padding-33xl);
   box-sizing: border-box;
   gap: var(--gap-5xs);
+}
+
+.mulai:hover {
+background-color: #dc1dcd;
 }
 .aplikasi-yang-dapat {
   top: 607px;
@@ -137,6 +142,9 @@
   text-align: center;
   font-size: var(--body1-size);
   color: var(--grayscale8);
+}
+.kirim:hover{
+  background-color: #dc1dcd;
 }
 .aplikasi-lingkungan-pintar-li-parent {
   width: 387px;
@@ -361,8 +369,8 @@
   text-align: right;
   font-size: var(--font-size-xl);
 }
-.group-child,
-.group-inner,
+.group-child-landing,
+.group-inner-landing,
 .group-item-landing {
   position: absolute;
   top: 54.41px;
@@ -372,13 +380,13 @@
   width: 280px;
   height: 112.8px;
 }
-.group-inner,
+.group-inner-landing,
 .group-item-landing {
   top: 157.25px;
   background-color: var(--grayscale1);
   height: 122.75px;
 }
-.group-inner {
+.group-inner-landing {
   top: 67.68px;
   left: 20px;
   background-color: var(--grayscale8);
@@ -425,7 +433,7 @@
   gap: var(--gap-8xs);
 }
 .group-child1,
-.rectangle-div {
+.rectangle-div-landing {
   position: absolute;
   top: 54.41px;
   left: 0;
@@ -1113,4 +1121,11 @@ transition: border-color 0.3s ease;
 
 .text-nama:focus{
   border: none;
+}
+
+.text-buatPengumuman-landing {
+  width: 490px;
+  font-size: 18px;
+  font: Poppins;
+
 }

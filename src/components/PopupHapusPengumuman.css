@@ -1,0 +1,62 @@
+.pop-up-tombol-hapus-pengumuman-child {
+    position: relative;
+    width: 170px;
+    height: 170px;
+  }
+  .hapus-pengumuman {
+    position: relative;
+  }
+  .apakah-anda-yakin-pengumuman {
+    position: relative;
+    font-size: 24px;
+    display: inline-block;
+    width: 472px;
+  }
+  .batalkan-wrapper-pengumuman {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 80px;
+  }
+  .frame-container-pengumuman,
+  .hapus-wrapper-pengumuman,
+  .pop-up-tombol-hapus-pengumuman {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .hapus-wrapper-pengumuman {
+    border-radius: 10px;
+    background-color: #ff1f00;
+    overflow: hidden;
+    padding: 15px 80px;
+    color: #fff;
+  }
+  .frame-container-pengumuman,
+  .pop-up-tombol-hapus-pengumuman {
+    gap: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  .pop-up-tombol-hapus-pengumuman {
+    position: relative;
+    border-radius: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 43px;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

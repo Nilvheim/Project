@@ -2,49 +2,42 @@ import { useState, useCallback } from "react";
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import PortalPopup from "../../../components/PortalPopup";
 import "./TambahMapel.css";
-import { Button, message, Upload } from 'antd';
+import { Input, Button, message, Select, Space } from 'antd';
+import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 
 const TambahMapel = () => {
-    const [fileList, setFileList] = useState([]);
-    const [uploading, setUploading] = useState(false);
+  const [namaMapel, setNamaMapel] = useState('');
+  const [selectedKelas, setSelectedKelas] = useState('');
+  
+  const handleNamaMapelChange = (e) => {
+    setNamaMapel(e.target.value);
+  }
+  
+  const kelasOption = [
+    { value: 'A', label: 'Kelas A' },
+    { value: 'B', label: 'Kelas B' },
+    { value: 'C', label: 'Kelas C' },
+    { value: 'D', label: 'Kelas D' }
+  ]
 
-    const handleUpload = () => {
-        const formData = new FormData();
-        fileList.forEach((file) => {
-            formData.append('files[]', file);
-        });
-        setUploading(true);
-        fetch('https://www.mocky.io/v2/5cc8019d300000980a055e76', {
-            method: 'POST',
-            body: formData,
-        })
-            .then((res) => res.json())
-            .then(() => {
-                setFileList([]);
-                setFileList([]);
-                message.success('Berhasil Tersimpan.');
-            })
-            .catch(() => {
-                message.error('Gagal Menyimpan');
-            })
-            .finally(() => {
-                setUploading(false);
-            });
-    };
-    const props = {
-        onRemove: (file) => {
-            const index = fileList.indexOf(file);
-            const newFileList = fileList.slice();
-            newFileList.splice(index, 1);
-            setFileList(newFileList);
-        },
-        beforeUpload: (file) => {
-            setFileList([...fileList, file]);
-            return false;
-        },
-        fileList,
-    };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (namaMapel === '' || kelasOption === '') {
+      Swal.fire({
+        icon: 'error',
+        title: 'Gagal!',
+        text: 'Mohon untuk mengisi semua kolom!'
+      });
+    } else { 
+      Swal.fire({
+        icon: 'success',
+        title: 'Berhasil!',
+        text: 'Berhasil menambah Mapel!'
+      });
+    }
+  }
     
     const [isPOPUPHIADMINOpen, setPOPUPHIADMINOpen] = useState(false);
     const navigate = useNavigate();
@@ -99,11 +92,27 @@ const TambahMapel = () => {
             <div className="informasi-utama-tambahmapel">
               <div className="nama-mapel-parent-tambahmapel">
                 <div className="nama-mapel-tambahmapel">Nama Mapel</div>
-                <div className="frame-child-tambahmapel" />
+                <div className="frame-child-tambahmapel">
+                  <Input
+                    className="text-tambahStaff"
+                    id="namaMapel"
+                    placeholder=""
+                    bordered={false}
+                    value={namaMapel}
+                    onChange={handleNamaMapelChange}/>
+                </div>
               </div>
               <div className="nama-mapel-parent-tambahmapel">
                 <div className="kelas-tambahmapel">Kelas</div>
-                <img className="frame-item-tambahmapel" alt="" src="/group-93.svg" />
+                <div className="frame-child-tambahmapel">
+                  <Space wrap>
+                    <Select
+                      className="dropdown-wrapper"
+                      bordered={false}
+                      options={kelasOption}
+                    />
+                  </Space>
+                </div>
               </div>
             </div>
             <div className="informasi-tambahan-tambahmapel">
@@ -123,7 +132,7 @@ const TambahMapel = () => {
             </div>
             <div className="icon-plus-parent-tambahmapel">
               <img className="icon-plus-tambahmapel" alt="" src="/-icon-plus.svg" />
-              <div className="simpan-tambahmapel">Simpan</div>
+              <div className="simpan-tambahmapel" onClick={handleSubmit}>Simpan</div>
             </div>
           </div>
           <div className="hi-admin-tambahmapel" onClick={openPOPUPHIADMIN}>

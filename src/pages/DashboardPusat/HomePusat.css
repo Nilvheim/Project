@@ -1,0 +1,296 @@
+.lingtar-beranda-pusat {
+    color: #fb793d;
+  }
+  .selamat-datang-admin-container-beranda-pusat {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .img-20230410-113752-1-icon-beranda-pusat {
+position: relative;
+border-radius: 20px;
+top: 0;
+left: 0;
+width: 650px;
+height: 240px;
+object-fit: cover;
+  }
+  .tk-al-auliya-beranda-pusat {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163px;
+    height: 41px;
+    flex-shrink: 0;
+  }
+  .div-beranda-pusat,
+  .jl-balikpapan-baru-beranda-pusat {
+    position: relative;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  .div-beranda-pusat {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163px;
+  }
+  .jl-balikpapan-baru-beranda-pusat {
+    font-size: 10px;
+    display: inline-block;
+    width: 165px;
+  }
+  .frame-wrapper-beranda-pusat,
+  .tk-al-auliya-parent-beranda-pusat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .frame-wrapper-beranda-pusat {
+    position: absolute;
+    top: 85px;
+    left: 428.03px;
+    width: 178.8px;
+    justify-content: center;
+  }
+  .img-20230410-113752-1-parent-beranda-pusat {
+    position: relative;
+    width: 635px;
+    height: 143px;
+  }
+  .img-20230410-113752-1-icon4-beranda-pusat {
+    position: absolute;
+    top: -126px;
+    left: -20px;
+    width: 666px;
+    height: 323px;
+    object-fit: cover;
+  }
+  .list-sekolah-beranda-pusat {
+    position: relative;
+    top: 126px;
+    left: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 16px;
+    color: #fff;
+  }
+  .vector-icon-beranda-pusat {
+    position: relative;
+    width: 29px;
+    height: 28px;
+  }
+  .hi-admin-beranda-pusat,
+  .hi-admin1-beranda-pusat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hi-admin1-beranda-pusat {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .hi-admin-beranda-pusat {
+    position: absolute;
+    top: 30px;
+    left: 896px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .girl-1-icon-beranda-pusat {
+    position: relative;
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+  }
+  .b-beranda-pusat,
+  .user-beranda-pusat {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 29px;
+    flex-shrink: 0;
+  }
+  .b-beranda-pusat {
+    line-height: 140%;
+    width: 49px;
+  }
+  .user-beranda-pusat {
+    font-size: 18px;
+    width: 74px;
+  }
+  .parent-beranda-pusat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .girl-1-parent-beranda-pusat {
+    border-radius: 20px;
+    background-color: #4e7e95;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 29px 15px;
+  }
+  .frame-group-beranda-pusat,
+  .frame-parent-beranda-pusat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .frame-parent-beranda-pusat {
+    position: absolute;
+    top: 126px;
+    left: 685px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: right;
+    color: #f6f6f6;
+  }
+  .image-8-icon-beranda-pusat {
+    position: absolute;
+    top: 428px;
+    left: 685px;
+    width: 332px;
+    height: 255px;
+    object-fit: cover;
+  }
+  .kotak-putih-beranda-pusat {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 1057px;
+    height: 720px;
+    overflow-y: auto;
+  }
+  .asset-1-2-beranda-pusat {
+    position: relative;
+    width: 145px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .logo-lingtar-beranda-pusat,
+  .logo-lingtar1-beranda-pusat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo-lingtar-beranda-pusat {
+    position: absolute;
+    top: calc(50% - 259px);
+    left: calc(50% - 72px);
+  }
+  .icon-buka-tutup-sidebar-beranda-pusat {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 28.15px;
+    height: 24.63px;
+  }
+  .kotak-biru-child-beranda-pusat {
+    position: absolute;
+    top: 194px;
+    left: 19px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 185px;
+    height: 45px;
+  }
+  .beranda-beranda-pusat,
+  .house-solid-2-icon-beranda-pusat {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .house-solid-2-icon-beranda-pusat {
+    width: 25px;
+    height: 25.78px;
+    overflow: hidden;
+  }
+  .beranda-beranda-pusat {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 20px;
+  }
+  .icon-users-beranda-pusat {
+    position: relative;
+    width: 25px;
+    height: 20.97px;
+  }
+  .frame-parent2-beranda-pusat,
+  .icon-users-parent-beranda-pusat {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-users-parent-beranda-pusat {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .frame-parent2-beranda-pusat {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 82.5px);
+    width: 166px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .kotak-biru-beranda-pusat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url(/public/kotak-biru-homePusat@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 18px;
+    color: #fb793d;
+  }
+  .margin-atas-icon-beranda-pusat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 30px;
+    display: none;
+  }
+  .beranda-pusat {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Poppins;
+  }
+  

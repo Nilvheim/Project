@@ -1,8 +1,7 @@
 import { useState, useCallback } from "react";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
-import Dropdown from "react-dropdown";
-import { Input, Button } from 'antd';
+import { Input, Button, Select, Space } from 'antd';
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import PortalPopup from "../../../components/PortalPopup";
 import "./TambahStaff.css";
@@ -83,20 +82,20 @@ const TambahStaff = () => {
   }, [navigate]);
 
   const onFrameContainer10Click = useCallback(() => {
-    // Please sync "BERANDA" to the project
-  }, []);
+    navigate('/Dashboard/Home')
+  }, [navigate]);
 
   const onFrameContainer12Click = useCallback(() => {
-    // Please sync "ABSENSI" to the project
-  }, []);
+    navigate('/Dashboard/Absensi')
+  }, [navigate])
 
   const onFrameContainer13Click = useCallback(() => {
-    // Please sync "PENILAIAN" to the project
-  }, []);
+    navigate('/Dashboard/Penilaian')
+  }, [navigate])
 
   const onFrameContainer14Click = useCallback(() => {
-    // Please sync "PENGUMUMAN" to the project
-  }, []);
+    navigate('/Dashboard/Pengumuman')
+  }, [navigate])
 
   return (
     <>
@@ -156,10 +155,14 @@ const TambahStaff = () => {
                   <div className="kelas-tambahstaff">Kelas
                   </div>
                   <div className="frame-child-tambahstaff">
-                    <Dropdown className="frame-child-tambahstaff"
-                      options={kelas}
+                    <Space wrap>
+                      <Select
+                        className="dropdown-wrapper"
+                        bordered={false}
+                      // options={kelas}
                       placeholder="Pilih kelas"
                       onChange={(values) => console.log(values)} />
+                    </Space>
                   </div>
                 </div>
                 <div className="nama-parent-tambahstaff">

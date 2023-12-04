@@ -4,8 +4,7 @@ import RAPORAKHIR from "../../../components/RAPORAKHIR";
 import PortalPopup from "../../../components/PortalPopup";
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import PILIHKELASMAPELA from "../../../components/PILIHKELASMAPELA";
-import POPUPTOMBOLHAPUSMAPEL from "../../../components/POPUPTOMBOLHAPUSMAPEL";
-import TambahMapel from "./TambahMapel";
+import POPUPTOMBOLHAPUSMAPEL from "../../../components/POPUPTOMBOLHAPUSMAPEL"
 import "./Penilaian.css"
 
 const Penilaian = () => {
@@ -68,20 +67,12 @@ const Penilaian = () => {
     setPILIHKELASMAPELA1Open(false);
   }, []);
 
-  const onFrameContainer10Click = useCallback(() => {
-    // Please sync "UBAH MAPEL" to the project
-  }, []);
-
   const openPILIHKELASMAPELA2 = useCallback(() => {
     setPILIHKELASMAPELA2Open(true);
   }, []);
 
   const closePILIHKELASMAPELA2 = useCallback(() => {
     setPILIHKELASMAPELA2Open(false);
-  }, []);
-
-  const onFrameContainer15Click = useCallback(() => {
-    // Please sync "UBAH MAPEL" to the project
   }, []);
 
   const openPILIHKELASMAPELA3 = useCallback(() => {
@@ -92,20 +83,12 @@ const Penilaian = () => {
     setPILIHKELASMAPELA3Open(false);
   }, []);
 
-  const onFrameContainer20Click = useCallback(() => {
-    // Please sync "UBAH MAPEL" to the project
-  }, []);
-
   const openPILIHKELASMAPELA4 = useCallback(() => {
     setPILIHKELASMAPELA4Open(true);
   }, []);
 
   const closePILIHKELASMAPELA4 = useCallback(() => {
     setPILIHKELASMAPELA4Open(false);
-  }, []);
-
-  const onFrameContainer25Click = useCallback(() => {
-    // Please sync "UBAH MAPEL" to the project
   }, []);
 
   const onFrameContainer29Click = useCallback(() => {
@@ -129,7 +112,7 @@ const Penilaian = () => {
       kelas: "Hello"
     },
     {
-      kelas: "Hoo"
+      kelas: "Hehehehe"
     }
   ];
   
@@ -156,18 +139,17 @@ const Penilaian = () => {
             <div className="hi-admin1-nilai">Hi, Admin</div>
           </div>
          
-          
+          <div className="mapel-a-parents" >
           {datamapel.map((mapel, i) => (
-             <div className="mapel-a-parent" key={i}>
-             <div className="mapel-a">
-               <div className="mapel-a-inner" onClick={openPILIHKELASMAPELA}>
-                 <div className="kreativitas-1-parent">
-                   <img
+            <div className="mapel-a" key={i}>
+                <div className="mapel-a-inner" onClick={openPILIHKELASMAPELA}>
+                <div className="kreativitas-1-parent">
+                  <img
                      className="kreativitas-1-icon"
                      alt=""
                      src="/kreativitas-1@2x.png"
                    />
-                   <b className="mapel-b">{ mapel.kelas}</b>
+                   <b className="mapel-b">{mapel.kelas}</b>
                  </div>
                </div>
                <div className="frame-group-nilai">
@@ -182,15 +164,13 @@ const Penilaian = () => {
                    className="icons8-trash-parent"
                    onClick={openPOPUPTOMBOLHAPUSMAPEL}
                  >
-                   <img className="icons8-edit" alt="" src="/icons8trash.svg" />
-                   <div className="ubah">Hapus</div>
-                 </div>
-               </div>
-             </div>
-             
-           </div>
-          ))}
-
+                  <img className="icons8-edit" alt="" src="/icons8trash.svg" />
+                  <div className="ubah">Hapus</div>
+                </div>
+              </div>
+            </div>
+                ))}
+            </div>
         </div>
         <div className="kotak-biru-nilai">
           <div className="logo-lingtar">

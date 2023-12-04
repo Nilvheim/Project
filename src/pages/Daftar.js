@@ -1,7 +1,8 @@
 import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Input, Checkbox } from "antd";
-import { FaEye, FaEyeSlash } from "react-icons/fa6"
+import { FaEye, FaEyeSlash } from "react-icons/fa6";
+import { useForm } from "react-hook-form";
 import "./Daftar.css";
 import Swal from "sweetalert2";
 
@@ -19,9 +20,7 @@ const Daftar = () => {
 
     const onKembaliClick = useCallback(() => {
         navigate('/Login');
-      }, [navigate]);
-
-
+    }, [navigate]);
     
     const handleKepalaSekolahChange = (event) => {
         setKepalaSekolah(event.target.value);
@@ -61,6 +60,7 @@ const Daftar = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
 
         if (kepalaSekolah === '' ||
             sekolah === '' ||
@@ -73,13 +73,19 @@ const Daftar = () => {
                 title: 'Gagal!',
                 text: 'Mohon untuk mengisi semua kolom'
             });
+        } else if (!regex.test(email)) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Gagal!',
+                text: 'Email tidak valid!'
+            });
         } else if (password !== confirmPassword) {
             Swal.fire({
                 icon: 'error',
                 title: 'Gagal!',
                 text: 'Password harus sama!'
             });
-        } else if (!isChecked) {
+        } else if (!isChecked && !onCheck) {
             Swal.fire({
                 icon: 'error',
                 title: 'Gagal!',
@@ -192,7 +198,8 @@ const Daftar = () => {
                     <b className="icon-eye-daftar" alt="" onClick={onConfirmPassEye}>{showConfirmPassword ? <FaEyeSlash /> : <FaEye />}</b>
                 </div>
                 <div className="kotak-setuju">
-                    <div className="checkbox-daftar">Saya Menyetujui Syarat dan Ketentuan</div>
+                    <div className="checkbox-daftar">Saya Menyetujui
+                    <a> Syarat dan Ketentuan</a></div>
                     <Checkbox checked={isChecked} onChange={onCheck}></Checkbox>
                 </div>
                 <div className="daftar1">

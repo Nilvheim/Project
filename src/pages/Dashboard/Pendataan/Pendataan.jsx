@@ -2,19 +2,30 @@ import { useState, useMemo, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import fakeData from "../Mock.json";
 import React from 'react';
-import TambahKelas from "./TambahKelas";
-import { Button, Dropdown, Space } from 'antd';
+import { Button, Dropdown, Space, Select, Input } from 'antd';
 import { useTable } from "react-table";
 import Frame from "../../../components/Frame";
 import PortalPopup from "../../../components/PortalPopup";
 import PENDATAANTAMBAH from "../../../components/PENDATAANTAMBAH";
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
-import POPUPTOMBOLHAPUSDATA from "../../../components/POPUPTOMBOLHAPUSDATA";
+import Swal from "sweetalert2";
 import Tombol10 from "../../../components/Tombol10";
 import "./Pendataan.css";
 
 const PENDATAAN = () => {
 
+  const tampilData = [
+    { value: "5", label: 5 },
+    { value: "10", label: 10 },
+    { value: "Semua", label: "Semua"}
+  ]
+
+  const pilihKelas = [
+    { value: "A", label: "Kelas A" },
+    { value: "B", label: "Kelas B" },
+    { value: "C", label: "Kelas C" },
+    { value: "D", label: "Kelas D" }
+  ]
   const data = useMemo(() => fakeData, []);
   const columns = useMemo(
     () => [
@@ -59,16 +70,23 @@ const PENDATAAN = () => {
       }
     ], []);
   
+    const tombolDelete = Swal.mixin({
+      customClass: {
+        confirmButton: 'btn btn-danger',
+        cancelButton: 'btn btn-success'
+      },
+    })
+  
   const navigate = useNavigate();
   const [isFrameOpen, setFrameOpen] = useState(false);
+  const [pencarian,setPencarian] = useState('')
   const [isPENDATAANTAMBAHOpen, setPENDATAANTAMBAHOpen] = useState(false);
   const [isPOPUPHIADMINOpen, setPOPUPHIADMINOpen] = useState(false);
-  const [isPOPUPTOMBOLHAPUSDATAOpen, setPOPUPTOMBOLHAPUSDATAOpen] =  useState(false);
   const [isTombol10Open, setTombol10Open] = useState(false);
 
-  const openFrame = useCallback(() => {
-    setFrameOpen(true);
-  }, []);
+  const handlePencarian = (e) => {
+    setPencarian(e.target.value)
+  }
 
   const closeFrame = useCallback(() => {
     setFrameOpen(false);
@@ -90,12 +108,36 @@ const PENDATAAN = () => {
     setPOPUPHIADMINOpen(false);
   }, []);
 
-  const closePOPUPTOMBOLHAPUSDATA = useCallback(() => {
-    setPOPUPTOMBOLHAPUSDATAOpen(false);
-  }, []);
-
   const openPOPUPTOMBOLHAPUSDATA = useCallback(() => {
-    setPOPUPTOMBOLHAPUSDATAOpen(true);
+    tombolDelete.fire({
+      className: 'swalButton',
+      title: 'Apakah anda yakin ingin menghapus data?',
+      text: "Data yang terhapus,tidak dapat dikembalikan!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#E21818',
+      confirmButtonText: 'Hapus',
+      cancelButtonColor: '#3EC70B',
+      cancelButtonText: 'Batalkan',
+      reverseButtons: true
+    }).then((result) => {
+      if (result.isConfirmed) {
+        tombolDelete.fire(
+          'Deleted!',
+          'Data berhasil di hapus.',
+          'success'
+        )
+      } else if (
+        /* Read more about handling dismissals below */
+        result.dismiss === Swal.DismissReason.cancel
+      ) {
+        tombolDelete.fire(
+          'Cancelled',
+          'Data masih aman :>',
+          'error'
+        )
+      }
+    })
   }, []);
 
   const openTombol10 = useCallback(() => {
@@ -134,22 +176,24 @@ const PENDATAAN = () => {
       <div className="pendataan-data">
         <div className="kotak-putih-pendataan">
           <div className="tiga-tombol">
-            <div className="icons8-search-1-parent">
-              <img
-                className="icons8-search-1"
-                alt=""
-                src="/icons8search-1.svg"
-              />
-              <div className="div-data">Pencarian</div>
+            <div>
+            <div className="icons8-search-1-parent-absen">
+            <Input
+                className="icons8-search-1-parent"
+                placeholder="Cari Staff"
+                  value={pencarian}
+                  onChange={handlePencarian}>
+                </Input>
             </div>
-            <div className="rectangle-parent-data" onClick={openFrame}>
-              <div className="frame-child-data" />
-              <b className="kelas-data">Kelas</b>
-              <img
-                className="icon-arrow-ios-forward2-data"
-                alt=""
-                src="/-icon-arrow-ios-forward2.svg"
-              />
+            </div>
+            <div className="rectangle-parent-data">
+              <Space wrap>
+              <Select
+                className="pilihKelas-wrapper"
+                options={pilihKelas}
+                placeholder="Pilih kelas"
+                onChange={(values) => console.log(values)} />
+              </Space>
             </div>
             <div className="icon-plus-parent-data" onClick={openPENDATAANTAMBAH}>
               <img className="icon-plus-data" alt="" src="/-icon-plus.svg" />
@@ -189,15 +233,13 @@ const PENDATAAN = () => {
           </div>
           <div className="tombol-tampilkan">
             <div className="div">{`Tampilkan `}</div>
-            <div className="rectangle-parent64" onClick={openTombol10}>
-              <div className="frame-item" />
-              <div className="div12">10</div>
-              <img
-                className="icon-arrow-ios-forward2"
-                alt=""
-                src="/-icon-arrow-ios-forward3.svg"
-              />
-            </div>
+            <Space wrap>
+              <Select
+                className=""
+                options={tampilData}
+                placeholder="Semua"
+                onChange={(values) => console.log(values)} />
+              </Space>
             <div className="div">Data</div>
           </div>
           <div className="lingtar-pendataan-container">
@@ -289,15 +331,6 @@ const PENDATAAN = () => {
           onOutsideClick={closePOPUPHIADMIN}
         >
           <POPUPHIADMIN onClose={closePOPUPHIADMIN} />
-        </PortalPopup>
-      )}
-      {isPOPUPTOMBOLHAPUSDATAOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closePOPUPTOMBOLHAPUSDATA}
-        >
-          <POPUPTOMBOLHAPUSDATA onClose={closePOPUPTOMBOLHAPUSDATA} />
         </PortalPopup>
       )}
       {isTombol10Open && (

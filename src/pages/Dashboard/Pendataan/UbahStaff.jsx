@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import Dropdown from "react-dropdown";
-import { Input, Button } from 'antd';
+import { Input, Button, Select, Space } from 'antd';
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import PortalPopup from "../../../components/PortalPopup";
 import "./TambahStaff.css";
@@ -156,10 +156,14 @@ const UbahStaff = () => {
                   <div className="kelas-tambahstaff">Kelas
                   </div>
                   <div className="frame-child-tambahstaff">
-                    <Dropdown className="frame-child-tambahstaff"
+                    <Space wrap>
+                      <Select
+                        className="dropdown-wrapper"
+                        bordered={false}
                       options={kelas}
                       placeholder="Pilih kelas"
                       onChange={(values) => console.log(values)} />
+                    </Space>
                   </div>
                 </div>
                 <div className="nama-parent-tambahstaff">

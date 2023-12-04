@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Grafik.css";
-import UserData from "../Absensi.json"
+import UserData from "../pages/Dashboard/Absensi.json"
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 

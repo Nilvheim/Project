@@ -1,0 +1,8 @@
+     else {
+      Swal.fire({
+        icon: 'error',
+        title: 'Gagal!',
+        text: 'Email tidak terdaftar pada Sistem'
+      });
+}
+    
