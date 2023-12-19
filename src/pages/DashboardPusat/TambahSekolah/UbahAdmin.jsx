@@ -2,7 +2,8 @@ import { useState, useCallback } from "react";
 import POPUPHIADMIN from "../../../components/POPUPHIADMIN";
 import PortalPopup from "../../../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
-import {Input , Select, Space } from 'antd';
+import { Input, Select, Space } from 'antd';
+import "./../../../global.css"
 
 const UbahAdmin = () => {
     const navigate = useNavigate('');

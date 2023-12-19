@@ -53,7 +53,10 @@ const LupaPw = () => {
             </div>
         </div>
         <form onSubmit={emailValidation}>
-        <div className="kotak-putih2">
+          <div className="kotak-putih2">
+            <div className="isikotakPutih">
+              
+            </div>
             <div className="lupa-kata-sandi2">Lupa Kata Sandi?</div>
             <div className="masukkan-alamat-email-lupapw">
               Masukkan alamat email Anda untuk Mendapatkan link verifikasi untuk
@@ -77,7 +80,7 @@ const LupaPw = () => {
             </div>
             <div className="selanjutnya">
               <img className="icon-button" alt="" src="icon-button.svg" />
-              <b className="selanjutnya1" onClick={emailValidation}>Selanjutnya</b>
+              <b className="selanjutnya1-reset" onClick={emailValidation}>Selanjutnya</b>
               <img className="icon-button" alt="" src="icon-button.svg" />
             </div>
           </div>

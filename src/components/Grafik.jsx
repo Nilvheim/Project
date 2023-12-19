@@ -1,43 +1,37 @@
-import { useState } from "react";
-import "./Grafik.css";
-import UserData from "../pages/Dashboard/Absensi.json"
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Pie } from "react-chartjs-2";
+import React, { useState } from 'react';
+import ReactApexChart from 'react-apexcharts';
+import "./Grafik.css"
 
-function Grafik() {
-const [userData, setUserData] = useState({
-    labels: UserData.map((data) => data.keterangan),
-    datasets: [
-    {
-        label: "Users Gained",
-        data: UserData.map((data) => data.jumlah),
-        backgroundColor: [
-            "rgba(75,192,192,1)",
-            "#ecf0f1",
-            "#50AF95",
-            "#f3ba2f",
-            "#2a71d0",
-        ],
-        borderColor: "black",
-        borderWidth: 2,
+const ApexChart = () => {
+  const [chartData, setChartData] = useState({
+    series: [44, 55, 13, 43],
+    options: {
+      chart: {
+        width: 380,
+        type: 'pie',
+      },
+      labels: ['Hadir', 'Terlambat', 'Izin', 'Alpa'],
+      responsive: [
+        {
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200,
+            },
+            legend: {
+              horizontalAlign: 'right',
+            },
+          },
         },
-        ],
-    });
+      ],
+    },
+  });
 
-  // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
-
-    return (
-        
-    <div className="pop-up-grafik-absen">
-        <div className="pieChart">
-            <div style={{ width: 300 }}>
-            <Pie chartData={userData} />
-            </div>
-        </div>
+  return (
+    <div id="chart">
+      <ReactApexChart options={chartData.options} series={chartData.series} type="pie" width={600} />
     </div>
-
-    
   );
-}
+};
 
-export default Grafik;
+export default ApexChart;

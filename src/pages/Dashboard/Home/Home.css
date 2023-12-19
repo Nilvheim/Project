@@ -346,3 +346,230 @@
     font-family: Poppins;
   }
   
+  @media (min-width: 1500px) {
+    .selamat-datang-admin-container-home {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    .hi-admin-home {
+      position: absolute;
+      top: 30px;
+      left: 1150px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .beranda-home {
+      position: relative;
+      background-color: #fff;
+      width: 1519px;
+      height: 711px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 24px;
+      color: #000;
+      font-family: Poppins;
+    }
+
+    .kotak-putih3-home{
+      position: absolute;
+      top: 0;
+      background-color: #f6f6f6;
+      width: 1539px;
+      height: 720px;
+    }
+
+    .img-20230410-113752-1-parent-home {
+      position: absolute;
+      top: 126px;
+      width: 910px;
+      height: 239px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .img-20230410-113752-1-icon-home {
+      position: absolute;
+      border-radius: 20px;
+      right: 100px;
+      width: 910px;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .frame-wrapper-home {
+      position: absolute;
+      top: 85px;
+      left: 640px;
+      width: 178.8px;
+      justify-content: center;
+    }
+
+    .rekap-data-sekolah-home {
+      position: absolute;
+      top: 126px;
+      left: 950px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: right;
+      color: #f6f6f6;
+    }
+
+    .img-20230410-113752-1-icon1-home {
+      position: absolute;
+      top: 0;
+      width: 1260px;
+      height: 276px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .inventaris-sekolah-home {
+      position: absolute;
+      top: 110.76px;
+      right: -110px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 348.11px;
+      height: 41.83px;
+    }
+
+    .kotak-biru-home {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 223px;
+      height: 720px;
+      overflow: hidden;
+      background-image: url(/public/kotak-biru@3x.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      text-align: left;
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+
+  @media (min-width: 1300px) and (max-width:1410px) {
+    .selamat-datang-admin-container-home {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    .hi-admin-home {
+      position: absolute;
+      top: 30px;
+      left: 1040px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .beranda-home {
+      position: relative;
+      background-color: #fff;
+      width: 1393px;
+      height: 711px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 24px;
+      color: #000;
+      font-family: Poppins;
+    }
+
+    .kotak-putih3-home{
+      position: absolute;
+      top: 0;
+      background-color: #f6f6f6;
+      width: 1393px;
+      height: 720px;
+    }
+
+    .img-20230410-113752-1-parent-home {
+      position: absolute;
+      top: 126px;
+      width: 645px;
+      height: 239px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .img-20230410-113752-1-icon-home {
+      position: absolute;
+      border-radius: 20px;
+      right: 100px;
+      width: 770px;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .frame-wrapper-home {
+      position: absolute;
+      top: 85px;
+      left: 550px;
+      width: 178.8px;
+      justify-content: center;
+    }
+
+    .rekap-data-sekolah-home {
+      position: absolute;
+      top: 126px;
+      left: 820px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: right;
+      color: #f6f6f6;
+    }
+
+    .img-20230410-113752-1-icon1-home {
+      position: absolute;
+      top: 0;
+      width: 1130px;
+      height: 276px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .inventaris-sekolah-home {
+      position: absolute;
+      top: 110.76px;
+      right: -110px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 348.11px;
+      height: 41.83px;
+    }
+
+    .kotak-biru-home {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 223px;
+      height: 720px;
+      overflow: hidden;
+      background-image: url(/public/kotak-biru@3x.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      text-align: left;
+      font-size: 18px;
+      color: #fff;
+    }
+  }

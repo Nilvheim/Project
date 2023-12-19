@@ -1,10 +1,8 @@
 .pawcw1-324-1-icon {
-
   height: 100%;
   width: 100%;
   background-position: center center;
   background-attachment: fixed  ;
-
 }
 .icon-button {
   position: relative;
@@ -96,6 +94,7 @@ background-color: #dc1dcd;
   width: 794px;
   height: 84px;
 }
+
 .halaman-utama-oren {
   position: relative;
   background-color: #fefffd;
@@ -205,7 +204,7 @@ background-color: #dc1dcd;
 .kotak-laporan-harian-parent {
   position: absolute;
   top: 184px;
-  left: 243px;
+  left: 235px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -224,6 +223,7 @@ background-color: #dc1dcd;
   justify-content: center;
   width: 387px;
 }
+
 .tentang-kami-oren {
   position: relative;
   background-color: var(--grayscale8);
@@ -1089,6 +1089,7 @@ background-color: #dc1dcd;
   top: 0;
   left: calc(50% - 640px);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4E7E95;
   width: 1280px;
   height: 80px;
   text-align: left;
@@ -1129,3 +1130,438 @@ transition: border-color 0.3s ease;
   font: Poppins;
 
 }
+
+@media (min-width: 1500px) {
+  .header-icon {
+    position: relative;
+    top: 0;
+    width: 1519px;
+    height: 80px;
+    right: 100px
+  }
+
+  .halaman-utama-oren {
+    position: relative;
+    background-color: #fefffd;
+    width: 1519px;
+    height: 757px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: var(--grayscale8);
+  }  
+
+  .header {
+    top: 0;
+    left: 0px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1519px;
+    background-color: #4E7E95;
+    height: 80px;
+    text-align: left;
+    font-size: var(--caption1-size);
+    color: var(--grayscale8);
+  }
+
+  .pantau-kegiatan-anak {
+    position: absolute;
+    top: 108px;
+    left: 370px;
+    font-size: var(--heading2-size);
+    font-weight: 600;
+    color: var(--grayscale1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 794px;
+    height: 84px;
+  }
+
+  .aplikasi-yang-dapat {
+    top: 607px;
+    left: 370px;
+    font-size: var(--caption1-size);
+    color: var(--color-black);
+    width: 793px;
+  }
+
+  .mulai {
+    top: 664px;
+    left: 670px;
+    border-radius: var(--br-mini);
+    background-color: var(--secondary4);
+    width: 184px;
+    height: 60px;
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-33xl);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+  }
+
+  /* Page 2 */
+  .tentang-kami-oren {
+    position: relative;
+    background-color: var(--grayscale8);
+    border: 1px solid var(--grayscale4);
+    box-sizing: border-box;
+    width: 1519px;
+    height: 757px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 22px;
+  }
+
+  .komponen-page2{
+    position: relative;
+    left: 100px;
+  }
+
+  .komponen-page21{
+    position: relative;
+    left: 20px;
+  }
+
+  /* Page 3 */
+
+  .layanan-oren {
+    position: relative;
+    background-color: rgba(117, 190, 224, 0.2);
+    width: 1519px;
+    height: 693px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+    font-size: var(--font-size-xl);
+  }
+
+  .tulisan-aplikasi-lingtar {
+    position: absolute;
+    top: 384px;
+    left: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    text-align: left;
+  }
+
+  .komponen-page3{
+    position: relative;
+    left: 115px
+  }
+
+  /* Page 4 */
+
+  .tim-oren {
+    position: relative;
+    background-color: var(--grayscale8);
+    border: 1px solid var(--grayscale7);
+    box-sizing: border-box;
+    width: 1520px;
+    height: 757px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: var(--caption2-size);
+  }
+
+  .tim-lingtar {
+    bottom: 677px;
+    left: calc(50% - 100px);
+    font-size: var(--heading2-size);
+    font-weight: 600;
+    justify-content: center;
+    width: 184px;
+  }
+
+  .pawcw1-324-1-icon {
+
+    width: 1520px;
+    height: 757px;
+    background-position: center center;
+    background-attachment: fixed  ;
+  
+  }
+
+  /* Page 5 */
+
+  .kontak-oren {
+    position: relative;
+    background-color: #fefefe;
+    border: 1px solid var(--grayscale7);
+    box-sizing: border-box;
+    width: 1519px;
+    height: 868px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--caption1-size);
+    color: var(--grayscale8);
+  }
+
+  .frame-parent7-landing {
+    position: absolute;
+    top: 116px;
+    left: 270px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--color-black);
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1410px) {
+  .header-icon {
+    position: relative;
+    top: 0;
+    width: 1519px;
+    height: 80px;
+    right: 100px
+  }
+
+  .halaman-utama-oren {
+    position: relative;
+    background-color: #fefffd;
+    width: 1519px;
+    height: 757px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: var(--grayscale8);
+  }  
+
+  .header {
+    top: 0;
+    left: 0px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1519px;
+    background-color: #4E7E95;
+    height: 80px;
+    text-align: left;
+    font-size: var(--caption1-size);
+    color: var(--grayscale8);
+  }
+
+  .component-49-inner {
+    left: -60px;
+    overflow: hidden;
+  }
+
+  .pantau-kegiatan-anak {
+    position: absolute;
+    top: 108px;
+    left: 310px;
+    font-size: var(--heading2-size);
+    font-weight: 600;
+    color: var(--grayscale1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 794px;
+    height: 84px;
+  }
+
+  .aplikasi-yang-dapat {
+    top: 607px;
+    left: 310px;
+    font-size: var(--caption1-size);
+    color: var(--color-black);
+    width: 793px;
+  }
+
+  .mulai {
+    top: 664px;
+    left: 610px;
+    border-radius: var(--br-mini);
+    background-color: var(--secondary4);
+    width: 184px;
+    height: 60px;
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-33xl);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+  }
+
+  /* Page 2 */
+
+  .fitur-fitur {
+    position: absolute;
+    top: 82px;
+    left: 400px;
+    font-size: var(--heading2-size);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 387px;
+  }
+
+  .tentang-kami-oren {
+    position: relative;
+    background-color: var(--grayscale8);
+    border: 1px solid var(--grayscale4);
+    box-sizing: border-box;
+    width: 1519px;
+    height: 757px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 22px;
+  }
+
+  .kotak-laporan-harian-parent {
+    position: absolute;
+    top: 184px;
+    left: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    font-size: var(--caption4-size);
+  }
+
+  .komponen-page2{
+    position: relative;
+    left: 100px;
+  }
+
+  .komponen-page21{
+    position: relative;
+    left: 20px;
+  }
+
+  /* Page 3 */
+
+  .layanan-oren {
+    position: relative;
+    background-color: rgba(117, 190, 224, 0.2);
+    width: 1519px;
+    height: 693px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+    font-size: var(--font-size-xl);
+  }
+
+  .tulisan-aplikasi-lingtar {
+    position: absolute;
+    top: 384px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    text-align: left;
+  }
+
+  .keuntungan-menggunakan-aplikas {
+    bottom: 550px;
+    left: calc(50% - 440px);
+    font-size: var(--heading2-size);
+    font-weight: 600;
+    color: var(--color-black);
+    text-align: center;
+    width: 794px;
+  }
+
+  .frame-landing-parent {
+    top: 203px;
+    left: -20px;
+    width: 1200px;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .komponen-page3{
+    position: relative;
+    left: 115px
+  }
+
+  /* Page 4 */
+
+  .tim-oren {
+    position: relative;
+    background-color: var(--grayscale8);
+    border: 1px solid var(--grayscale7);
+    box-sizing: border-box;
+    width: 1520px;
+    height: 757px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: var(--caption2-size);
+  }
+
+  .tim-lingtar {
+    bottom: 677px;
+    left: calc(50% - 160px);
+    font-size: var(--heading2-size);
+    font-weight: 600;
+    justify-content: center;
+    width: 184px;
+  }
+
+  .pawcw1-324-1-icon {
+    width: 1520px;
+    height: 757px;
+    background-position: center center;
+    background-attachment: fixed  ;
+  }
+
+  .frame-div-landing {
+    bottom: 57px;
+    left: calc(50% - 657px);
+    width: 1200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+  }
+
+  /* Page 5 */
+
+  .kontak-oren {
+    position: relative;
+    background-color: #fefefe;
+    border: 1px solid var(--grayscale7);
+    box-sizing: border-box;
+    width: 1519px;
+    height: 868px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--caption1-size);
+    color: var(--grayscale8);
+  }
+
+  .hubungi-kami {
+    width: calc(100% - 1005px);
+    top: 44px;
+    left: 447px;
+    font-size: var(--heading2-size);
+    display: inline-block;
+  }
+
+  .frame-parent7-landing {
+    position: absolute;
+    top: 116px;
+    left: 215px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--color-black);
+  }
+
+  .kebjikan-ikuti-unduh {
+    position: absolute;
+    right: 140px;
+    bottom: 103px;
+    width: 590px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-41xl);
+    font-size: var(--font-size-xl);
+  }
+}
+

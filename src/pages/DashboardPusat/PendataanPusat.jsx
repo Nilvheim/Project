@@ -177,7 +177,7 @@ const tampilData = [
             <div className="hi-admin1-pendataanPusat">Hi, Admin</div>
           </div>
           <div className="tabel-pendataanPusat">
-            <table {...getTableProps()}>
+            <table className="table-pusat" {...getTableProps()}>
             <thead>
             {headerGroups.map((headerGroup) => (
               <tr {...headerGroup.getHeaderGroupProps()}>

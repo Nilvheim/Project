@@ -1,14 +1,14 @@
-.kotak-putih-child-absen {
+.kotak-putih-child-absensi {
     position: absolute;
     top: 116px;
     left: -28px;
     width: 39px;
     height: 38.5px;
   }
-  .absensi1-absen {
+  .absensi1-absensi {
     color: #fb793d;
   }
-  .lingtar-absensi-container-absen {
+  .lingtar-absensi-container-absensi {
     position: absolute;
     top: 30px;
     left: 20px;
@@ -16,23 +16,23 @@
     font-weight: 500;
     text-align: left;
   }
-  .icons8-search-1-absen {
+  .icons8-search-1-absensi {
     width: 25px;
     height: 25px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .icons8-search-1-absen,
-  .pencarian-absen {
+  .icons8-search-1-absensi,
+  .pencarian-absensi {
     position: relative;
   }
-  .frame-child-absen,
-  .icons8-search-1-parent-absen {
+  .frame-child-absensi,
+  .icons8-search-1-parent-absensi {
     border-radius: 10px;
     box-sizing: border-box;
     height: 40px;
   }
-  .icons8-search-1-parent-absen {
+  .icons8-search-1-parent-absensi {
     width: 207px;
     overflow: hidden;
     flex-shrink: 0;
@@ -44,18 +44,18 @@
     gap: 20px;
     color: rgba(0, 0, 0, 0.5);
   }
-  .frame-child-absen {
+  .frame-child-absensi {
     position: absolute;
     top: 0;
     left: 0;
     width: 161px;
   }
-  .kelas-absen {
+  .kelas-absensi {
     position: absolute;
     top: 4px;
     left: 42px;
   }
-  .icon-arrow-ios-forward-absen {
+  .icon-arrow-ios-forward-absensi {
     position: absolute;
     height: 56.4%;
     width: 17.48%;
@@ -67,7 +67,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .rectangle-parent-absen {
+  .rectangle-parent-absensi {
     position: relative;
     border-radius: 10px;
     background-color: #fff;
@@ -78,16 +78,16 @@
     cursor: pointer;
     color: #000;
   }
-  .icon-alternate-calendar-absen {
+  .icon-alternate-calendar-absensi {
     position: relative;
     width: 20px;
     height: 22.86px;
   }
-  .tanggal-absen {
+  .tanggal-absensi {
     position: relative;
     line-height: 132%;
   }
-  .icon-alternate-calendar-parent-absen {
+  .icon-alternate-calendar-parent-absensi {
     border-radius: 10px;
     background-color: #1a141f;
     height: 40px;
@@ -98,15 +98,15 @@
     cursor: pointer;
     font-size: 18px;
   }
-  .icon-alternate-calendar-parent-absen,
-  .icon-cog-parent-absen,
-  .tiga-tombol-absen {
+  .icon-alternate-calendar-parent-absensi,
+  .icon-cog-parent-absensi,
+  .tiga-tombol-absensi {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  .icon-cog-parent-absen {
+  .icon-cog-parent-absensi {
     border-radius: 10px;
     background-color: #1a141f;
     width: 95px;
@@ -118,32 +118,32 @@
     cursor: pointer;
     font-size: 18px;
   }
-  .tiga-tombol-absen {
+  .tiga-tombol-absensi {
     position: absolute;
     top: 96px;
-    left: 330px;
+    left: 350px;
     gap: 20px;
     color: #fff;
   }
-  .icon-arrow-ios-forward1-absen {
+  .icon-arrow-ios-forward1-absensi {
     position: relative;
     width: 22.56px;
     height: 28.67px;
   }
-  .ganti-halaman-absen,
-  .wrapper-absen {
+  .ganti-halaman-absensi,
+  .wrapper-absensi {
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wrapper-absen {
+  .wrapper-absensi {
     background-color: #75bee0;
     height: 26px;
     flex-direction: column;
     padding: 0 6px;
   }
-  .ganti-halaman-absen {
+  .ganti-halaman-absensi {
     position: absolute;
     top: 661.33px;
     left: 920px;
@@ -154,24 +154,24 @@
     gap: 10px;
     font-size: 16px;
   }
-  .vector-icon-absen {
+  .vector-icon-absensi {
     position: relative;
     width: 29px;
     height: 28px;
   }
-  .hi-admin-absen,
-  .hi-admin1-absen {
+  .hi-admin-absensi,
+  .hi-admin1-absensi {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hi-admin1-absen {
+  .hi-admin1-absensi {
     position: relative;
     width: 87px;
     height: 20px;
     flex-shrink: 0;
   }
-  .hi-admin-absen {
+  .hi-admin-absensi {
     position: absolute;
     top: 30px;
     left: 896px;
@@ -180,7 +180,7 @@
     cursor: pointer;
     font-size: 18px;
   }
-  .group-child-absen {
+  .group-child-absensi {
     position: absolute;
     top: 0;
     left: 0;
@@ -190,14 +190,14 @@
     width: 167px;
     height: 41px;
   }
-  .icons8-edit-absen {
+  .icons8-edit-absensi {
     position: relative;
     width: 12px;
     height: 12px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .icons8-edit-parent-absen {
+  .icons8-edit-parent-absensi {
     border-radius: 5px;
     background-color: #09af10;
     justify-content: flex-start;
@@ -205,14 +205,14 @@
     gap: 2px;
     cursor: pointer;
   }
-  .frame-parent-absen,
-  .icons8-edit-parent-absen,
-  .icons8-trash-parent-absen {
+  .frame-parent-absensi,
+  .icons8-edit-parent-absensi,
+  .icons8-trash-parent-absensi {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  .icons8-trash-parent-absen {
+  .icons8-trash-parent-absensi {
     border-radius: 5px;
     background-color: #ff3e3e;
     justify-content: flex-start;
@@ -220,99 +220,99 @@
     gap: 2px;
     cursor: pointer;
   }
-  .frame-parent-absen {
+  .frame-parent-absensi {
     position: absolute;
     top: 9px;
     left: 20px;
     justify-content: center;
     gap: 5px;
   }
-  .group-item-absen,
-  .rectangle-group-absen {
+  .group-item-absensi,
+  .rectangle-group-absensi {
     position: absolute;
     top: 0;
     height: 41px;
   }
-  .rectangle-group-absen {
+  .rectangle-group-absensi {
     left: 830px;
     width: 167px;
     font-size: 12px;
     color: #fff;
   }
-  .group-item-absen {
+  .group-item-absensi {
     left: 0;
     background-color: #fff;
     border: 1px solid #000;
     box-sizing: border-box;
     width: 162px;
   }
-  .tepat-waktu-absen {
+  .tepat-waktu-absensi {
     position: absolute;
     top: 10px;
     left: 20px;
     display: inline-block;
     width: 108px;
   }
-  .group-inner-absen,
-  .rectangle-container-absen {
+  .group-inner-absensi,
+  .rectangle-container-absensi {
     position: absolute;
     top: 0;
     left: 668px;
     width: 162px;
     height: 41px;
   }
-  .group-inner-absen {
+  .group-inner-absensi {
     left: 0;
     background-color: #fff;
     border: 1px solid #000;
     box-sizing: border-box;
     width: 231px;
   }
-  .div1-absen {
+  .div1-absensi {
     position: absolute;
     top: 12px;
     left: 17px;
     display: inline-block;
     width: 153px;
   }
-  .group-div-absen,
-  .rectangle-div-absen {
+  .group-div-absensi,
+  .rectangle-div-absensi {
     position: absolute;
     top: 0;
     left: 334px;
     width: 231px;
     height: 41px;
   }
-  .rectangle-div-absen {
+  .rectangle-div-absensi {
     left: 0;
     background-color: #fff;
     border: 1px solid #000;
     box-sizing: border-box;
     width: 277px;
   }
-  .akbar-sanjaya-absen {
+  .akbar-sanjaya-absensi {
     position: absolute;
     top: 10px;
     left: 20px;
     display: inline-block;
     width: 102px;
   }
-  .group-child1-absen,
-  .rectangle-parent1-absen {
+  .group-child1-absensi,
+  .rectangle-parent1-absensi {
     position: absolute;
     top: 0;
     left: 57px;
     width: 277px;
     height: 41px;
   }
-  .group-child1-absen {
+  .group-child1-absensi {
     left: 0;
     background-color: #fff;
     border: 1px solid #000;
     box-sizing: border-box;
     width: 57px;
   }
-  .text-absen {
+  .text-absensi {
     position: absolute;
     top: 9.94px;
     left: calc(50% - 15.96px);
@@ -320,24 +320,24 @@
     width: 31.92px;
     height: 19.88px;
   }
-  .group-child2-absen,
-  .rectangle-parent2-absen {
+  .group-child2-absensi,
+  .rectangle-parent2-absensi {
     position: absolute;
     top: 0;
     left: 0;
     height: 41px;
   }
-  .rectangle-parent2-absen {
+  .rectangle-parent2-absensi {
     width: 57px;
     color: #000;
   }
-  .group-child2-absen {
+  .group-child2-absensi {
     background-color: #fff;
     border: 1px solid #000;
     box-sizing: border-box;
     width: 103px;
   }
-  .a-absen {
+  .a-absensi {
     position: absolute;
     top: 16px;
     left: calc(50% - 5.5px);
@@ -347,7 +347,7 @@
     width: 11px;
     height: 11px;
   }
-  .rectangle-parent3-absen {
+  .rectangle-parent3-absensi {
     position: absolute;
     top: 0;
     left: 565px;
@@ -356,15 +356,15 @@
     text-align: center;
     color: #000;
   }
-  .group-parent-absen {
+  .group-parent-absensi {
     position: absolute;
     top: 41px;
     left: 0;
     width: 997px;
     height: 41px;
   }
-  .icons8-edit-group-absen,
-  .icons8-trash-group-absen {
+  .icons8-edit-group-absensi,
+  .icons8-trash-group-absensi {
     border-radius: 5px;
     background-color: #09af10;
     display: flex;
@@ -374,10 +374,10 @@
     padding: 2px 3px;
     gap: 2px;
   }
-  .icons8-trash-group-absen {
+  .icons8-trash-group-absensi {
     background-color: #ff3e3e;
   }
-  .group-container-absen {
+  .group-container-absensi {
     position: absolute;
     top: 82px;
     left: 0;
@@ -387,7 +387,7 @@
   
   .group-parent9,
   .rectangle-parent63,
-  .tabel-absen-semua-sidebar-absen {
+  .tabel-absen-semua-sidebar-absensi {
     position: absolute;
     top: 0;
     left: 0;
@@ -395,12 +395,12 @@
     height: 41px;
   }
   .group-parent9,
-  .tabel-absen-semua-sidebar-absen {
+  .tabel-absen-semua-sidebar-absensi {
     width: 997px;
     font-size: 16px;
     color: #000;
   }
-  .tabel-absen-semua-sidebar-absen {
+  .tabel-absen-semua-sidebar-absensi {
     top: 181px;
     left: 20px;
     height: 451px;
@@ -408,7 +408,7 @@
     font-size: 14px;
     color: #1a141f;
   }
-  .frame-item-absen {
+  .frame-item-absensi {
     position: absolute;
     top: 0;
     left: 0;
@@ -419,12 +419,12 @@
     width: 87px;
     height: 40px;
   }
-  .div11-absen {
+  .div11-absensi {
     position: absolute;
     top: 5px;
     left: 21px;
   }
-  .rectangle-parent64-absen {
+  .rectangle-parent64-absensi {
     position: relative;
     border-radius: 10px;
     background-color: #fff;
@@ -434,7 +434,7 @@
     flex-shrink: 0;
     cursor: pointer;
   }
-  .tombol-tampilkan-absen {
+  .tombol-tampilkan-absensi {
     position: absolute;
     top: 96px;
     left: 20px;
@@ -444,26 +444,26 @@
     justify-content: flex-start;
     gap: 10px;
   }
-  .menampilkan-10-data-absen {
+  .menampilkan-10-data-absensi {
     position: absolute;
     top: 663px;
     left: 20px;
     font-size: 18px;
   }
-  .kotak-putih-absen {
+  .kotak-putih-absensi {
     position: absolute;
     top: 0;
     left: 223px;
     width: 1057px;
     height: 720px;
   }
-  .asset-1-2-absen {
+  .asset-1-2-absensi {
     position: relative;
     width: 145px;
     height: 30px;
     object-fit: cover;
   }
-  .logo-lingtar-absen {
+  .logo-lingtar-absensi {
     position: absolute;
     top: calc(50% - 259px);
     left: calc(50% - 72px);
@@ -472,14 +472,14 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .icon-buka-tutup-sidebar-absen {
+  .icon-buka-tutup-sidebar-absensi {
     position: absolute;
     top: 30px;
     right: 20px;
     width: 28.15px;
     height: 24.63px;
   }
-  .kotak-biru-child-absen {
+  .kotak-biru-child-absensi {
     position: absolute;
     top: 301px;
     left: 19px;
@@ -488,23 +488,23 @@
     width: 185px;
     height: 45px;
   }
-  .beranda-absen,
-  .house-solid-2-icon-absen {
+  .beranda-absensi,
+  .house-solid-2-icon-absensi {
     position: relative;
     flex-shrink: 0;
   }
-  .house-solid-2-icon-absen {
+  .house-solid-2-icon-absensi {
     width: 25px;
     height: 25.78px;
     overflow: hidden;
   }
-  .beranda-absen {
+  .beranda-absensi {
     display: flex;
     align-items: center;
     width: 107px;
     height: 20px;
   }
-  .house-solid-2-parent-absen {
+  .house-solid-2-parent-absensi {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -512,12 +512,12 @@
     gap: 10px;
     cursor: pointer;
   }
-  .icon-users-absen {
+  .icon-users-absensi {
     position: relative;
     width: 25px;
     height: 20.97px;
   }
-  .icon-alternate-calendar-group-absen {
+  .icon-alternate-calendar-group-absensi {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -525,35 +525,35 @@
     gap: 10px;
     color: #fb793d;
   }
-  .icon-edit-absen,
-  .penilaian-absen {
+  .icon-edit-absensi,
+  .penilaian-absensi {
     position: relative;
     width: 25px;
     height: 25.78px;
   }
-  .penilaian-absen {
+  .penilaian-absensi {
     display: flex;
     align-items: center;
     width: 131px;
     height: 20px;
     flex-shrink: 0;
   }
-  .icon-bullhorn-parent-absen,
-  .icon-edit-parent-absen {
+  .icon-bullhorn-parent-absensi,
+  .icon-edit-parent-absensi {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     cursor: pointer;
   }
-  .icon-edit-parent-absen {
+  .icon-edit-parent-absensi {
     border-radius: 20px;
     justify-content: center;
   }
-  .icon-bullhorn-parent-absen {
+  .icon-bullhorn-parent-absensi {
     justify-content: flex-start;
   }
-  .frame-parent7-absen {
+  .frame-parent7-absensi {
     position: absolute;
     top: 204px;
     left: calc(50% - 82.5px);
@@ -564,12 +564,12 @@
     justify-content: center;
     gap: 30px;
   }
-  .absensi-absen,
-  .kotak-biru-absen {
+  .absensi-absensi,
+  .kotak-biru-absensi {
     height: 720px;
     overflow: hidden;
   }
-  .kotak-biru-absen {
+  .kotak-biru-absensi {
     position: absolute;
     top: 0;
     left: 0;
@@ -582,7 +582,7 @@
     font-size: 18px;
     color: #fff;
   }
-  .absensi-absen {
+  .absensi-absensi {
     position: relative;
     background-color: #fff;
     width: 100%;
@@ -592,3 +592,69 @@
     font-family: Poppins;
   }
   
+  @media (min-width: 1500px) {
+    .kotak-putih-absensi {
+      position: absolute;
+      top: 0;
+      left: 223px;
+      width: 1357px;
+      height: 711px;
+    }
+
+    .tiga-tombol-absensi {
+      position: absolute;
+      top: 96px;
+      left: 600px;
+      gap: 20px;
+      color: #fff;
+    }
+
+    .hi-admin-absensi {
+      position: absolute;
+      top: 30px;
+      left: 1146px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+    }  
+
+    .absensi-absensi,
+  .kotak-biru-absensi {
+    height: 711px;
+    overflow: hidden;
+  }
+  }
+
+
+  @media (min-width: 1300px) and (max-width: 1410px) {
+    .kotak-putih-absensi {
+      position: absolute;
+      top: 0;
+      left: 223px;
+      width: 100%;
+      height: 720px;
+    }
+
+    .tiga-tombol-absensi {
+      position: absolute;
+      top: 96px;
+      left: 34.5%;
+      gap: 20px;
+      color: #fff;
+    }
+
+    .hi-admin-absensi {
+      position: absolute;
+      top: 30px;
+      left: 1030px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+    }  
+
+    .absensi-absensi,
+  .kotak-biru-absensi {
+    height: 711px;
+    overflow: hidden;
+  }
+  }

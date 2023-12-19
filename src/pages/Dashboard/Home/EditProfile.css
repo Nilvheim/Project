@@ -399,3 +399,128 @@
     font-family: Poppins;
   }
   
+  @media (min-width: 1500px) {
+    .kotak-putih-profile {
+      position: absolute;
+      top: 0;
+      left: 223px;
+      background-color: #f6f6f6;
+      width: 1519px;
+      height: 720px;
+    }
+
+    .edit-sekolah-profile {
+      position: relative;
+      background-color: #fff;
+      width: 100%;
+      height: 711px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 18px;
+      color: #000;
+      font-family: Poppins;
+    }
+
+    .visi-sekolah-parent-profile {
+      position: absolute;
+      top: 126px;
+      left: 130px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 489px;
+      height: 417px;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 20px;
+      justify-content: flex-start;
+      gap: 15px;
+      color: #214151;
+    }
+
+    .informasi-sekolah-parent-profile {
+      position: absolute;
+      top: 126px;
+      left: 710px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 488px;
+      height: 417px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    .hi-admin-profile {
+      position: absolute;
+      top: 30px;
+      left: 1150px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+  }
+
+  @media (min-width: 1300px) and (max-width: 1410px) {
+    .kotak-putih-profile {
+      position: absolute;
+      top: 0;
+      left: 223px;
+      background-color: #f6f6f6;
+      width: 1400px;
+      height: 711px;
+    }
+
+    .edit-sekolah-profile {
+      position: relative;
+      background-color: #fff;
+      width: 100%;
+      height: 711px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 18px;
+      color: #000;
+      font-family: Poppins;
+    }
+
+    .visi-sekolah-parent-profile {
+      position: absolute;
+      top: 126px;
+      left: 80px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 489px;
+      height: 417px;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 20px;
+      justify-content: flex-start;
+      gap: 15px;
+      color: #214151;
+    }
+
+    .informasi-sekolah-parent-profile {
+      position: absolute;
+      top: 126px;
+      left: 610px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 488px;
+      height: 417px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    .hi-admin-profile {
+      position: absolute;
+      top: 30px;
+      left: 1030px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+  }

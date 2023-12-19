@@ -49,3 +49,14 @@ body {
   --br-mini: 15px;
   --br-3xs: 10px;
 }
+
+@media screen {
+  .section_padding {
+    padding: 4rem;
+    background-color: blue;
+  }
+
+  .section_margin {
+    margin: 4rem;
+  }
+}

@@ -183,14 +183,14 @@ const ABSENSI = () => {
 
   return (
     <>
-      <div className="absensi-absen">
-        <div className="kotak-putih-absen">
-          <div className="lingtar-absensi-container-absen">
+      <div className="absensi-absensi">
+        <div className="kotak-putih-absensi">
+          <div className="lingtar-absensi-container-absensi">
             <span>{`Lingtar - `}</span>
-            <span className="absensi1-absen">Absensi</span>
+            <span className="absensi1-absensi">Absensi</span>
           </div>
-          <div className="tiga-tombol-absen">
-            <div className="icons8-search-1-parent-absen">
+          <div className="tiga-tombol-absensi">
+            <div className="icons8-search-1-parent-absensi">
             <Input
                 className="icons8-search-1-parent"
                 placeholder="Cari Staff"
@@ -198,7 +198,7 @@ const ABSENSI = () => {
                   onChange={handlePencarian}>
                 </Input>
             </div>
-            <div className="rectangle-parent-absen">
+            <div className="rectangle-parent-absensi">
               <Space wrap>
               <Select
               className="pilihKelas-wrapper"
@@ -212,22 +212,22 @@ const ABSENSI = () => {
               <DatePicker placement={Calendar} />
             </div>
 
-            <div className="icon-cog-parent-absen" onClick={toGrafik}>
+            <div className="icon-cog-parent-absensi" onClick={toGrafik}>
               <img
-                className="icon-alternate-calendar-absen"
+                className="icon-alternate-calendar-absensi"
                 alt=""
                 src="/-icon-cog.svg"
               />
-              <div className="tanggal-absen">
+              <div className="tanggal-absensi">
               </div>
             </div>
             
           </div>
-          <div className="hi-admin-absen" onClick={openPOPUPHIADMIN}>
-            <img className="vector-icon-absen" alt="" src="/vector.svg" />
-            <div className="hi-admin1-absen">Hi, Admin</div>
+          <div className="hi-admin-absensi" onClick={openPOPUPHIADMIN}>
+            <img className="vector-icon-absensi" alt="" src="/vector.svg" />
+            <div className="hi-admin1-absensi">Hi, Admin</div>
           </div>
-          <div className="tabel-absen-semua-sidebar-absen">
+          <div className="tabel-absen-semua-sidebar-absensi">
           <table {...getTableProps()}>
             <thead>
             {headerGroups.map((headerGroup) => (
@@ -254,8 +254,8 @@ const ABSENSI = () => {
           </tbody>
             </table>
           </div>
-          <div className="tombol-tampilkan-absen">
-            <div className="pencarian-absen">{`Tampilkan `}</div>
+          <div className="tombol-tampilkan-absensi">
+            <div className="pencarian-absensi">{`Tampilkan `}</div>
               <Space wrap>
               <Select
                 className=""
@@ -263,63 +263,63 @@ const ABSENSI = () => {
                 placeholder="Semua"
                 onChange={(values) => console.log(values)} />
               </Space>
-            <div className="pencarian-absen">Data</div>
+            <div className="pencarian-absensi">Data</div>
           </div>
         </div>
-        <div className="kotak-biru-absen">
-          <div className="logo-lingtar-absen">
-            <img className="asset-1-2-absen" alt="" src="/asset-1-2@2x.png" />
+        <div className="kotak-biru-absensi">
+          <div className="logo-lingtar-absensi">
+            <img className="asset-1-2-absensi" alt="" src="/asset-1-2@2x.png" />
           </div>
           <img
-            className="icon-buka-tutup-sidebar-absen"
+            className="icon-buka-tutup-sidebar-absensi"
             alt=""
             src="/icon-buka-tutup-sidebar.svg"
           />
-          <div className="kotak-biru-child-absen" />
-          <div className="frame-parent7-absen">
+          <div className="kotak-biru-child-absensi" />
+          <div className="frame-parent7-absensi">
             <div
-              className="house-solid-2-parent-absen"
+              className="house-solid-2-parent-absensi"
               onClick={onFrameContainer36Click}
             >
               <img
-                className="house-solid-2-icon-absen"
+                className="house-solid-2-icon-absensi"
                 alt=""
                 src="/housesolid-putih.svg"
               />
               <div className="beranda">Beranda</div>
             </div>
             <div
-              className="house-solid-2-parent-absen"
+              className="house-solid-2-parent-absensi"
               onClick={onFrameContainer37Click}
             >
-              <img className="icon-users-absen" alt="" src="/-icon-users.svg" />
-              <div className="beranda-absen">Pendataan</div>
+              <img className="icon-users-absensi" alt="" src="/-icon-users.svg" />
+              <div className="beranda-absensi">Pendataan</div>
             </div>
-            <div className="icon-alternate-calendar-group-absen">
+            <div className="icon-alternate-calendar-group-absensi">
               <img
-                className="icon-edit-absen"
+                className="icon-edit-absensi"
                 alt=""
                 src="/icon-calendar-oren.svg"
               />
-              <div className="beranda-absen">Absensi</div>
+              <div className="beranda-absensi">Absensi</div>
             </div>
             <div
-              className="icon-edit-parent-absen"
+              className="icon-edit-parent-absensi"
               onClick={onFrameContainer39Click}
             >
-              <img className="icon-edit-absen" alt="" src="/-icon-edit.svg" />
-              <div className="penilaian-absen">Penilaian</div>
+              <img className="icon-edit-absensi" alt="" src="/-icon-edit.svg" />
+              <div className="penilaian-absensi">Penilaian</div>
             </div>
             <div
-              className="icon-bullhorn-parent-absen"
+              className="icon-bullhorn-parent-absensi"
               onClick={onFrameContainer40Click}
             >
               <img
-                className="icon-edit-absen"
+                className="icon-edit-absensi"
                 alt=""
                 src="/-icon-bullhorn.svg"
               />
-              <div className="penilaian-absen">Pengumuman</div>
+              <div className="penilaian-absensi">Pengumuman</div>
             </div>
           </div>
         </div>

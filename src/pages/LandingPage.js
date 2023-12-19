@@ -129,6 +129,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="tentang-kami-oren" data-scroll-to="tENTANGKAMIOREN">
+        <div className="komponen-page2">
           <div className="tulisan-aplikasi-lingtar">
             <img
               className="undraw-my-location-re-r52x-2-icon"
@@ -150,8 +151,9 @@ const LandingPage = () => {
                 <img className="icon-button" alt="" src="/icon-button.svg" />
               </div>
             </div>
-          </div>
-          <div className="kotak-laporan-harian-parent">
+            </div>
+            <div className="komponen-page21">
+            <div className="kotak-laporan-harian-parent">
             <div className="kotak-laporan-harian">
               <img
                 className="kotak-laporan-harian-child"
@@ -197,9 +199,12 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
-          <div className="fitur-fitur">Fitur - Fitur yang menarik</div>
+            </div>
+            <div className="fitur-fitur">Fitur - Fitur yang menarik</div>
+        </div>
         </div>
         <div className="layanan-oren" data-scroll-to="lAYANANORENContainer">
+          <div className="komponen-page3">
           <div className="frame-landing-parent">
             <div className="akses-yang-mudah-parent">
               <div className="akses-yang-mudah">
@@ -259,15 +264,16 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
+          </div>
           <div className="keuntungan-menggunakan-aplikas">
             Keuntungan menggunakan aplikasi lingtar
           </div>
         </div>
-      <div className="tim-oren"> {/* Tim Lingtar */}
+        <div className="tim-oren"> {/* Tim Lingtar */}
           <img
             className="pawcw1-324-1-icon"
             alt=""
-            src="/353560pawcw1324-11.svg"
+            src="/353560pawcw1324-1.jpg"
           />
           <div className="frame-div-landing" data-scroll-to="frameContainer">
             <div className="rectangle-parent-landing">

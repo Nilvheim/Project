@@ -70,7 +70,7 @@ const openUnggahFoto = useCallback(() => {
         <>
 <div className="inventaris-sekolah-inventaris">
     <div className="kotak-putih-inventaris">
-        <div className="hi-admin" onClick={openPOPUPHIADMIN}>
+        <div className="hi-admin-inventaris" onClick={openPOPUPHIADMIN}>
             <img className="vector-icon-inventaris" alt="" src="/vector.svg" />
             <div className="hi-admin1-inventaris">Hi, Admin</div>
         </div>

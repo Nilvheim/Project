@@ -37,6 +37,8 @@ import UbahAdmin from "./pages/DashboardPusat/TambahSekolah/UbahAdmin";
 
 import "./pages/DashboardPusat/TambahSekolah/TambahAdmin.css";
 import UbahAbsensi from "./pages/Dashboard/Absensi/UbahAbsensi";
+import Testing from "./pages/tes";
+import "./global.css";
 
 function App() {
   const action = useNavigationType();
@@ -108,6 +110,7 @@ function App() {
       <Route path="Dashboard/TambahAdmin" element={<TambahAdmin />} />
       <Route path="Dashboard/UbahAdmin" element={<UbahAdmin />} />
       <Route path="Daftar" element={<Daftar />} />
+      <Route path="Testing" element={<Testing />} />
     </Routes>
   );
 }

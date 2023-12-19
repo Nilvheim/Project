@@ -44,6 +44,7 @@ const Home = () => {
     <>
       <div className="beranda-home">
         <div className="kotak-putih3-home">
+          <div className="komponen-Home">
           <div className="selamat-datang-admin-container-home">
             <span>{`Selamat Datang Admin Sekolah - `}</span>
             <span className="tk-al-auliya-home">TK AL AULIYA</span>
@@ -124,6 +125,7 @@ const Home = () => {
             />
             <b className="inventaris-sekolah-home">INVENTARIS SEKOLAH</b>
           </div>
+        </div>
         </div>
         <div className="kotak-biru-home">
           <div className="logo-lingtar-home">

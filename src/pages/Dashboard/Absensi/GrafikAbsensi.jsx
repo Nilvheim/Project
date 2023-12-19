@@ -8,16 +8,12 @@ import Tombol10 from "../../../components/Tombol10";
 import { useTable } from "react-table";
 import fakeData from "../Absensi.json";
 import Grafik from "../../../components/Grafik";
+import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar } from "recharts";
+import ApexChart from "../../../components/Grafik";
 import "./GrafikAbsensi.css";
 
 const GrafikAbsensi = () => {
-
-    const [pencarian, setPencarian] = useState()
-    
-  const handlePencarian = (e) => {
-    setPencarian(e.target.value)
-    }
-    
+  
   const navigate = useNavigate();
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isCalendarOpen, setCalendarOpen] = useState(false);
@@ -26,58 +22,13 @@ const GrafikAbsensi = () => {
   const [isPOPUPTOMBOLHAPUSABSENSIOpen, setPOPUPTOMBOLHAPUSABSENSIOpen] = useState(false);
   const [isTombol10Open, setTombol10Open] = useState(false);
 
-  const openPOPUPTOMBOLHAPUSDATA = useCallback(() => {
-    tombolDelete.fire({
-      className: 'swalButton',
-      title: 'Apakah anda yakin ingin menghapus data?',
-      text: "Data yang terhapus,tidak dapat dikembalikan!",
-      icon: 'warning',
-      showCancelButton: true,
-      confirmButtonColor: '#E21818',
-      confirmButtonText: 'Hapus',
-      cancelButtonColor: '#3EC70B',
-      cancelButtonText: 'Batalkan',
-      reverseButtons: true
-    }).then((result) => {
-      if (result.isConfirmed) {
-        tombolDelete.fire(
-          'Deleted!',
-          'Data berhasil di hapus.',
-          'success'
-        )
-      } else if (
-        /* Read more about handling dismissals below */
-        result.dismiss === Swal.DismissReason.cancel
-      ) {
-        tombolDelete.fire(
-          'Cancelled',
-          'Data masih aman :>',
-          'error'
-        )
-      }
-    })
-  }, []);
-    
-  const tombolDelete = Swal.mixin({
-    customClass: {
-      confirmButton: 'btn btn-danger',
-      cancelButton: 'btn btn-success'
-    },
-  })
-
-  const onUbahButton = useCallback(() => {
-    navigate('/Dashboard/UbahAbsensi')
-  }, [navigate]);
+  const onBackClick = useCallback(() => {
+    navigate("/Dashboard/Absensi");
+  }, [navigate])
 
   const closeFrame = useCallback(() => {
     setFrameOpen(false);
   }, []);
-
-
-  const closeCalendar = useCallback(() => {
-    setCalendarOpen(false);
-  }, []);
-
 
   const closeGrafik = useCallback(() => {
     setGrafikOpen(false);
@@ -91,12 +42,9 @@ const GrafikAbsensi = () => {
     setPOPUPHIADMINOpen(false);
   }, []);
 
-
-
   const closePOPUPTOMBOLHAPUSABSENSI = useCallback(() => {
     setPOPUPTOMBOLHAPUSABSENSIOpen(false);
   }, []);
-
 
   const closeTombol10 = useCallback(() => {
     setTombol10Open(false);
@@ -123,13 +71,19 @@ const GrafikAbsensi = () => {
       <div className="absensi-absen">
         <div className="kotak-putih-absen">
           <div className="lingtar-absensi-container-absen">
-            <span>{`Lingtar - `}</span>
+            <img className="vector-icon-edit-absensi" alt="" src="/undefined28.png" onClick={onBackClick}/>
+            <span>{`  Lingtar - `}</span>
             <span className="absensi1-absen">Absensi</span>
           </div>
           <div className="hi-admin-absen" onClick={openPOPUPHIADMIN}>
             <img className="vector-icon-absen" alt="" src="/vector.svg" />
             <div className="hi-admin1-absen">Hi, Admin</div>
           </div>
+          <div style={{ textAlign: "center" }}>
+            <div className="grafikChart">
+              <ApexChart />
+            </div>
+        </div>
         </div>
         <div className="kotak-biru-absen">
           <div className="logo-lingtar-absen">

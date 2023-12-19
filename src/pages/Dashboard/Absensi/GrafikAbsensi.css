@@ -592,3 +592,41 @@
     font-family: Poppins;
   }
   
+  .grafikChart {
+    margin-top: 120px;
+    margin-left: 230px;
+    }
+
+  @media (min-width: 1300px) and (max-width: 1410px) {
+    .hi-admin-absen {
+      position: absolute;
+      top: 30px;
+      left: 1006px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .grafikChart {
+      margin-top: 120px;
+      margin-left: 290px;
+      }
+  }
+
+  @media (min-width: 1500px) {
+    .hi-admin-absen {
+      position: absolute;
+      top: 30px;
+      left: 1156px;
+      flex-direction: row;
+      gap: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .grafikChart {
+      margin-top: 120px;
+      margin-left: 360px;
+      }
+  }

@@ -114,7 +114,7 @@
     flex-shrink: 0;
     display: none;
   }
-  .selanjutnya1 {
+  .selanjutnya1-reset {
     position: relative;
     line-height: 140%;
   }
@@ -131,11 +131,17 @@
     justify-content: center;
     gap: 8px;
     color: #fff;
+    cursor: pointer;
   }
+
+  .selanjutnya:hover {
+    background-color: #dc1dcd;
+  }
+
   .kotak-putih2,
   .lupa-pw-1 {
     background-color: #fff;
-    height: 567px;
+    height: 593px;
     overflow: hidden;
   }
   .kotak-putih2 {
@@ -162,3 +168,52 @@
     font-family: Poppins;
   }
   
+  @media (min-width: 1500px) {
+    .kotak-putih2 {
+      right: 60px
+    }
+    .kotak-putih2,
+  .lupa-pw-1 {
+    background-color: #fff;
+    height: 711px;
+    overflow: hidden;
+  }
+
+  .kotak-oren-lupapw {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #4e7e95;
+    width: 694px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  }
+  
+  @media (min-width: 1300px) and (max-width: 1410px) {
+
+    .kotak-putih2 {
+      right: 40px
+    }
+
+  .kotak-putih2,
+  .lupa-pw-1 {
+    background-color: #fff;
+    height: 652px;
+    overflow: hidden;
+  }
+
+  .kotak-oren-lupapw {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #4e7e95;
+    width: 634px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  }

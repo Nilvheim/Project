@@ -44,7 +44,7 @@
   right: 0;
   background-color: #fff;
   width: 686px;
-  height: 567px;
+  height: 592px;
   overflow: hidden;
   flex-direction: column;
   padding: 227px 145px;
@@ -102,7 +102,7 @@
   .selanjutnya1 {
     border-radius: 15px;
     background-color: #fb793d;
-    width: 264px;
+    width: 250px;
     height: 60px;
     flex-direction: row;
     padding: 12px 52px;
@@ -110,7 +110,6 @@
     font-size: 24px;
     color: #fff;
   }
- 
   .undraw-forgot-password-re-hxwm-icon-resetpw {
     position: relative;
     width: 400px;
@@ -149,7 +148,7 @@
     position: relative;
     background-color: #fff;
     width: 100%;
-    height: 567px;
+    height: 592px;
     overflow: hidden;
     text-align: center;
     font-size: 22px;
@@ -162,4 +161,95 @@
     width: 460px;
     font-size: 20px;
     font: Poppins;
+  }
+  @media (min-width: 1500px) {
+    .lupa-pw-3 {
+      position: relative;
+      background-color: #fff;
+      width: 100%;
+      height: 711px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 22px;
+      color: #000;
+      font-family: Poppins;
+    }
+
+    .kotak-putih1 {
+      display: flex;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background-color: #fff;
+      width: 878px;
+      height: 711px;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 227px 145px;
+      gap: 60px;
+    }
+
+    .kotak-oren1 {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #4e7e95;
+      width: 658px;
+      overflow: hidden;
+      /* padding: 337px 97px; */
+      box-sizing: border-box;
+      font-size: 28px;
+      color: #fb793d;
+    }
+  }
+
+  @media (min-width: 1300px) and (max-width: 1410px) {
+    .lupa-pw-3 {
+      position: relative;
+      background-color: #fff;
+      width: 100%;
+      height: 652px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 22px;
+      color: #000;
+      font-family: Poppins;
+    }
+
+    .kotak-putih1 {
+      display: flex;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background-color: #fff;
+      width: 778px;
+      height: 652px;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 227px 145px;
+      gap: 60px;
+    }
+
+    .kotak-oren1 {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #4e7e95;
+      width: 631px;
+      overflow: hidden;
+      /* padding: 337px 97px; */
+      box-sizing: border-box;
+      font-size: 28px;
+      color: #fb793d;
+    }
   }

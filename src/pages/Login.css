@@ -199,11 +199,10 @@
   }
   .kotak-putih-login {
     position: absolute;
-    top: 0;
     right: 0;
     background-color: var(--grayscale8);
-    width: 686px;
-    height: 550px;
+    width: 672px;
+    height: 600px;
     overflow: hidden;
     flex-direction: column;
     padding: 227px 145px;
@@ -215,6 +214,7 @@
     height: 288px;
     overflow: hidden;
     flex-shrink: 0;
+    bottom: 60px;
   }
   .lingtar {
     margin: 0;
@@ -236,10 +236,11 @@
   .undraw-mobile-login-re-9ntv-2-parent {
     gap: 10px;
     cursor: pointer;
+    margin-top: 160px;
   }
   .kotak-oren-login {
     position: absolute;
-    height: 100%;
+    height: 550px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -255,7 +256,7 @@
     position: relative;
     background-color: var(--grayscale8);
     width: 100%;
-    height: 567px;
+    height: 593px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-3xl);
@@ -263,3 +264,88 @@
     font-family: var(--body1);
   }
   
+  @media (min-width: 1500px) {
+    .kotak-putih-login {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color:var(--grayscale8);
+      width: 920px;
+      height: 711px;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 227px 145px;
+      gap: 15px;
+    }
+
+    .login-1 {
+      position: relative;
+      background-color: var(--grayscale8);
+      width: 1535px;
+      height: 711px;
+      overflow: hidden;
+      text-align: left;
+      font-size: var(--font-size-3xl);
+      color: var(--color-black);
+      font-family: var(--body1);
+    }
+
+    .kotak-oren-login {
+      position: absolute;
+      width: 620px;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: var(--primary2);
+      overflow: hidden;
+      padding: 337px 97px;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: var(--heading2-size);
+      color: var(--secondary4);
+    }
+  }
+
+  @media (min-width: 1300px) and (max-width: 1410px) {
+    .kotak-putih-login {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color:var(--grayscale8);
+      width: 790px;
+      height: 655px;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 227px 145px;
+      gap: 15px;
+    }
+
+    .login-1 {
+      position: relative;
+      background-color: var(--grayscale8);
+      width: 1408px;
+      height: 652px;
+      overflow: hidden;
+      text-align: left;
+      font-size: var(--font-size-3xl);
+      color: var(--color-black);
+      font-family: var(--body1);
+    }
+
+    .kotak-oren-login {
+      position: absolute;
+      width: 620px;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: var(--primary2);
+      overflow: hidden;
+      padding: 337px 97px;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: var(--heading2-size);
+      color: var(--secondary4);
+    }
+  }

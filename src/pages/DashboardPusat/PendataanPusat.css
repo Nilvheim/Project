@@ -771,7 +771,7 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  table {
+  .table-pusat {
     width: 1000px;
     border: 1px solid #ff00;
     overflow: hidden;

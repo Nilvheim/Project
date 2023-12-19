@@ -357,3 +357,69 @@
   text-align: left;
   font: Poppins;
 }
+
+@media (min-width: 1500px) {
+  .kotak-putih-tambahstaff {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 720px;
+  }
+
+  .informasi-tambahan-tambahstaff {
+    width: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .hi-admin-tambahstaff {
+    position: absolute;
+    top: 30px;
+    left: 1150px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .informasi-utama-parent-tambahstaff {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 230px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1410px) {
+  .kotak-putih-tambahstaff {
+    position: absolute;
+    top: 0;
+    left: 223px;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 720px;
+  }
+
+  .hi-admin-tambahstaff {
+    position: absolute;
+    top: 30px;
+    left: 1040px;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+
+  .informasi-utama-parent-tambahstaff {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+  }
+}

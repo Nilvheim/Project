@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Input, Checkbox } from "antd";
+import { Input, Checkbox, Button, Modal } from "antd";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { useForm } from "react-hook-form";
 import "./Daftar.css";
@@ -9,14 +9,23 @@ import Swal from "sweetalert2";
 const Daftar = () => {
     const [kepalaSekolah, setKepalaSekolah] = useState('');
     const [sekolah, setSekolah] = useState('');
+    const [isModalOpen, setIsModalOpen] = useState('');
     const [email, setEmail] = useState('');
     const [kodeSekolah, setKodeSekolah] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-    const [isChecked, setIsChecked] = useState(false);
+    const [isChecked, setChecked] = useState(false);
     const navigate = useNavigate();
+
+    const showModal = () => {
+        setIsModalOpen(true);
+    }
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    }
 
     const onKembaliClick = useCallback(() => {
         navigate('/Login');
@@ -46,8 +55,8 @@ const Daftar = () => {
         setConfirmPassword(event.target.value);
     };
 
-    const onCheck = (event) => {
-        setIsChecked(event.target.value);
+    const onCheck = () => {
+        setChecked(!isChecked);
     };
 
     const onPassEye = useCallback(() => {
@@ -85,7 +94,7 @@ const Daftar = () => {
                 title: 'Gagal!',
                 text: 'Password harus sama!'
             });
-        } else if (!isChecked && !onCheck) {
+        } else if (!isChecked) {
             Swal.fire({
                 icon: 'error',
                 title: 'Gagal!',
@@ -198,9 +207,18 @@ const Daftar = () => {
                     <b className="icon-eye-daftar" alt="" onClick={onConfirmPassEye}>{showConfirmPassword ? <FaEyeSlash /> : <FaEye />}</b>
                 </div>
                 <div className="kotak-setuju">
-                    <div className="checkbox-daftar">Saya Menyetujui
-                    <a> Syarat dan Ketentuan</a></div>
-                    <Checkbox checked={isChecked} onChange={onCheck}></Checkbox>
+                    <b className="checkbox-daftar" onClick={showModal}>Saya Menyetujui Syarat dan Ketentuan</b>
+                    <Modal title="Syarat dan Ketentuan" open={isModalOpen} onOk={closeModal} onCancel={closeModal}>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo ut libero 
+                            bibendum condimentum. Nulla facilisi. Sed eu purus nec justo feugiat dapibus. Integer sodales
+                            ,nisi in euismod gravida, neque libero varius libero, vel dignissim metus sapien at justo. Proin ut augue eu elit hendrerit tempus vel a quam.
+                            Vestibulum sagittis ipsum vel venenatis cursus. Nunc nec tincidunt ex. Praesent in velit risus.
+                            Aliquam feugiat bibendum odio, sit amet efficitur justo bibendum vel. Sed eget est auctor, volutpat sem
+                            a, tincidunt tortor. In hac habitasse platea dictumst. Vivamus elementum tellus vel nunc consectetur
+                            id vulputate felis lacinia. Ut sit amet eros in elit pellentesque malesuada.
+                        </p>
+                    </Modal>
+                    <Checkbox value={isChecked} onChange={onCheck}></Checkbox>
                 </div>
                 <div className="daftar1">
                     <img className="icon-button" alt="" src="icon-button.svg" />
